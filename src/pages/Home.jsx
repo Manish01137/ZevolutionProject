@@ -6,6 +6,7 @@ import Material from "../components/home/Material";
 import CitiesMarquee from "../components/home/CitiesMarquee";
 import WhoWeServe from "../components/home/WhoWeServe";
 import FeaturedProjects from "../components/home/FeaturedProjects";
+import Stats from "../components/home/Stats";
 const Home = () => {
   return (
     <div className="bg-black text-white">
@@ -20,6 +21,7 @@ const Home = () => {
       <CitiesMarquee />
       <WhoWeServe/>
       <FeaturedProjects/>
+      <Stats/>
       <Footer />
     </div>
   );

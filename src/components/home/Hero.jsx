@@ -36,7 +36,7 @@ const Hero = () => {
           lg:text-[95px]
           xl:text-[115px]
         ">
-          <span className="text-white">ZEVO</span>
+          <span className="text-gold">ZEVO</span>
           <span className="text-gold">LUTION</span>
         </h1>
 
