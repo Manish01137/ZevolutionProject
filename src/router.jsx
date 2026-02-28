@@ -7,13 +7,39 @@ import Projects from "./pages/Projects";
 import ArchitectsHub from "./pages/ArchitectsHub";
 import Contact from "./pages/Contact";
 import BrandDetails from "./pages/BrandDetails";
+import ProjectDetails from "./pages/ProjectDetails";
 
 export const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/about", element: <About /> },
-  { path: "/brands", element: <Brands /> },
-  { path: "/projects", element: <Projects /> },
-  { path: "/architects-hub", element: <ArchitectsHub /> },
-  { path: "/contact", element: <Contact /> },
-  { path: "/brand/:slug", element: <BrandDetails /> },
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+  {
+    path: "/brands",
+    element: <Brands />,
+  },
+  {
+    path: "/projects",
+    element: <Projects />,
+  },
+  {
+    path: "/projects/:slug",
+    element: <ProjectDetails />,
+  },
+  {
+    path: "/architects-hub",
+    element: <ArchitectsHub />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
+  {
+    path: "/brand/:slug",
+    element: <BrandDetails />,
+  },
 ]);
