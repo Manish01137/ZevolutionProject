@@ -1,15 +1,21 @@
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
+import Hero from "../components/home/Hero";
+import Ecosystem from "../components/home/Ecosystem";
 
 const Home = () => {
   return (
-    <>
+    <div className="bg-black text-white">
       <Navbar />
-      <div className="h-screen flex items-center justify-center">
-        <h1 className="text-6xl font-light">Home Page</h1>
-      </div>
+      
+      {/* Hero Section */}
+      <Hero />
+
+      {/* Brand Ecosystem Section */}
+      <Ecosystem />
+
       <Footer />
-    </>
+    </div>
   );
 };
 
