@@ -5,6 +5,7 @@ import Ecosystem from "../components/home/Ecosystem";
 import Material from "../components/home/Material";
 import CitiesMarquee from "../components/home/CitiesMarquee";
 import WhoWeServe from "../components/home/WhoWeServe";
+import FeaturedProjects from "../components/home/FeaturedProjects";
 const Home = () => {
   return (
     <div className="bg-black text-white">
@@ -18,6 +19,7 @@ const Home = () => {
       <Material/>
       <CitiesMarquee />
       <WhoWeServe/>
+      <FeaturedProjects/>
       <Footer />
     </div>
   );
