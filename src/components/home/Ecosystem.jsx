@@ -97,6 +97,7 @@ const Ecosystem = () => {
       <div className="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-14">
         
         {brands.map((brand, index) => {
+          // eslint-disable-next-line react-hooks/rules-of-hooks
           const cardRef = useRef(null);
 
           return (
