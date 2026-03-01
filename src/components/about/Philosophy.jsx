@@ -1,4 +1,4 @@
-import philosophyImg from "../../assets/images/abouthero.png";
+import philosophyImg from "../../assets/images/aboutimg2.jpg";
 
 const Philosophy = () => {
   return (
