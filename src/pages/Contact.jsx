@@ -1,9 +1,22 @@
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
+
+import ContactHero from "../components/contact/ContactHero";
+import ContactForm from "../components/contact/ContactForm";
+import ExperienceSection from "../components/contact/ExperienceSection";
+
 const Contact = () => {
-    return (
-      <div className="h-screen flex items-center justify-center">
-        <h1 className="text-5xl">Contact Page</h1>
-      </div>
-    );
-  };
-  
-  export default Contact;
+  return (
+    <>
+      <Navbar />
+      <ContactHero />
+
+      <ContactForm/>
+
+      <ExperienceSection />
+      <Footer />
+    </>
+  );
+};
+
+export default Contact;
