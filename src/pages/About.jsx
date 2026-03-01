@@ -6,6 +6,7 @@ import Philosophy from "../components/about/Philosophy";
 import Principles from "../components/about/Principles";
 import Approach from "../components/about/Approach";
 import AboutCTA from "../components/about/AboutCTA";
+import Founder from "../components/about/Founder";
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
       <Philosophy />
       <Principles />
       <Approach />
+      <Founder/>
       <AboutCTA />
       <Footer />
     </>
