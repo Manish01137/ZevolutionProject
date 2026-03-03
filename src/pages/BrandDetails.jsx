@@ -1,60 +1,51 @@
 import { useParams } from "react-router-dom";
+import { useEffect } from "react";
+import { materialsData } from "../data/materialsData";
 
-const brandData = {
-  "crest-stone": {
-    title: "Crest Stone",
-    subtitle: "Fabricated Clay Claddings",
-    description:
-      "Monolithic textures. Dramatic facades. Crest Stone delivers fabricated clay systems engineered for bold architectural expression.",
-  },
-  zerra: {
-    title: "Zerra",
-    subtitle: "Handpeeled Stones",
-    description:
-      "Lightweight elegance with architectural precision. Zerra redefines contemporary stone experiences.",
-  },
-  formiq: {
-    title: "Formiq",
-    subtitle: "Flooring Systems",
-    description:
-      "Warmth. Depth. Natural luxury. Formiq flooring systems enhance both residential and commercial spaces.",
-  },
-  aerolith: {
-    title: "Aerolith",
-    subtitle: "Stone Flooring Systems",
-    description:
-      "Innovative lightweight stone systems designed for refined architectural interiors.",
-  },
-  zevocubes: {
-    title: "ZevoCubes",
-    subtitle: "Partition Systems",
-    description:
-      "Modern partition systems combining design flexibility with structural strength.",
-  },
-};
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
+
+import BrandHero from "../components/brand/BrandHero";
+import BrandOverview from "../components/brand/BrandOverview";
+import BrandBenefits from "../components/brand/BrandBenefits";
+import BrandEngineering from "../components/brand/BrandEngineering";
+import BrandSpecifications from "../components/brand/BrandSpecifications";
+import BrandCTA from "../components/brand/BrandCTA";
 
 const BrandDetails = () => {
   const { slug } = useParams();
-  const brand = brandData[slug];
+  const material = materialsData.find(item => item.slug === slug);
 
-  if (!brand) {
-    return <div className="text-white p-20">Brand not found</div>;
+  // Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
+
+  if (!material) {
+    return (
+      <div className="bg-black text-white min-h-screen flex items-center justify-center">
+        Not Found
+      </div>
+    );
   }
 
   return (
-    <section className="bg-black text-white min-h-screen py-32 px-8">
-      <div className="max-w-5xl mx-auto">
-        <h1 className="text-5xl font-extralight mb-6">
-          {brand.title}
-        </h1>
-        <p className="text-gold tracking-wider mb-4">
-          {brand.subtitle}
-        </p>
-        <p className="text-white/70 text-lg leading-relaxed">
-          {brand.description}
-        </p>
-      </div>
-    </section>
+    <div className="bg-black text-white overflow-hidden">
+      
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Brand Sections */}
+      <BrandHero data={material} />
+      <BrandOverview data={material} />
+      <BrandBenefits data={material} />
+      <BrandEngineering data={material} />
+      <BrandSpecifications data={material} />
+      <BrandCTA data={material} />
+
+      {/* Footer */}
+      <Footer />
+    </div>
   );
 };
 
