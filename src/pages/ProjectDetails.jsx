@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // src/pages/ProjectDetails.jsx
 
 import { useParams, Link } from "react-router-dom";
