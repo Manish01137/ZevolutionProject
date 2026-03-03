@@ -1,9 +1,23 @@
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
+import ProjectsHero from "../components/projects/ProjectsHero";
+import FeaturedProjects from "../components/home/FeaturedProjects";
 const Projects = () => {
-    return (
-      <div className="h-screen flex items-center justify-center">
-        <h1 className="text-5xl">Projects Page</h1>
-      </div>
-    );
-  };
-  
-  export default Projects;
+  return (
+    <div className="bg-black text-white overflow-hidden">
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Hero Section */}
+      <ProjectsHero />
+
+      {/* Future Sections */}
+      <FeaturedProjects/>
+
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
+};
+
+export default Projects;
