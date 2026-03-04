@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const BrandCTA = ({ data }) => {
   return (
-    <section className="bg-black py-28 md:py-36 text-center">
+    <section className="bg-black py-26 md:py-36 text-center">
       <div className="max-w-3xl mx-auto px-6">
 
         <h2 className="text-3xl md:text-5xl font-light mb-6">
