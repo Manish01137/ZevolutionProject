@@ -1,34 +1,26 @@
-import { useParams } from "react-router-dom";
-
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
+import ProductHero from "../components/products/ProductHero";
+import ProductIntro from "../components/products/ProductIntro";
+import ProductGrid from "../components/products/ProductGrid";
+import ProductCTA from "../components/products/ProductCTA";
+
 const BrandProducts = () => {
-
-  const { slug } = useParams();
-
   return (
-
     <>
-    
       <Navbar />
 
-      <section className="bg-black text-white py-40 text-center">
+      <ProductHero />
 
-        <h1 className="text-5xl font-extralight mb-6">
-          Products
-        </h1>
+      <ProductIntro />
 
-        <p className="text-white/60">
-          Product collection for {slug}
-        </p>
+      <ProductGrid />
 
-      </section>
+      <ProductCTA />
 
       <Footer />
-
     </>
-
   );
 };
 

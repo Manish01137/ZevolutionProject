@@ -8,6 +8,7 @@ import ArchitectsHub from "./pages/ArchitectsHub";
 import Contact from "./pages/Contact";
 import BrandDetails from "./pages/BrandDetails";
 import ProjectDetails from "./pages/ProjectDetails";
+import BrandProducts from "./pages/BrandProducts"; // NEW PAGE
 
 export const router = createBrowserRouter([
   {
@@ -41,5 +42,11 @@ export const router = createBrowserRouter([
   {
     path: "/brand/:slug",
     element: <BrandDetails />,
+  },
+
+  // NEW ROUTE FOR PRODUCTS
+  {
+    path: "/brand/:slug/products",
+    element: <BrandProducts />,
   },
 ]);
