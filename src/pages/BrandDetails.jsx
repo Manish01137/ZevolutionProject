@@ -11,6 +11,8 @@ import BrandBenefits from "../components/brand/BrandBenefits";
 import BrandEngineering from "../components/brand/BrandEngineering";
 import BrandSpecifications from "../components/brand/BrandSpecifications";
 import BrandCTA from "../components/brand/BrandCTA";
+import BrandCollections from "../components/brand/BrandCollections";
+
 
 const BrandDetails = () => {
   const { slug } = useParams();
@@ -42,7 +44,7 @@ const BrandDetails = () => {
       <BrandEngineering data={material} />
       <BrandSpecifications data={material} />
       <BrandCTA data={material} />
-
+      <BrandCollections/>
       {/* Footer */}
       <Footer />
     </div>
