@@ -7,6 +7,9 @@ import crestImg from "../../assets/images/CrestStone1.png";
 import zerraImg from "../../assets/images/ZERRA_HANDPEELED1.png";
 import formiqImg from "../../assets/images/FORMIQ1.png";
 
+import crestLogo from "../../assets/images/crestonelogo.png";
+import zerraLogo from "../../assets/images/zarralogo.jpeg";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Material = () => {
@@ -24,7 +27,6 @@ const Material = () => {
 
         const isReverse = index % 2 !== 0;
 
-        // Image reveal (smooth cinematic)
         gsap.fromTo(
           image,
           {
@@ -45,7 +47,6 @@ const Material = () => {
           }
         );
 
-        // Text stagger reveal
         gsap.fromTo(
           textElements,
           {
@@ -65,7 +66,6 @@ const Material = () => {
           }
         );
 
-        // Subtle parallax on image
         gsap.to(image, {
           y: -40,
           ease: "none",
@@ -85,6 +85,7 @@ const Material = () => {
   const materials = [
     {
       brand: "Crest Stone",
+      logo: crestLogo,
       title: "FCC Systems",
       description:
         "Fabricated Clay Claddings that bring monolithic character to modern facades. Engineered for impact, designed for permanence.",
@@ -100,6 +101,7 @@ const Material = () => {
     },
     {
       brand: "Zerra",
+      logo: zerraLogo,
       title: "HandPeeled Stones",
       description:
         "Lightweight natural stone veneers with authentic textures. The elegance of stone without the structural demands.",
@@ -115,6 +117,7 @@ const Material = () => {
     },
     {
       brand: "Formiq",
+      logo: null,
       title: "Flooring Systems",
       description:
         "Premium flooring solutions that bring warmth, depth, and natural luxury to every space. Engineered for life.",
@@ -139,6 +142,7 @@ const Material = () => {
           <p className="text-gold tracking-[0.4em] text-xs mb-6">
             MATERIAL CATEGORIES
           </p>
+
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-extralight">
             Crafted for Excellence
           </h2>
@@ -161,16 +165,26 @@ const Material = () => {
                   src={item.image}
                   alt={item.title}
                   className="w-full h-[350px] sm:h-[420px] md:h-[520px] object-cover 
-                             transition duration-[1600ms] ease-out 
-                             group-hover:scale-105"
+                  transition duration-[1600ms] ease-out 
+                  group-hover:scale-105"
                 />
               </div>
 
               {/* Content */}
               <div className="material-content">
-                <p className="text-gold tracking-widest text-xs mb-4 uppercase">
-                  {item.brand}
-                </p>
+
+                {/* Logo OR Brand Name */}
+                {item.logo ? (
+                  <img
+                    src={item.logo}
+                    alt={item.brand}
+                    className="h-10 mb-6 opacity-90 hover:opacity-100 transition duration-500"
+                  />
+                ) : (
+                  <p className="text-gold tracking-widest text-xs mb-4 uppercase">
+                    {item.brand}
+                  </p>
+                )}
 
                 <h3 className="text-2xl sm:text-3xl md:text-5xl font-light mb-6">
                   {item.title}
@@ -182,10 +196,7 @@ const Material = () => {
 
                 <ul className="space-y-3 mb-8">
                   {item.points.map((point, i) => (
-                    <li
-                      key={i}
-                      className="text-white/70 text-sm flex items-start"
-                    >
+                    <li key={i} className="text-white/70 text-sm flex items-start">
                       <span className="text-gold mr-3">✓</span>
                       {point}
                     </li>
