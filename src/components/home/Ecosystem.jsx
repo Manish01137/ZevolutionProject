@@ -1,10 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
+
 import crest from "../../assets/images/CrestStone.png";
 import zerra from "../../assets/images/ZERRA.png";
-import formiq from "../../assets/images/FORMIQ.png";
+import formiq from "../../assets/images/FORMIQ32.png";
 import aerolith from "../../assets/images/AEROLITH.png";
 import zevocubes from "../../assets/images/ZEVOCUBE.png";
+
+import crestLogo from "../../assets/images/CRESTLOGO.png";
+import zerraLogo from "../../assets/images/LOGOzerra.png";
 
 const Ecosystem = () => {
   const navigate = useNavigate();
@@ -16,6 +20,7 @@ const Ecosystem = () => {
       description: "Monolithic textures. Dramatic facades.",
       slug: "crest-stone",
       image: crest,
+      logo: crestLogo,
     },
     {
       name: "Zerra",
@@ -23,6 +28,7 @@ const Ecosystem = () => {
       description: "Lightweight elegance. Architectural precision.",
       slug: "zerra",
       image: zerra,
+      logo: zerraLogo,
     },
     {
       name: "Formiq",
@@ -30,6 +36,7 @@ const Ecosystem = () => {
       description: "Warmth. Depth. Natural luxury.",
       slug: "formiq",
       image: formiq,
+      logo: null,
     },
     {
       name: "Aerolith",
@@ -64,7 +71,7 @@ const Ecosystem = () => {
       perspective(1200px)
       rotateX(${rotateX}deg)
       rotateY(${rotateY}deg)
-      scale3d(1.03, 1.03, 1.03)
+      scale3d(1.03,1.03,1.03)
     `;
   };
 
@@ -73,14 +80,16 @@ const Ecosystem = () => {
       perspective(1200px)
       rotateX(0deg)
       rotateY(0deg)
-      scale3d(1, 1, 1)
+      scale3d(1,1,1)
     `;
   };
 
   return (
     <section className="bg-black py-28 md:py-32">
-      
+
+      {/* Header */}
       <div className="max-w-7xl mx-auto px-6 text-center mb-20">
+
         <p className="text-gold tracking-[0.35em] text-xs mb-6">
           OUR BRANDS
         </p>
@@ -92,27 +101,31 @@ const Ecosystem = () => {
         <p className="text-white/60 max-w-2xl mx-auto text-sm sm:text-base">
           Five premium brands. One architectural vision. Discover materials that redefine what's possible.
         </p>
+
       </div>
 
+      {/* Cards */}
       <div className="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-14">
-        
+
         {brands.map((brand, index) => {
+
           // eslint-disable-next-line react-hooks/rules-of-hooks
           const cardRef = useRef(null);
 
           return (
             <div
               key={index}
+              ref={cardRef}
               className="relative group cursor-pointer"
               onClick={() => navigate(`/brand/${brand.slug}`)}
               onMouseMove={(e) => handleMouseMove(e, cardRef)}
               onMouseLeave={() => handleMouseLeave(cardRef)}
-              ref={cardRef}
               style={{
-                transition: "transform 0.8s cubic-bezier(0.22, 1, 0.36, 1)",
+                transition: "transform 0.8s cubic-bezier(0.22,1,0.36,1)",
                 transformStyle: "preserve-3d",
               }}
             >
+
               <div className="relative overflow-hidden rounded-sm">
 
                 <img
@@ -129,37 +142,37 @@ const Ecosystem = () => {
                   </div>
                 )}
 
-                <div className="absolute bottom-8 left-6 right-6 translate-z-20">
-                  
-                  <p className="text-gold text-xs tracking-widest mb-3">
+                {/* Content */}
+                <div className="absolute bottom-8 left-6 right-6">
+
+                  {/* LOGO */}
+                  {brand.logo && (
+                    <img
+                      src={brand.logo}
+                      alt={brand.name}
+                      className="w-[170px] mb-2 object-contain"
+                    />
+                  )}
+
+                  {/* CATEGORY */}
+                  <p className="text-gold text-[11px] tracking-[0.25em] mb-2">
                     {brand.category}
                   </p>
 
-                  <h3 className="text-xl sm:text-2xl font-light text-white mb-2">
-                    {brand.name}
-                  </h3>
-
-                  <p className="text-white/70 text-sm mb-5">
+                  {/* DESCRIPTION */}
+                  <p className="text-white/70 text-sm leading-[1.35] mb-4">
                     {brand.description}
                   </p>
 
                   {!brand.comingSoon && (
-                    <div className="
-                      flex items-center
-                      text-gold
-                      text-sm
-                      tracking-wide
-                      opacity-0
-                      translate-y-4
-                      group-hover:opacity-100
-                      group-hover:translate-y-0
-                      transition-all
-                      duration-700
-                    ">
+                    <div className="flex items-center text-gold text-sm tracking-wide opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700">
+
                       <span>Explore</span>
+
                       <span className="ml-2 transition-transform duration-700 group-hover:translate-x-3">
                         →
                       </span>
+
                     </div>
                   )}
 

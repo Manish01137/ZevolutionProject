@@ -5,10 +5,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import crestImg from "../../assets/images/CrestStone1.png";
 import zerraImg from "../../assets/images/ZERRA_HANDPEELED1.png";
-import formiqImg from "../../assets/images/FORMIQ1.png";
+import formiqImg from "../../assets/images/FORMIQ32.png";
 
-import crestLogo from "../../assets/images/crestonelogo.png";
-import zerraLogo from "../../assets/images/zarralogo.jpeg";
+import crestLogo from "../../assets/images/CRESTLOGO.png";
+import zerraLogo from "../../assets/images/LOGOzerra.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -148,7 +148,6 @@ const Material = () => {
           </h2>
         </div>
 
-        {/* Sections */}
         {materials.map((item, index) => {
           const isReverse = index % 2 !== 0;
 
@@ -159,38 +158,36 @@ const Material = () => {
                 isReverse ? "md:[&>div:first-child]:order-2" : ""
               }`}
             >
+
               {/* Image */}
               <div className="material-image overflow-hidden group">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-[350px] sm:h-[420px] md:h-[520px] object-cover 
-                  transition duration-[1600ms] ease-out 
-                  group-hover:scale-105"
+                  className="w-full h-[380px] sm:h-[440px] md:h-[520px] object-cover transition duration-[1600ms] ease-out group-hover:scale-105"
                 />
               </div>
 
               {/* Content */}
-              <div className="material-content">
+              <div className="material-content flex flex-col justify-center">
 
-                {/* Logo OR Brand Name */}
                 {item.logo ? (
                   <img
                     src={item.logo}
                     alt={item.brand}
-                    className="h-10 mb-6 opacity-90 hover:opacity-100 transition duration-500"
+                    className="w-[170px] md:w-[200px] h-auto mb-2 object-contain opacity-95"
                   />
                 ) : (
-                  <p className="text-gold tracking-widest text-xs mb-4 uppercase">
+                  <p className="text-gold tracking-widest text-xs mb-1 uppercase">
                     {item.brand}
                   </p>
                 )}
 
-                <h3 className="text-2xl sm:text-3xl md:text-5xl font-light mb-6">
+                <h3 className="text-2xl sm:text-3xl md:text-5xl font-light mb-4 leading-tight">
                   {item.title}
                 </h3>
 
-                <p className="text-white/60 mb-6 leading-relaxed text-sm sm:text-base">
+                <p className="text-white/60 mb-6 leading-relaxed text-sm sm:text-base max-w-lg">
                   {item.description}
                 </p>
 
@@ -205,19 +202,11 @@ const Material = () => {
 
                 <button
                   onClick={() => navigate(`/brand/${item.slug}`)}
-                  className="
-                    border border-gold 
-                    text-gold 
-                    px-8 py-3 
-                    text-xs sm:text-sm 
-                    tracking-widest 
-                    transition-all duration-500 
-                    hover:bg-gold hover:text-black
-                    hover:shadow-[0_0_40px_rgba(212,175,55,0.4)]
-                  "
+                  className="border border-gold text-gold px-8 py-3 text-xs sm:text-sm tracking-widest transition-all duration-500 hover:bg-gold hover:text-black hover:shadow-[0_0_40px_rgba(212,175,55,0.4)] w-fit"
                 >
                   EXPLORE {item.brand.toUpperCase()} →
                 </button>
+
               </div>
             </div>
           );
