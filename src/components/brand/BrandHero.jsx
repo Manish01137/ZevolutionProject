@@ -17,10 +17,7 @@ const BrandHero = ({ data }) => {
       className="relative h-[85vh] md:h-screen w-full overflow-hidden bg-black"
     >
       {/* Background Image */}
-      <motion.div
-        style={{ scale, opacity }}
-        className="absolute inset-0"
-      >
+      <motion.div style={{ scale, opacity }} className="absolute inset-0">
         <img
           src={data.heroImage}
           alt={data.name}
@@ -48,7 +45,7 @@ const BrandHero = ({ data }) => {
           ← Back to Brands
         </motion.button>
 
-        {/* Small Label */}
+        {/* Label */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -58,22 +55,43 @@ const BrandHero = ({ data }) => {
           {data.label}
         </motion.p>
 
-        {/* Brand Name */}
-        <motion.h1
-          initial={{ opacity: 0, y: 60 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-tight"
-        >
-          {data.name.toUpperCase()}
-        </motion.h1>
+        {/* LOGO OR TEXT TITLE */}
+        {data.logo ? (
+          <motion.img
+            src={data.logo}
+            alt={data.name}
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="
+              mx-auto
+              w-[260px]
+              sm:w-[340px]
+              md:w-[420px]
+              lg:w-[520px]
+              xl:w-[620px]
+              object-contain
+              mb-6
+              opacity-95
+            "
+          />
+        ) : (
+          <motion.h1
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-tight"
+          >
+            {data.name.toUpperCase()}
+          </motion.h1>
+        )}
 
         {/* Tagline */}
         <motion.p
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 0.85, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="mt-6 max-w-2xl text-sm md:text-lg text-white/70"
+          className="mt-4 max-w-2xl text-sm md:text-lg text-white/70"
         >
           {data.tagline}
         </motion.p>
