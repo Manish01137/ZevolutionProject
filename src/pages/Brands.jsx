@@ -8,8 +8,9 @@ const Brands = () => {
     <>
       {/* Navbar */}
       <Navbar />
-
+       
       {/* Hero Section */}
+    
       <Brand2Hero />
       <Material/>
       {/* Footer */}

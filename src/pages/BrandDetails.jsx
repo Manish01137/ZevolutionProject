@@ -42,9 +42,10 @@ const BrandDetails = () => {
       <BrandOverview data={material} />
       <BrandBenefits data={material} />
       <BrandEngineering data={material} />
+      <BrandCollections/>
       <BrandSpecifications data={material} />
       <BrandCTA data={material} />
-      <BrandCollections/>
+    
       {/* Footer */}
       <Footer />
     </div>

@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
+import { FaCheck } from "react-icons/fa";
 
 const BrandOverview = ({ data }) => {
   return (
@@ -14,6 +15,7 @@ const BrandOverview = ({ data }) => {
           viewport={{ once: true }}
           className="flex flex-col justify-center"
         >
+
           {/* Small Label */}
           <p className="text-[#C6A75E] tracking-[0.5em] text-[10px] sm:text-xs mb-6 uppercase">
             Overview
@@ -31,6 +33,7 @@ const BrandOverview = ({ data }) => {
           <p className="text-white/60 leading-relaxed text-sm sm:text-base md:text-lg font-light tracking-wide">
             {data.overviewDescription}
           </p>
+
         </motion.div>
 
         {/* RIGHT COLUMN */}
@@ -41,6 +44,7 @@ const BrandOverview = ({ data }) => {
           viewport={{ once: true }}
           className="flex flex-col justify-center"
         >
+
           {/* Small Label */}
           <p className="text-[#C6A75E] tracking-[0.5em] text-[10px] sm:text-xs mb-6 uppercase">
             Ideal Applications
@@ -52,20 +56,28 @@ const BrandOverview = ({ data }) => {
           </h3>
 
           {/* Applications Grid */}
-          <div className="grid sm:grid-cols-2 gap-y-5 gap-x-10">
+          <div className="grid sm:grid-cols-2 gap-y-6 gap-x-12">
+
             {data.applications.map((item, index) => (
               <motion.div
                 key={index}
                 whileHover={{ x: 6 }}
                 transition={{ type: "spring", stiffness: 200 }}
-                className="flex items-start text-white/60 text-sm sm:text-base font-light"
+                className="flex items-start text-white/70 text-sm sm:text-base font-light"
               >
-                <span className="text-[#C6A75E] mr-3 mt-[2px]">—</span>
+
+                {/* GOLD TICK ICON */}
+                <FaCheck className="text-[#C6A75E] mr-3 mt-[3px] text-xs" />
+
                 <span>{item}</span>
+
               </motion.div>
             ))}
+
           </div>
+
         </motion.div>
+
       </div>
     </section>
   );

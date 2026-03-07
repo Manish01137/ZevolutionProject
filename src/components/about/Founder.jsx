@@ -13,7 +13,7 @@ const founders = [
     role: "Brand, Strategy & Growth",
     desc: "Driving the brand vision, market expansion and long-term strategic growth of Zevolution.",
     img: founder3,
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/dheeraj-gehani-956009365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     id: "02",
@@ -29,7 +29,7 @@ const founders = [
     role: "Manufacturing & Quality Excellence",
     desc: "Anchoring manufacturing precision and operational excellence to ensure world-class quality.",
     img: founder2,
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/nakul-kanchhal-unihome?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     id: "04",
@@ -37,7 +37,7 @@ const founders = [
     role: "Finance & Expansion",
     desc: "Steering financial discipline, scalable growth and expansion of the Zevolution ecosystem.",
     img: founder1,
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/hitesh-sakariya-a738a2bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
 ];
 
