@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import founder1 from "../../assets/images/Founder2.webp";
 import founder2 from "../../assets/images/Founder3.webp";
 import founder3 from "../../assets/images/Dehran.webp";
-import founder4 from "../../assets/images/Himanshu.jpg";
 
 const founders = [
   {
@@ -13,31 +12,28 @@ const founders = [
     role: "Brand, Strategy & Growth",
     desc: "Driving the brand vision, market expansion and long-term strategic growth of Zevolution.",
     img: founder3,
-    linkedin: "https://www.linkedin.com/in/dheeraj-gehani-956009365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    linkedin:
+      "https://www.linkedin.com/in/dheeraj-gehani-956009365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
+
   {
     id: "02",
-    name: "Naeem Chauhan",
-    role: "Stainless Steel Interior Innovation",
-    desc: "A pioneer in stainless steel interior innovation, redefining architectural possibilities with precision craftsmanship.",
-    img: founder4,
-    linkedin: "#",
-  },
-  {
-    id: "03",
     name: "Nakul Kanchhal",
     role: "Manufacturing & Quality Excellence",
     desc: "Anchoring manufacturing precision and operational excellence to ensure world-class quality.",
     img: founder2,
-    linkedin: "https://www.linkedin.com/in/nakul-kanchhal-unihome?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    linkedin:
+      "https://www.linkedin.com/in/nakul-kanchhal-unihome?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
+
   {
-    id: "04",
+    id: "03",
     name: "Hitesh Sakariya",
     role: "Finance & Expansion",
     desc: "Steering financial discipline, scalable growth and expansion of the Zevolution ecosystem.",
     img: founder1,
-    linkedin: "https://www.linkedin.com/in/hitesh-sakariya-a738a2bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    linkedin:
+      "https://www.linkedin.com/in/hitesh-sakariya-a738a2bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
 ];
 
@@ -58,22 +54,22 @@ const Founder = () => {
           Meet the Founders
         </motion.h2>
 
-        {/* Intro Text */}
+        {/* Intro */}
         <p className="max-w-3xl mx-auto text-center text-white/70 leading-relaxed mb-24">
-          Zevolution is led by four visionaries shaping the future of architectural
-          surfaces and interiors through design innovation, manufacturing precision
-          and strategic leadership.
+          Zevolution is led by visionary founders shaping the future of
+          architectural surfaces and interiors through innovation,
+          manufacturing precision and strategic leadership.
         </p>
 
-        {/* Founder Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+        {/* Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-14">
 
           {founders.map((founder, index) => (
             <motion.div
               key={founder.id}
               initial={{ opacity: 0, y: 80 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: index * 0.1 }}
+              transition={{ duration: 0.8, delay: index * 0.15 }}
               viewport={{ once: true }}
               className="relative group overflow-hidden"
             >
@@ -82,19 +78,19 @@ const Founder = () => {
               <img
                 src={founder.img}
                 alt={founder.name}
-                className="w-full h-[440px] object-cover transition duration-700 group-hover:scale-[1.05]"
+                className="w-full h-[460px] md:h-[520px] object-cover transition duration-700 group-hover:scale-[1.06]"
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/80 transition duration-500"></div>
+              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/85 transition duration-500"></div>
 
               {/* Number */}
-              <span className="absolute top-6 left-6 text-[#C8A75B] text-lg font-light opacity-80">
+              <span className="absolute top-6 left-6 text-[#C8A75B] text-lg font-light opacity-90">
                 {founder.id}
               </span>
 
               {/* Content */}
-              <div className="absolute bottom-8 left-6 right-6 opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition duration-500">
+              <div className="absolute bottom-8 left-6 right-6 opacity-0 translate-y-12 group-hover:opacity-100 group-hover:translate-y-0 transition duration-500">
 
                 <h3 className="text-xl md:text-2xl font-light tracking-wide mb-1">
                   {founder.name}
@@ -139,7 +135,7 @@ const Founder = () => {
 
               </div>
 
-              {/* Bottom Line */}
+              {/* Gold line */}
               <div className="absolute bottom-0 left-0 w-full h-[1px] bg-[#C8A75B]/40 scale-x-0 group-hover:scale-x-100 transition duration-500 origin-left"></div>
 
             </motion.div>
@@ -147,7 +143,7 @@ const Founder = () => {
 
         </div>
 
-        {/* Final Statement */}
+        {/* Closing text */}
         <p className="max-w-4xl mx-auto text-center text-white/70 leading-relaxed mt-24">
           Together, they combine design intelligence, operational strength,
           market foresight and financial stewardship to build a future-ready
@@ -156,7 +152,7 @@ const Founder = () => {
 
       </div>
 
-      {/* Glow Background */}
+      {/* Ambient glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(200,167,91,0.05),_transparent_70%)] pointer-events-none"></div>
 
     </section>
