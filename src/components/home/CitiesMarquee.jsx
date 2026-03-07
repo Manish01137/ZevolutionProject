@@ -8,17 +8,19 @@ const CitiesMarquee = () => {
     let pos1 = 0;
     let pos2 = 0;
 
-    const speed = 0.8;
+    const speed = 1.6;
 
     const animate = () => {
       const row1Width = row1Ref.current.scrollWidth / 2;
       const row2Width = row2Ref.current.scrollWidth / 2;
 
+      // Row 1 → LEFT
       pos1 -= speed;
-      pos2 += speed;
-
       if (pos1 <= -row1Width) pos1 = 0;
-      if (pos2 >= row2Width) pos2 = 0;
+
+      // Row 2 → RIGHT
+      pos2 += speed;
+      if (pos2 >= 0) pos2 = -row2Width;
 
       row1Ref.current.style.transform = `translate3d(${pos1}px,0,0)`;
       row2Ref.current.style.transform = `translate3d(${pos2}px,0,0)`;
@@ -67,9 +69,9 @@ const CitiesMarquee = () => {
       <div className="overflow-hidden whitespace-nowrap mb-12">
         <div
           ref={row1Ref}
-          className="flex gap-16 md:gap-24 text-4xl md:text-6xl lg:text-7xl font-extralight tracking-[0.08em]"
+          className="flex gap-16 md:gap-24 text-4xl md:text-6xl lg:text-7xl font-extralight tracking-[0.08em] will-change-transform"
         >
-          {[...cities1, ...cities1, ...cities1].map((city, i) => (
+          {[...cities1, ...cities1].map((city, i) => (
             <Item key={i} city={city} />
           ))}
         </div>
@@ -79,9 +81,9 @@ const CitiesMarquee = () => {
       <div className="overflow-hidden whitespace-nowrap">
         <div
           ref={row2Ref}
-          className="flex gap-14 md:gap-20 text-2xl md:text-4xl lg:text-5xl font-extralight tracking-[0.08em]"
+          className="flex gap-14 md:gap-20 text-2xl md:text-4xl lg:text-5xl font-extralight tracking-[0.08em] will-change-transform"
         >
-          {[...cities2, ...cities2, ...cities2].map((city, i) => (
+          {[...cities2, ...cities2].map((city, i) => (
             <ItemLight key={i} city={city} />
           ))}
         </div>
