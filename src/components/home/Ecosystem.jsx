@@ -58,6 +58,7 @@ const Ecosystem = () => {
 
   const handleMouseMove = (e, ref) => {
     const rect = ref.current.getBoundingClientRect();
+
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
 
@@ -143,14 +144,14 @@ const Ecosystem = () => {
                 )}
 
                 {/* Content */}
-                <div className="absolute bottom-8 left-6 right-6">
+                <div className="absolute bottom-8 left-6 right-6 flex flex-col items-start text-left">
 
                   {/* LOGO */}
                   {brand.logo && (
                     <img
                       src={brand.logo}
                       alt={brand.name}
-                      className="w-[170px] mb-2 object-contain"
+                      className="w-[150px] mb-1 object-contain -m-9"
                     />
                   )}
 
