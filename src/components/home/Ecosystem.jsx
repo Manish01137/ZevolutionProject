@@ -7,8 +7,8 @@ import formiq from "../../assets/images/FORMIQ32.png";
 import aerolith from "../../assets/images/AEROLITH.png";
 import zevocubes from "../../assets/images/ZEVOCUBE.png";
 
-import crestLogo from "../../assets/images/CRESTLOGO.png";
-import zerraLogo from "../../assets/images/LOGOzerra.png";
+import crestLogo from "../../assets/images/CrestStonelogo02.png";
+import zerraLogo from "../../assets/images/ZERRALogo3.png";
 
 const Ecosystem = () => {
   const navigate = useNavigate();
@@ -146,17 +146,21 @@ const Ecosystem = () => {
                 {/* Content */}
                 <div className="absolute bottom-8 left-6 right-6 flex flex-col items-start text-left">
 
-                  {/* LOGO */}
-                  {brand.logo && (
+                  {/* LOGO OR TITLE */}
+                  {brand.logo ? (
                     <img
                       src={brand.logo}
                       alt={brand.name}
-                      className="w-[150px] mb-1 object-contain -m-9"
+                      className="w-[130px] mb-1 object-contain -m-2"
                     />
+                  ) : (
+                    <h3 className="text-white text-3xl font-light mb-2 tracking-wide">
+                      {brand.name.toUpperCase()}
+                    </h3>
                   )}
 
                   {/* CATEGORY */}
-                  <p className="text-gold text-[11px] tracking-[0.25em] mb-2">
+                  <p className="text-gold text-[14px] tracking-[0.25em] mb-2">
                     {brand.category}
                   </p>
 
