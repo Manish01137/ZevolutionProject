@@ -1,4 +1,5 @@
 import heroVideo from "../../assets/videos/videoZevolution.mp4";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -26,7 +27,8 @@ const Hero = () => {
         </p>
 
         {/* Main Title */}
-        <h1 className="
+        <h1
+          className="
           font-extralight
           leading-none
           tracking-[0.05em]
@@ -35,20 +37,23 @@ const Hero = () => {
           md:text-7xl
           lg:text-[95px]
           xl:text-[115px]
-        ">
+        "
+        >
           <span className="text-gold">ZEVO</span>
           <span className="text-gold">LUTION</span>
         </h1>
 
         {/* Subtitle */}
-        <p className="
+        <p
+          className="
           text-white/80
           text-base
           sm:text-lg
           md:text-2xl
           mt-6
           tracking-wide
-        ">
+        "
+        >
           Zevolutionalise Your Spaces
         </p>
 
@@ -59,44 +64,51 @@ const Hero = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-5 justify-center mt-10">
 
-          <button className="
-            bg-gold
-            text-black
-            px-8
-            sm:px-10
-            py-3
-            sm:py-4
-            text-xs
-            sm:text-sm
-            tracking-widest
-            hover:opacity-90
-            transition
-            duration-300
-          ">
+          {/* Explore Materials */}
+          <Link
+            to="/brands"
+            className="
+              bg-gold
+              text-black
+              px-8
+              sm:px-10
+              py-3
+              sm:py-4
+              text-xs
+              sm:text-sm
+              tracking-widest
+              hover:opacity-90
+              transition
+              duration-300
+            "
+          >
             EXPLORE MATERIALS
-          </button>
+          </Link>
 
-          <button className="
-            border
-            border-white/40
-            text-white
-            px-8
-            sm:px-10
-            py-3
-            sm:py-4
-            text-xs
-            sm:text-sm
-            tracking-widest
-            hover:border-gold
-            hover:text-gold
-            transition
-            duration-300
-          ">
+          {/* Contact */}
+          <Link
+            to="/contact"
+            className="
+              border
+              border-white/40
+              text-white
+              px-8
+              sm:px-10
+              py-3
+              sm:py-4
+              text-xs
+              sm:text-sm
+              tracking-widest
+              hover:border-gold
+              hover:text-gold
+              transition
+              duration-300
+            "
+          >
             CONNECT WITH US
-          </button>
+          </Link>
 
         </div>
-
       </div>
 
       {/* Scroll Indicator */}
