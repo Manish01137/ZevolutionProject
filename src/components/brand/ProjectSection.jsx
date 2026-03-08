@@ -17,6 +17,17 @@ const ProjectSection = ({ brand }) => {
     <section className="bg-black py-28">
       <div className="max-w-7xl mx-auto px-6">
 
+        {/* SECTION HEADING */}
+        <div className="text-center mb-20">
+          
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extralight tracking-wide text-white">
+            Explore <span className="text-[#c9a45c] font-light">Product Range</span>
+          </h2>
+
+          <div className="w-16 h-[1px] bg-[#c9a45c]/70 mx-auto mt-6"></div>
+
+        </div>
+
         {/* GRID */}
         <div className="grid md:grid-cols-3 gap-10">
 
@@ -37,11 +48,11 @@ const ProjectSection = ({ brand }) => {
               {/* CONTENT */}
               <div className="p-6">
 
-                <h3 className="text-white text-xl font-medium">
+                <h3 className="text-white text-xl font-light tracking-wide">
                   {item.name}
                 </h3>
 
-                <p className="text-gray-400 text-sm mt-3">
+                <p className="text-gray-400 text-sm mt-3 leading-relaxed">
                   {item.description}
                 </p>
 

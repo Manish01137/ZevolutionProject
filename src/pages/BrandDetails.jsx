@@ -49,21 +49,19 @@ const BrandDetails = () => {
       {/* OVERVIEW */}
       <BrandOverview data={material} />
       
-      {/* NEW PRODUCT GRID (6 CARDS PER BRAND) */}
+      {/* PRODUCT GRID */}
       <ProjectSection brand={slug} />
 
-      {/* COLLECTIONS */}
-      <BrandCollections data={material} />
+      {/* COLLECTIONS (reduced gap) */}
+      <div className="-mt-16 md:-mt-24">
+        <BrandCollections data={material} />
+      </div>
 
       {/* BENEFITS */}
       <BrandBenefits data={material} />
 
       {/* ENGINEERING */}
       <BrandEngineering data={material} />
-
-    
-
-    
 
       {/* SPECIFICATIONS */}
       <BrandSpecifications data={material} />
