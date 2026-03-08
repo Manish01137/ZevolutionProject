@@ -13,16 +13,22 @@ import BrandSpecifications from "../components/brand/BrandSpecifications";
 import BrandCTA from "../components/brand/BrandCTA";
 import BrandCollections from "../components/brand/BrandCollections";
 
+import ProjectSection from "../components/brand/ProjectSection";
 
 const BrandDetails = () => {
-  const { slug } = useParams();
-  const material = materialsData.find(item => item.slug === slug);
 
-  // Scroll to top when page loads
+  const { slug } = useParams();
+
+  const material = materialsData.find(
+    (item) => item.slug === slug
+  );
+
+  /* Scroll to top when page changes */
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
 
+  /* If brand not found */
   if (!material) {
     return (
       <div className="bg-black text-white min-h-screen flex items-center justify-center">
@@ -33,21 +39,41 @@ const BrandDetails = () => {
 
   return (
     <div className="bg-black text-white overflow-hidden">
-      
+
       {/* Navbar */}
       <Navbar />
 
-      {/* Brand Sections */}
+      {/* HERO */}
       <BrandHero data={material} />
+
+      {/* OVERVIEW */}
       <BrandOverview data={material} />
+      
+      {/* NEW PRODUCT GRID (6 CARDS PER BRAND) */}
+      <ProjectSection brand={slug} />
+
+      {/* COLLECTIONS */}
+      <BrandCollections data={material} />
+
+      {/* BENEFITS */}
       <BrandBenefits data={material} />
+
+      {/* ENGINEERING */}
       <BrandEngineering data={material} />
-      <BrandCollections/>
-      <BrandSpecifications data={material} />
-      <BrandCTA data={material} />
+
     
-      {/* Footer */}
+
+    
+
+      {/* SPECIFICATIONS */}
+      <BrandSpecifications data={material} />
+
+      {/* CTA */}
+      <BrandCTA data={material} />
+
+      {/* FOOTER */}
       <Footer />
+
     </div>
   );
 };
