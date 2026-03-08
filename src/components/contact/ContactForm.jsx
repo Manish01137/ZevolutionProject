@@ -10,10 +10,9 @@ const ContactForm = () => {
 
         {/* LEFT SIDE — CONTACT INFO */}
         <motion.div
-          initial={{ opacity: 0, x: -60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
+          initial={{ opacity: 0, x: -30 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
           className="space-y-12"
         >
           <div>
@@ -34,9 +33,9 @@ const ContactForm = () => {
             <div>
               <h4 className="font-light mb-1">Visit Us</h4>
               <p className="text-gray-400 font-extralight text-sm leading-relaxed">
-                Zevolution Design Studio <br />
-                DLF Cyber City, Phase 2 <br />
-                Gurugram, Haryana 122002
+                Mumbai-Raipur <br />
+                Jaipur-Rajkot <br />
+                
               </p>
             </div>
           </div>
@@ -50,7 +49,7 @@ const ContactForm = () => {
               <h4 className="font-light mb-1">Call Us</h4>
               <p className="text-gray-400 font-extralight text-sm">
                 +91 11 4567 8900 <br />
-                +91 98765 43210
+                +91 9152220055
               </p>
             </div>
           </div>
@@ -77,9 +76,8 @@ const ContactForm = () => {
             <div>
               <h4 className="font-light mb-1">Studio Hours</h4>
               <p className="text-gray-400 font-extralight text-sm">
-                Mon – Fri: 10:00 AM – 7:00 PM <br />
-                Sat: 10:00 AM – 4:00 PM <br />
-                Sun: By Appointment
+                Mon – Fri: 11:00 AM – 8:00 PM <br />
+              
               </p>
             </div>
           </div>
@@ -87,10 +85,9 @@ const ContactForm = () => {
 
         {/* RIGHT SIDE — FORM */}
         <motion.div
-          initial={{ opacity: 0, x: 60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
+          initial={{ opacity: 0, x: 30 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
           className="bg-white/5 backdrop-blur-md border border-white/10 p-8 md:p-12"
         >
           <h3 className="text-2xl md:text-3xl font-extralight mb-10">
