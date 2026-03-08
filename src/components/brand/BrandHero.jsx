@@ -43,7 +43,7 @@ const BrandHero = ({ data }) => {
         </button>
 
         {/* HERO TEXT BLOCK */}
-        <div className="flex flex-col items-center gap-2 md:gap-3 -mt-16">
+        <div className="flex flex-col items-center gap-1 md:gap-2 -mt-16">
 
           {/* Label */}
           <motion.p
@@ -70,6 +70,7 @@ const BrandHero = ({ data }) => {
                 md:w-[340px]
                 lg:w-[420px]
                 object-contain
+                -mt-1
               "
             />
           ) : (
@@ -77,7 +78,7 @@ const BrandHero = ({ data }) => {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-tight"
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-tight -mt-1"
             >
               {data.name.toUpperCase()}
             </motion.h1>
@@ -88,7 +89,7 @@ const BrandHero = ({ data }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 0.85, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
-            className="max-w-lg text-xs md:text-base text-white/70"
+            className="max-w-lg text-xs md:text-base text-white/70 -mt-1"
           >
             {data.tagline}
           </motion.p>
