@@ -16,7 +16,7 @@ const BrandHero = ({ data }) => {
       ref={heroRef}
       className="relative h-[85vh] md:h-screen w-full overflow-hidden bg-black"
     >
-      {/* Background Image */}
+      {/* Background */}
       <motion.div style={{ scale, opacity }} className="absolute inset-0">
         <img
           src={data.heroImage}
@@ -25,76 +25,75 @@ const BrandHero = ({ data }) => {
         />
       </motion.div>
 
-      {/* Dark Overlay */}
+      {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/75 to-black/95" />
 
-      {/* Soft Gold Ambient Glow */}
+      {/* Gold Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(198,167,94,0.15),transparent_65%)]" />
 
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6">
 
         {/* Back Button */}
-        <motion.button
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.2 }}
+        <button
           onClick={() => navigate("/brands")}
           className="absolute top-8 left-6 md:left-12 text-sm text-white/70 hover:text-white transition"
         >
           ← Back to Brands
-        </motion.button>
+        </button>
 
-        {/* Label */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="tracking-[0.5em] text-xs md:text-sm uppercase text-[#C6A75E] mb-6"
-        >
-          {data.label}
-        </motion.p>
+        {/* HERO TEXT BLOCK */}
+        <div className="flex flex-col items-center gap-2 md:gap-3 -mt-16">
 
-        {/* LOGO OR TEXT TITLE */}
-        {data.logo ? (
-          <motion.img
-            src={data.logo}
-            alt={data.name}
-            initial={{ opacity: 0, y: 60 }}
+          {/* Label */}
+          <motion.p
+            initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-            className="
-              mx-auto
-              w-[260px]
-              sm:w-[340px]
-              md:w-[420px]
-              lg:w-[520px]
-              xl:w-[620px]
-              object-contain
-              mb-6
-              opacity-95
-            "
-          />
-        ) : (
-          <motion.h1
-            initial={{ opacity: 0, y: 60 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-tight"
+            transition={{ duration: 0.8 }}
+            className="tracking-[0.45em] text-[11px] md:text-xs uppercase text-[#C6A75E]"
           >
-            {data.name.toUpperCase()}
-          </motion.h1>
-        )}
+            {data.label}
+          </motion.p>
 
-        {/* Tagline */}
-        <motion.p
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 0.85, y: 0 }}
-          transition={{ duration: 1, delay: 0.4 }}
-          className="mt-4 max-w-2xl text-sm md:text-lg text-white/70"
-        >
-          {data.tagline}
-        </motion.p>
+          {/* Logo / Title */}
+          {data.logo ? (
+            <motion.img
+              src={data.logo}
+              alt={data.name}
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className="
+                mx-auto
+                w-[220px]
+                sm:w-[280px]
+                md:w-[340px]
+                lg:w-[420px]
+                object-contain
+              "
+            />
+          ) : (
+            <motion.h1
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-tight"
+            >
+              {data.name.toUpperCase()}
+            </motion.h1>
+          )}
+
+          {/* Tagline */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 0.85, y: 0 }}
+            transition={{ duration: 1, delay: 0.4 }}
+            className="max-w-lg text-xs md:text-base text-white/70"
+          >
+            {data.tagline}
+          </motion.p>
+
+        </div>
 
         {/* Scroll Indicator */}
         <motion.div
@@ -111,6 +110,7 @@ const BrandHero = ({ data }) => {
             />
           </div>
         </motion.div>
+
       </div>
 
       {/* Bottom Fade */}

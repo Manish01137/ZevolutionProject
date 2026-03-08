@@ -160,7 +160,7 @@ const Ecosystem = () => {
                   )}
 
                   {/* CATEGORY */}
-                  <p className="text-gold text-[14px] tracking-[0.25em] mb-2">
+                  <p className="text-gold text-[15px] tracking-[0.25em] mb-2">
                     {brand.category}
                   </p>
 
