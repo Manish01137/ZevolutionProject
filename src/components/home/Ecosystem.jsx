@@ -154,7 +154,7 @@ const Ecosystem = () => {
                       className="w-[130px] mb-1 object-contain -m-2"
                     />
                   ) : (
-                    <h3 className="text-white text-3xl font-light mb-2 tracking-wide">
+                    <h3 className="text-white text-xl font-light mb-2 tracking-wide">
                       {brand.name.toUpperCase()}
                     </h3>
                   )}

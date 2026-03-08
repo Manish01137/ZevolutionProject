@@ -175,7 +175,7 @@ const Material = () => {
                   <img
                     src={item.logo}
                     alt={item.brand}
-                    className="w-[160px] md:w-[200px] h-auto mb-2 object-contain opacity-95"
+                    className="w-[120px] md:w-[140px] h-auto mb-2 object-contain opacity-95"
                   />
                 ) : (
                   <p className="text-gold tracking-widest text-xs mb-1 uppercase">
