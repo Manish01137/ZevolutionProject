@@ -1,5 +1,5 @@
-import crestLogo from "../assets/images/CRESTLOGO.png";
-import zerraLogo from "../assets/images/LOGOzerra.png";
+import crestLogo from "../assets/images/crestStonelogo02.png";
+import zerraLogo from "../assets/images/ZERRALogo3.png";
 
 export const materialsData = [
   {
