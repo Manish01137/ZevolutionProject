@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const TechSupportCTA = () => {
   return (
@@ -36,16 +37,18 @@ const TechSupportCTA = () => {
         </motion.p>
 
         {/* Button */}
-        <motion.button
-          whileHover={{ y: -3 }}
-          whileTap={{ scale: 0.95 }}
-          className="group bg-[#c9a45c] text-black px-10 py-4 text-sm tracking-wide font-light rounded-sm transition-all duration-300 hover:bg-[#d8b56d]"
-        >
-          CONTACT TECHNICAL SUPPORT
-          <span className="ml-2 group-hover:translate-x-1 inline-block transition">
-            →
-          </span>
-        </motion.button>
+        <Link to="/contact">
+          <motion.button
+            whileHover={{ y: -3 }}
+            whileTap={{ scale: 0.95 }}
+            className="group bg-[#c9a45c] text-black px-10 py-4 text-sm tracking-wide font-light rounded-sm transition-all duration-300 hover:bg-[#d8b56d]"
+          >
+            CONTACT TECHNICAL SUPPORT
+            <span className="ml-2 group-hover:translate-x-1 inline-block transition">
+              →
+            </span>
+          </motion.button>
+        </Link>
 
       </div>
     </section>
