@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { productsData } from "../../data/productsData";
 
 const ProductGrid = () => {
@@ -13,7 +13,7 @@ const ProductGrid = () => {
   return (
     <section className="bg-black py-24 md:py-32">
 
-      <div className="max-w-7xl mx-auto px-6 md:px-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 grid sm:grid-cols-2 lg:grid-cols-2 gap-10 md:gap-12">
 
         {data.products.map((product,index)=>(
 
@@ -75,9 +75,11 @@ const ProductGrid = () => {
               </div>
 
               {/* Button */}
-              <button className="border border-[#C6A75E] text-[#C6A75E] font-light tracking-wide px-6 py-2 text-sm hover:bg-[#C6A75E] hover:text-black transition-all duration-300">
-                Request Sample →
-              </button>
+              <Link to="/contact">
+                <button className="border border-[#C6A75E] text-[#C6A75E] font-light tracking-wide px-6 py-2 text-sm hover:bg-[#C6A75E] hover:text-black transition-all duration-300">
+                  Request Sample →
+                </button>
+              </Link>
 
             </div>
 
