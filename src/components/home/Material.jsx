@@ -7,8 +7,8 @@ import crestImg from "../../assets/images/CrestStone1.png";
 import zerraImg from "../../assets/images/ZERRA_HANDPEELED1.png";
 import formiqImg from "../../assets/images/FORMIQ32.png";
 
-import crestLogo from "../../assets/images/CRESTLOGO.png";
-import zerraLogo from "../../assets/images/LOGOzerra.png";
+import crestLogo from "../../assets/images/CrestStonelogo02.png";
+import zerraLogo from "../../assets/images/ZERRALogo3.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -175,7 +175,7 @@ const Material = () => {
                   <img
                     src={item.logo}
                     alt={item.brand}
-                    className="w-[170px] md:w-[200px] h-auto mb-2 object-contain opacity-95"
+                    className="w-[160px] md:w-[200px] h-auto mb-2 object-contain opacity-95"
                   />
                 ) : (
                   <p className="text-gold tracking-widest text-xs mb-1 uppercase">
