@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/Zev Logo-02.png";
 
+import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+
 const Footer = () => {
   return (
     <footer className="bg-black pt-24 pb-12">
-      
+
       <div className="max-w-container mx-auto px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
-        
+
         {/* Logo + About */}
         <div>
           <img
@@ -20,16 +22,45 @@ const Footer = () => {
             Premium materials for spaces that inspire.
           </p>
 
-          {/* Social Icons Placeholder */}
+          {/* Social Icons */}
           <div className="flex gap-5 mt-8">
-            {["Instagram", "LinkedIn", "Twitter", "YouTube"].map((item) => (
-              <div
-                key={item}
-                className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300 cursor-pointer"
-              >
-                •
-              </div>
-            ))}
+
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300"
+            >
+              <Instagram size={18} />
+            </a>
+
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300"
+            >
+              <Linkedin size={18} />
+            </a>
+
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300"
+            >
+              <Twitter size={18} />
+            </a>
+
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300"
+            >
+              <Youtube size={18} />
+            </a>
+
           </div>
         </div>
 
@@ -100,11 +131,12 @@ const Footer = () => {
             </p>
           </div>
         </div>
+
       </div>
 
       {/* Divider */}
       <div className="max-w-container mx-auto px-8 mt-16 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-white/40 text-sm">
-        
+
         <p>
           © {new Date().getFullYear()} Zevolution. All rights reserved.
         </p>
@@ -117,7 +149,9 @@ const Footer = () => {
             Terms of Service
           </p>
         </div>
+
       </div>
+
     </footer>
   );
 };
