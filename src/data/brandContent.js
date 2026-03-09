@@ -1,17 +1,16 @@
-import application from "../assets/images/Application.png"
-import Beige from "../assets/images/Beige.jpg"
-import caseImg from "../assets/images/case1.jpg"
-import CementGrey from "../assets/images/CementGrey.jpg"
-import coffeGrey from "../assets/images/coffeeGrey.jpg"
-import darkgrey from "../assets/images/darkgrey.jpg"
-import EarthyBrown from "../assets/images/EarthyBrown.jpg"
-import LiteGrey from "../assets/images/LiteGrey.jpg"
-import warmehite from "../assets/images/WarmWhite.jpg"
-import cement from "../assets/images/cement.jpg"
+import application from "../assets/images/application.png";
+import beige from "../assets/images/beige.jpg";
+import caseImg from "../assets/images/case1.jpg";
+import cementGrey from "../assets/images/cement-grey.jpg";
+import coffeeGrey from "../assets/images/coffee-grey.jpg";
+import darkGrey from "../assets/images/dark-grey.jpg";
+import earthyBrown from "../assets/images/earthy-brown.jpg";
+import liteGrey from "../assets/images/lite-grey.jpg";
+import warmWhite from "../assets/images/warm-white.jpg";
+import cement from "../assets/images/cement.jpg";
 
 export const brandContent = {
   creststone: [
-
     {
       id: 1,
       name: "Aerolite",
@@ -22,17 +21,17 @@ export const brandContent = {
       variants: [
         {
           name: "Warm White",
-          image: warmehite
+          image: warmWhite,
         },
         {
           name: "Earthy Brown",
-          image: EarthyBrown
+          image: earthyBrown,
         },
         {
           name: "Coffee Grey",
-          image: coffeGrey
-        }
-      ]
+          image: coffeeGrey,
+        },
+      ],
     },
 
     {
@@ -45,17 +44,17 @@ export const brandContent = {
       variants: [
         {
           name: "Cement Board Light Grey",
-          image: LiteGrey
+          image: liteGrey,
         },
         {
           name: "Cement Board Medium Grey",
-          image: CementGrey
+          image: cementGrey,
         },
         {
           name: "Stone Grey",
-          image: darkgrey
-        }
-      ]
+          image: darkGrey,
+        },
+      ],
     },
 
     {
@@ -68,24 +67,21 @@ export const brandContent = {
       variants: [
         {
           name: "Graphite",
-          image: darkgrey
+          image: darkGrey,
         },
         {
           name: "Dark Grey",
-          image: darkgrey
+          image: darkGrey,
         },
         {
           name: "Natural Rock",
-          image: EarthyBrown
-        }
-      ]
-    }
-
+          image: earthyBrown,
+        },
+      ],
+    },
   ],
 
-
   zerra: [
-
     {
       id: 1,
       name: "Concrete",
@@ -96,17 +92,17 @@ export const brandContent = {
       variants: [
         {
           name: "Beige",
-          image: Beige
+          image: beige,
         },
         {
           name: "Dark Grey",
-          image: darkgrey
+          image: darkGrey,
         },
         {
           name: "Lite Grey",
-          image: LiteGrey
-        }
-      ]
+          image: liteGrey,
+        },
+      ],
     },
 
     {
@@ -119,17 +115,17 @@ export const brandContent = {
       variants: [
         {
           name: "Agra Red",
-          image: EarthyBrown
+          image: earthyBrown,
         },
         {
           name: "Oxford Yellow",
-          image: Beige
+          image: beige,
         },
         {
           name: "Rainbow",
-          image: LiteGrey
-        }
-      ]
+          image: liteGrey,
+        },
+      ],
     },
 
     {
@@ -142,24 +138,21 @@ export const brandContent = {
       variants: [
         {
           name: "Ivory White",
-          image: warmehite
+          image: warmWhite,
         },
         {
           name: "Granite Grey",
-          image: darkgrey
+          image: darkGrey,
         },
         {
           name: "Rust Brown",
-          image: EarthyBrown
-        }
-      ]
-    }
-
+          image: earthyBrown,
+        },
+      ],
+    },
   ],
 
-
   formiq: [
-
     {
       id: 1,
       name: "OakPrime",
@@ -170,17 +163,17 @@ export const brandContent = {
       variants: [
         {
           name: "Natural Oak",
-          image: application
+          image: application,
         },
         {
           name: "Honey Oak",
-          image: caseImg
+          image: caseImg,
         },
         {
           name: "Dark Oak",
-          image: darkgrey
-        }
-      ]
+          image: darkGrey,
+        },
+      ],
     },
 
     {
@@ -193,17 +186,17 @@ export const brandContent = {
       variants: [
         {
           name: "Classic Brown",
-          image: EarthyBrown
+          image: earthyBrown,
         },
         {
           name: "Rust Oak",
-          image: coffeGrey
+          image: coffeeGrey,
         },
         {
           name: "Deep Walnut",
-          image: darkgrey
-        }
-      ]
+          image: darkGrey,
+        },
+      ],
     },
 
     {
@@ -216,18 +209,17 @@ export const brandContent = {
       variants: [
         {
           name: "Golden Oak",
-          image: application
+          image: application,
         },
         {
           name: "Smoke Grey",
-          image: darkgrey
+          image: darkGrey,
         },
         {
           name: "Walnut Brown",
-          image: coffeGrey
-        }
-      ]
-    }
-
-  ]
+          image: coffeeGrey,
+        },
+      ],
+    },
+  ],
 };
