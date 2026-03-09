@@ -13,7 +13,7 @@ export const brandContent = {
   creststone: [
     {
       id: 1,
-      name: "Aerolite",
+      name: "Aerolitee",
       slug: "aerolite",
       image: caseImg,
       description:
