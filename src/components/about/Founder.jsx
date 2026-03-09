@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
-import founder1 from "../../assets/images/Founder2.webp";
-import founder2 from "../../assets/images/Founder3.webp";
-import founder3 from "../../assets/images/Dehran.webp";
+import founderHitesh from "../../assets/images/founder-hitesh.webp";
+import founderNakul from "../../assets/images/founder-nakul.webp";
+import founderDheeraj from "../../assets/images/founder-dheeraj.webp";
 
 const founders = [
   {
@@ -11,9 +11,9 @@ const founders = [
     name: "Dheeraj Gehani",
     role: "Brand, Strategy & Growth",
     desc: "Driving the brand vision, market expansion and long-term strategic growth of Zevolution.",
-    img: founder3,
+    img: founderDheeraj,
     linkedin:
-      "https://www.linkedin.com/in/dheeraj-gehani-956009365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "https://www.linkedin.com/in/dheeraj-gehani-956009365",
   },
 
   {
@@ -21,9 +21,9 @@ const founders = [
     name: "Nakul Kanchhal",
     role: "Manufacturing & Quality Excellence",
     desc: "Anchoring manufacturing precision and operational excellence to ensure world-class quality.",
-    img: founder2,
+    img: founderNakul,
     linkedin:
-      "https://www.linkedin.com/in/nakul-kanchhal-unihome?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "https://www.linkedin.com/in/nakul-kanchhal-unihome",
   },
 
   {
@@ -31,16 +31,15 @@ const founders = [
     name: "Hitesh Sakariya",
     role: "Finance & Expansion",
     desc: "Steering financial discipline, scalable growth and expansion of the Zevolution ecosystem.",
-    img: founder1,
+    img: founderHitesh,
     linkedin:
-      "https://www.linkedin.com/in/hitesh-sakariya-a738a2bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "https://www.linkedin.com/in/hitesh-sakariya-a738a2bb",
   },
 ];
 
 const Founder = () => {
   return (
     <section className="relative bg-black text-white py-32 px-6">
-
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
