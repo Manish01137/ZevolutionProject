@@ -1,4 +1,4 @@
-import crestLogo from "../assets/images/crestStonelogo02.png";
+import crestLogo from "../assets/images/CrestStonelogo02.png";
 import zerraLogo from "../assets/images/ZERRALogo3.png";
 
 export const materialsData = [
