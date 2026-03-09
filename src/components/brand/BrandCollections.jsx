@@ -7,34 +7,31 @@ const BrandCollections = () => {
   const { slug } = useParams();
 
   return (
-    <section className="bg-black py-24 md:py-32">
+    <section className="bg-black py-28 md:py-36">
 
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-6xl mx-auto px-6 flex justify-center">
 
-        {/* Small Label */}
-        <p className="text-[#C6A75E] tracking-[0.45em] text-[10px] uppercase mb-10">
-          Product Collection
-        </p>
-
-        {/* Button */}
         <motion.button
           whileHover={{
-            scale: 1.05,
-            boxShadow: "0 0 40px rgba(198,167,94,0.3)"
+            scale: 1.06,
+            boxShadow: "0 0 45px rgba(198,167,94,0.35)"
           }}
-          transition={{ duration: 0.3 }}
+          whileTap={{ scale: 0.98 }}
+          transition={{ duration: 0.35, ease: "easeOut" }}
           onClick={() => navigate(`/brand/${slug}/products`)}
           className="
             border border-[#C6A75E]
             text-[#C6A75E]
-            px-10 md:px-14
-            py-4
-            text-xs md:text-sm
-            tracking-[0.3em]
+            px-12 md:px-16
+            py-4 md:py-5
+            text-[11px] md:text-sm
+            font-light
+            tracking-[0.35em]
             uppercase
             transition-all duration-500
             hover:bg-[#C6A75E]
             hover:text-black
+            hover:border-[#C6A75E]
           "
         >
           Explore More

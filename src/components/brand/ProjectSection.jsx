@@ -19,10 +19,15 @@ const ProjectSection = ({ brand }) => {
 
         {/* SECTION HEADING */}
         <div className="text-center mb-20">
-          
+
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extralight tracking-wide text-white">
             Explore <span className="text-[#c9a45c] font-light">Product Range</span>
           </h2>
+
+          {/* PREMIUM SUB HEADING */}
+          <p className="mt-5 text-[#c9a45c]/80 text-[11px] md:text-xs tracking-[0.35em] uppercase font-light">
+            Product Collections
+          </p>
 
           <div className="w-16 h-[1px] bg-[#c9a45c]/70 mx-auto mt-6"></div>
 
