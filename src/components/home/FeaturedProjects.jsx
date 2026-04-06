@@ -2,74 +2,17 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { projectsData } from "../../data/projectsData";
 
-const categories = [
-  "All",
-  "FCC",
-  "HandPeeled Stones",
-  "Flooring",
-  "Commercial",
-  "Residential",
-];
-
-const projects = [
-  {
-    title: "Meridian Tower",
-    slug: "meridian-tower",
-    city: "Mumbai",
-    category: "Commercial",
-    image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000",
-  },
-  {
-    title: "Serene Residence",
-    slug: "serene-residence",
-    city: "Delhi",
-    category: "Residential",
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000",
-  },
-  {
-    title: "Azure Bay Hotel",
-    slug: "azure-bay-hotel",
-    city: "Goa",
-    category: "Commercial",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2000",
-  },
-  {
-    title: "Heritage Villa",
-    slug: "heritage-villa",
-    city: "Jaipur",
-    category: "Residential",
-    image:
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=2000",
-  },
-  {
-    title: "Luxe Corporate HQ",
-    slug: "luxe-corporate-hq",
-    city: "Bangalore",
-    category: "Commercial",
-    image:
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=2000",
-  },
-  {
-    title: "Woodland Estate",
-    slug: "woodland-estate",
-    city: "Pune",
-    category: "Residential",
-    image:
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2000",
-  },
-];
+const categories = ["All", "Commercial", "Residential", "Healthcare", "Education"];
 
 const FeaturedProjects = () => {
   const [active, setActive] = useState("All");
 
   const filtered =
     active === "All"
-      ? projects
-      : projects.filter((p) => p.category === active);
+      ? projectsData
+      : projectsData.filter((p) => p.category === active);
 
   return (
     <section className="bg-black py-24 px-6 md:px-12">
@@ -127,7 +70,7 @@ const FeaturedProjects = () => {
                   {/* Image */}
                   <div className="overflow-hidden">
                     <img
-                      src={project.image}
+                      src={project.heroImage}
                       alt={project.title}
                       className="w-full h-[420px] object-cover transition-transform duration-700 group-hover:scale-110"
                     />
@@ -145,7 +88,7 @@ const FeaturedProjects = () => {
                       {project.title}
                     </h3>
                     <p className="text-white/70 text-sm">
-                      {project.city}
+                      {project.location}
                     </p>
                   </div>
 

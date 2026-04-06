@@ -125,6 +125,32 @@ const ProjectDetails = () => {
           </div>
         </motion.section>
 
+        {/* VIDEO (if available) */}
+        {project.video && (
+          <motion.section
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className="py-12 px-6 md:px-12 max-w-6xl mx-auto"
+          >
+            <p className="text-[#C6A75E] tracking-[0.3em] text-sm uppercase mb-6 text-center">
+              Project Film
+            </p>
+            <h2 className="text-4xl font-extralight mb-12 text-center">
+              Watch the Transformation
+            </h2>
+            <div className="w-full aspect-video overflow-hidden">
+              <video
+                src={project.video}
+                controls
+                className="w-full h-full object-cover"
+                poster={project.heroImage}
+              />
+            </div>
+          </motion.section>
+        )}
+
         {/* GALLERY */}
         <section className="py-24 px-6 md:px-12 text-center">
           <motion.p
@@ -147,7 +173,7 @@ const ProjectDetails = () => {
             Project Images
           </motion.h2>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {project.gallery.map((img, i) => (
               <motion.div
                 key={i}
@@ -157,8 +183,8 @@ const ProjectDetails = () => {
               >
                 <img
                   src={img}
-                  alt=""
-                  className="w-full h-[350px] object-cover transition duration-700 hover:brightness-110"
+                  alt={`${project.title} ${i + 1}`}
+                  className="w-full h-[300px] object-cover transition duration-700 hover:brightness-110"
                 />
               </motion.div>
             ))}
@@ -202,7 +228,7 @@ const ProjectDetails = () => {
           viewport={{ once: true }}
           className="py-32 text-center px-6"
         >
-          <p className="text-6xl text-[#C6A75E] mb-10">“</p>
+          <p className="text-6xl text-[#C6A75E] mb-10">"</p>
           <p className="text-2xl font-light max-w-3xl mx-auto mb-8">
             {project.testimonial}
           </p>
