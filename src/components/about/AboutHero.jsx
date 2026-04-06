@@ -1,81 +1,34 @@
-/* eslint-disable no-unused-vars */
-import { motion } from "framer-motion";
-import heroImg from "../../assets/images/abouthero.png";
+import abouthero from "../../assets/images/abouthero.png";
 
 const AboutHero = () => {
   return (
-    <section className="relative h-screen w-full overflow-hidden flex items-center justify-center text-center text-white">
-
-      {/* Background Image with Slow Zoom */}
-      <motion.div
-        initial={{ scale: 1.1 }}
-        animate={{ scale: 1 }}
-        transition={{ duration: 6, ease: "easeOut" }}
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url(${heroImg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
-
-      {/* Premium Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90"></div>
+    <section
+      className="relative h-[80vh] flex items-center justify-center text-center overflow-hidden"
+      style={{
+        backgroundImage: `url(${abouthero})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/65" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-5xl px-6">
-
-        {/* Small Top Label */}
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="tracking-[8px] text-xs md:text-sm text-[#C8A75B] mb-6 uppercase"
-        >
-          About Zevolution
-        </motion.p>
-
-        {/* Main Heading */}
-        <motion.h1
-          initial="hidden"
-          animate="visible"
-          variants={{
-            hidden: {},
-            visible: {
-              transition: { staggerChildren: 0.3 },
-            },
-          }}
-          className="text-4xl sm:text-5xl md:text-7xl font-light leading-tight"
-        >
-          <motion.span
-            variants={{
-              hidden: { opacity: 0, y: 60 },
-              visible: { opacity: 1, y: 0 },
-            }}
-            transition={{ duration: 1 }}
-            className="block"
-          >
-            Designed to Transform.
-          </motion.span>
-
-          <motion.span
-            variants={{
-              hidden: { opacity: 0, y: 60 },
-              visible: { opacity: 1, y: 0 },
-            }}
-            transition={{ duration: 1 }}
-            className="block text-[#C8A75B] relative"
-          >
-            Engineered to Endure.
-            <span className="absolute left-1/2 -bottom-4 w-24 h-[2px] bg-[#C8A75B] -translate-x-1/2"></span>
-          </motion.span>
-        </motion.h1>
-
+      <div className="relative z-10 px-6 max-w-4xl mx-auto">
+        <p className="text-[#C8A75B] tracking-[0.4em] text-xs uppercase mb-6 font-light">
+          Our Story
+        </p>
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extralight text-white leading-tight mb-6">
+          Built on Vision,<br />Driven by Craft
+        </h1>
+        <p className="text-white/70 text-base md:text-xl font-light max-w-2xl mx-auto leading-relaxed">
+          Zevolution is the architecture of premium materials — a brand ecosystem
+          created to elevate every surface, every space, every structure.
+        </p>
       </div>
 
-      {/* Bottom Fade Shadow for Depth */}
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent"></div>
-
+      {/* Bottom gradient */}
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent" />
     </section>
   );
 };
