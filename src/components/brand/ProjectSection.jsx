@@ -6,7 +6,7 @@ const ProjectSection = ({ brand }) => {
 
   const navigate = useNavigate();
 
-  const normalizedBrand = brand?.replace("-", "");
+  const normalizedBrand = brand?.replace(/-/g, "");
   const products = brandContent[normalizedBrand] || [];
 
   const [openVariant, setOpenVariant] = useState(null);
@@ -34,7 +34,7 @@ const ProjectSection = ({ brand }) => {
         </div>
 
         {/* GRID */}
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
           {products.map((item) => (
 
