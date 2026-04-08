@@ -1,6 +1,14 @@
 import crestLogo from "../assets/images/CrestStonelogo02.png";
 import zerraLogo from "../assets/images/ZERRALogo3.png";
 
+// ── Zerra hero images ─────────────────────────────────────────────────────────
+import zerraHero from "../assets/images/ZERRA.png";
+
+// ── Zerra Engineering showcase images ─────────────────────────────────────────
+import zerraEng1 from "../assets/images/zerra/Sandstone/AgraRedSandStone.jpg";
+import zerraEng2 from "../assets/images/zerra/Marble/AtlanticWhitemarble.jpg";
+import zerraEng3 from "../assets/images/zerra/slate&Quartzite/SilverShineSlate.jpg";
+
 export const materialsData = [
   {
     slug: "crest-stone",
@@ -85,21 +93,20 @@ export const materialsData = [
     tagline: "Authentic stone. Engineered lightness.",
     logo: zerraLogo,
 
-    heroImage:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2070&auto=format&fit=crop",
+    heroImage: zerraHero,
 
     overviewTitle: "Natural Elegance Reinvented",
 
     overviewDescription:
-      "Zerra HandPeeled Stones bring the tactile richness of natural stone into a lightweight, versatile format. Crafted to preserve authentic textures while dramatically reducing structural load, Zerra enables architects to achieve timeless facades without compromise. The result is elegance that feels solid yet installs effortlessly.",
+      "Zerra HandPeeled Stones bring the tactile richness of natural stone into a lightweight, versatile format. Five curated stone families — Sandstone, Marble, Limestone, Concrete, and Slate & Quartzite — each hand-finished to preserve authentic surface depth. Zerra enables architects to achieve timeless façades with dramatically reduced structural load.",
 
     applications: [
-      "Boutique hospitality projects",
-      "Feature walls and accent facades",
-      "Luxury villa elevations",
+      "Luxury villa elevations & façades",
+      "Feature walls and accent cladding",
+      "Boutique hospitality interiors",
       "Retail and experiential spaces",
       "Interior statement installations",
-      "Landscape architecture features",
+      "Landscape and poolside features",
     ],
 
     benefits: [
@@ -111,7 +118,7 @@ export const materialsData = [
       {
         title: "Authentic Texture",
         desc:
-          "Hand-finished surfaces that preserve organic irregularity.",
+          "Hand-finished surfaces that preserve organic irregularity and depth.",
       },
       {
         title: "Flexible Installation",
@@ -121,7 +128,7 @@ export const materialsData = [
       {
         title: "Interior & Exterior",
         desc:
-          "Designed for versatile performance across environments.",
+          "Designed for versatile performance across all environments.",
       },
       {
         title: "Durable Finish",
@@ -136,13 +143,9 @@ export const materialsData = [
     ],
 
     engineeringText:
-      "Zerra panels utilize a reinforced composite backing integrated with authentic stone veneers. The system ensures dimensional stability while preserving natural variation. Each module is factory-calibrated for seamless alignment and rapid installation.",
+      "Zerra panels utilise a reinforced composite backing integrated with authentic hand-peeled stone veneers. The system ensures dimensional stability while preserving natural variation across all five stone families. Each module is factory-calibrated for seamless alignment and rapid installation — indoors and out.",
 
-    engineeringImages: [
-      "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?q=80&w=2070&auto=format&fit=crop",
-    ],
+    engineeringImages: [zerraEng1, zerraEng2, zerraEng3],
 
     specs: [
       { label: "Panel Thickness", value: "6–18 mm options" },
