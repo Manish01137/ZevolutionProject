@@ -1,13 +1,9 @@
+import { crestoneBrandContent } from "./crestoneData";
 import application from "../assets/images/application.png";
-import beige from "../assets/images/beige.jpg";
 import caseImg from "../assets/images/case1.jpg";
-import cementGrey from "../assets/images/cement-grey.jpg";
 import coffeeGrey from "../assets/images/coffee-grey.jpg";
 import darkGrey from "../assets/images/dark-grey.jpg";
 import earthyBrown from "../assets/images/earthy-brown.jpg";
-import liteGrey from "../assets/images/lite-grey.jpg";
-import warmWhite from "../assets/images/warm-white.jpg";
-import cement from "../assets/images/cement.jpg";
 
 // ── Zerra · Sandstone ─────────────────────────────────────────────────────────
 import sandstoneAgra from "../assets/images/zerra/Sandstone/AgraRedSandStone.jpg";
@@ -35,47 +31,7 @@ import slateTerra from "../assets/images/zerra/slate&Quartzite/TerraredSlate.JPG
 import slateZeera from "../assets/images/zerra/slate&Quartzite/ZeeraGreen.SlateJPG.JPG";
 
 export const brandContent = {
-  creststone: [
-    {
-      id: 1,
-      name: "Aerolite",
-      slug: "aerolite",
-      image: caseImg,
-      description:
-        "Timeless Italian marble with distinctive veining, perfect for luxury interiors and facades.",
-      variants: [
-        { name: "Warm White", image: warmWhite },
-        { name: "Earthy Brown", image: earthyBrown },
-        { name: "Coffee Grey", image: coffeeGrey },
-      ],
-    },
-    {
-      id: 2,
-      name: "Cement Board",
-      slug: "cement-board",
-      image: cement,
-      description:
-        "Modern textured stone cladding designed for contemporary architecture.",
-      variants: [
-        { name: "Cement Board Light Grey", image: liteGrey },
-        { name: "Cement Board Medium Grey", image: cementGrey },
-        { name: "Stone Grey", image: darkGrey },
-      ],
-    },
-    {
-      id: 3,
-      name: "Charcoal Burat Wood Board",
-      slug: "charcoal-board",
-      image: caseImg,
-      description:
-        "Bold architectural panels that create powerful facade statements.",
-      variants: [
-        { name: "Graphite", image: darkGrey },
-        { name: "Dark Grey", image: darkGrey },
-        { name: "Natural Rock", image: earthyBrown },
-      ],
-    },
-  ],
+  creststone: crestoneBrandContent,
 
   zerra: [
     {

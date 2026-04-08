@@ -23,60 +23,33 @@ import slateSilver from "../assets/images/zerra/slate&Quartzite/SilverShineSlate
 import slateTerra from "../assets/images/zerra/slate&Quartzite/TerraredSlate.JPG";
 import slateZeera from "../assets/images/zerra/slate&Quartzite/ZeeraGreen.SlateJPG.JPG";
 
+// ── Crestone ──────────────────────────────────────────────────────────────────
+import { crestoneBrandContent } from "./crestoneData";
+
 export const productsData = {
   "crest-stone": {
     hero: {
-      title: "Stone Claddings",
+      title: "FCC Stone Cladding Systems",
       description:
-        "Transform your architecture with premium stone cladding systems designed for durability, texture, and timeless elegance.",
+        "94 premium products across 5 curated collections — Stone Textures, Marble & Sandstone, Rammed Earth, FCC Architectural Boards, and Premium Stone.",
       image:
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop",
     },
 
     intro: {
-      title: "Architectural Stone Systems",
+      title: "Five Collections. Limitless Architecture.",
       description:
-        "Our curated range of stone cladding systems combines aesthetics with structural performance. Designed for contemporary facades and timeless architecture.",
+        "Crest Stone FCC Systems span five distinct product families — from hand-textured stone claddings and authentic marble finishes to rammed earth boards, architectural FCC panels, and premium stone collections. Every surface is precision-engineered to deliver decades of performance without compromise.",
     },
 
-    products: [
-      {
-        name: "Carrara Marble Cladding",
-        description:
-          "Pristine white Italian marble with subtle grey veining, delivering luxury aesthetics and timeless architectural appeal.",
-        sizes: "600×300mm · 1200×600mm",
-        tags: ["Interior", "Exterior", "Premium"],
-        image:
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1600&auto=format&fit=crop",
-      },
-      {
-        name: "Slate Grey Cladding",
-        description:
-          "Natural split-face slate with deep charcoal tones, ideal for modern facade systems and high-end residential projects.",
-        sizes: "500×250mm · 1000×500mm",
-        tags: ["Exterior", "Frost Proof"],
-        image:
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1600&auto=format&fit=crop",
-      },
-      {
-        name: "Granite Premium Cladding",
-        description:
-          "Highly durable granite surfaces offering strength and elegance for large-scale architectural facades.",
-        sizes: "800×400mm · 1200×600mm",
-        tags: ["Exterior", "Commercial"],
-        image:
-          "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop",
-      },
-      {
-        name: "Rustic Sandstone Cladding",
-        description:
-          "Warm-toned sandstone cladding with natural surface variation, perfect for heritage and contemporary residential facades.",
-        sizes: "600×300mm · 900×450mm",
-        tags: ["Exterior", "Residential", "Natural"],
-        image:
-          "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1600&auto=format&fit=crop",
-      },
-    ],
+    products: crestoneBrandContent.map((p) => ({
+      name: p.name,
+      description: p.description,
+      sizes: "Custom sizing available · Standard 600×300mm to 1200×600mm",
+      tags: ["Exterior", "Interior", "FCC System"],
+      image: p.image,
+      variants: p.variants,
+    })),
   },
 
   zerra: {
