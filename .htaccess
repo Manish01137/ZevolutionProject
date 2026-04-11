@@ -1,0 +1,17 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+
+# Serve existing real files and directories directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Rewrite /assets/* to /dist/assets/* (Vite-built JS/CSS/images)
+RewriteRule ^assets/(.+)$ dist/assets/$1 [L]
+
+# Rewrite /vite.svg to /dist/vite.svg
+RewriteRule ^vite\.svg$ dist/vite.svg [L]
+
+# All other paths (React Router routes) → serve the built SPA
+RewriteRule ^ dist/index.html [L]
