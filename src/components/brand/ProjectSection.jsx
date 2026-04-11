@@ -194,6 +194,9 @@ const ProductCard = ({ item, openVariant, setOpenVariant, onRequestSample }) => 
         <img
           src={activeVariantImg || heroImage}
           alt={item.name}
+          loading="lazy"
+          decoding="async"
+          onError={(e) => { e.target.style.opacity = '0.3'; }}
           className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
         />
         {/* Gradient overlay */}
@@ -251,6 +254,8 @@ const ProductCard = ({ item, openVariant, setOpenVariant, onRequestSample }) => 
                       <img
                         src={variant.image}
                         alt={variant.name}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full rounded-md object-cover max-h-48"
                       />
                     </div>

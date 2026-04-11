@@ -10,6 +10,7 @@
 // ============================================================
 
 // ── CATELOG 1 ─────────────────────────────────────────────────────────────────
+// NOTE: Folder on disk is "Catelog1" (capital C)
 
 // Age Stone
 import ageStoneBeige from "../assets/images/Crestone/Catelog1/Age Stone/Beige.jpg";
@@ -24,24 +25,24 @@ import cutStoneBeige from "../assets/images/Crestone/Catelog1/Cut Stone/Cut Ston
 import cutStoneGrey from "../assets/images/Crestone/Catelog1/Cut Stone/Cut Stone Grey.jpg";
 import cutStoneRed from "../assets/images/Crestone/Catelog1/Cut Stone/Cut Stone Red.jpg";
 
-// Morocco
-import moroccoBeige from "../assets/images/Crestone/Catelog1/Morocco /Morocco Beige.jpg";
-import moroccoGrey from "../assets/images/Crestone/Catelog1/Morocco /Morocco Grey.jpg";
-import moroccoJacinth from "../assets/images/Crestone/Catelog1/Morocco /Morocco Jacinth.jpg";
-import moroccoKhaki from "../assets/images/Crestone/Catelog1/Morocco /Morocco Khaki.jpg";
+// Morocco (folder name: Morocco_)
+import moroccoBeige from "../assets/images/Crestone/Catelog1/Morocco_/Morocco Beige.jpg";
+import moroccoGrey from "../assets/images/Crestone/Catelog1/Morocco_/Morocco Grey.jpg";
+import moroccoJacinth from "../assets/images/Crestone/Catelog1/Morocco_/Morocco Jacinth.jpg";
+import moroccoKhaki from "../assets/images/Crestone/Catelog1/Morocco_/Morocco Khaki.jpg";
 
 // Muretto
 import murettoBeige from "../assets/images/Crestone/Catelog1/Muretto/Muretto Beige.jpg";
 import murettoDarkGrey from "../assets/images/Crestone/Catelog1/Muretto/Muretto Dark Grey.jpg";
 import murettoLightGrey from "../assets/images/Crestone/Catelog1/Muretto/Muretto Light Grey.jpg";
 
-// New Infinity Stone
-import newInfinityBeige from "../assets/images/Crestone/Catelog1/New Infinity Stone /Beige.jpg";
-import newInfinityDarkGrey from "../assets/images/Crestone/Catelog1/New Infinity Stone /Dark Grey.jpg";
+// New Infinity Stone (folder name: New Infinity Stone_)
+import newInfinityBeige from "../assets/images/Crestone/Catelog1/New Infinity Stone_/Beige.jpg";
+import newInfinityDarkGrey from "../assets/images/Crestone/Catelog1/New Infinity Stone_/Dark Grey.jpg";
 
-// Rockface Stone
-import rockfaceBeige from "../assets/images/Crestone/Catelog1/Rockface Stone /Beige.jpg";
-import rockfaceDarkGrey from "../assets/images/Crestone/Catelog1/Rockface Stone /Dark Grey.jpg";
+// Rockface Stone (folder name: Rockface Stone_)
+import rockfaceBeige from "../assets/images/Crestone/Catelog1/Rockface Stone_/Beige.jpg";
+import rockfaceDarkGrey from "../assets/images/Crestone/Catelog1/Rockface Stone_/Dark Grey.jpg";
 
 // Rough Granite
 import roughGraniteMediumGrey from "../assets/images/Crestone/Catelog1/Rough Granite/Medium Grey.jpg";
@@ -72,108 +73,110 @@ import weavingGrey from "../assets/images/Crestone/Catelog1/Weaving/Weaving Grey
 import weavingJacinth from "../assets/images/Crestone/Catelog1/Weaving/Weaving Jacinth (2).jpg";
 import weavingKhaki from "../assets/images/Crestone/Catelog1/Weaving/Weaving Khaki.jpg";
 
-// Woven
-import wovenBeige from "../assets/images/Crestone/Catelog1/Woven /Woven Beige.jpg";
-import wovenGrey from "../assets/images/Crestone/Catelog1/Woven /Woven Grey.jpg";
-import wovenJacinth from "../assets/images/Crestone/Catelog1/Woven /Woven Jacinth.jpg";
-import wovenKhaki from "../assets/images/Crestone/Catelog1/Woven /Woven Khaki.jpg";
+// Woven (folder name: Woven_)
+import wovenBeige from "../assets/images/Crestone/Catelog1/Woven_/Woven Beige.jpg";
+import wovenGrey from "../assets/images/Crestone/Catelog1/Woven_/Woven Grey.jpg";
+import wovenJacinth from "../assets/images/Crestone/Catelog1/Woven_/Woven Jacinth.jpg";
+import wovenKhaki from "../assets/images/Crestone/Catelog1/Woven_/Woven Khaki.jpg";
 
 // ── CATELOG 2 ─────────────────────────────────────────────────────────────────
+// NOTE: All catelog2 folders have trailing underscore _
 
-import arabescato1 from "../assets/images/Crestone/catelog2/Arabescato Corchia /Arabescato Corchia (1).jpg";
-import arabescato2 from "../assets/images/Crestone/catelog2/Arabescato Corchia /Arabescato Corchia (2).jpg";
-import arabescato3 from "../assets/images/Crestone/catelog2/Arabescato Corchia /Arabescato Corchia (3).jpg";
+import arabescato1 from "../assets/images/Crestone/catelog2/Arabescato Corchia_/Arabescato Corchia (1).jpg";
+import arabescato2 from "../assets/images/Crestone/catelog2/Arabescato Corchia_/Arabescato Corchia (2).jpg";
+import arabescato3 from "../assets/images/Crestone/catelog2/Arabescato Corchia_/Arabescato Corchia (3).jpg";
 
-import armaniDarkGrey1 from "../assets/images/Crestone/catelog2/Armani Dark Grey /Armani Dark Grey (1).jpg";
-import armaniDarkGrey2 from "../assets/images/Crestone/catelog2/Armani Dark Grey /Armani Dark Grey (2).jpg";
-import armaniDarkGrey3 from "../assets/images/Crestone/catelog2/Armani Dark Grey /Armani Dark Grey (3).jpg";
+import armaniDarkGrey1 from "../assets/images/Crestone/catelog2/Armani Dark Grey_/Armani Dark Grey (1).jpg";
+import armaniDarkGrey2 from "../assets/images/Crestone/catelog2/Armani Dark Grey_/Armani Dark Grey (2).jpg";
+import armaniDarkGrey3 from "../assets/images/Crestone/catelog2/Armani Dark Grey_/Armani Dark Grey (3).jpg";
 
-import armaniGrey1 from "../assets/images/Crestone/catelog2/Armani Grey /Armani Grey (1).jpg";
-import armaniGrey2 from "../assets/images/Crestone/catelog2/Armani Grey /Armani Grey (2).jpg";
-import armaniGrey3 from "../assets/images/Crestone/catelog2/Armani Grey /Armani Grey (3).jpg";
+import armaniGrey1 from "../assets/images/Crestone/catelog2/Armani Grey_/Armani Grey (1).jpg";
+import armaniGrey2 from "../assets/images/Crestone/catelog2/Armani Grey_/Armani Grey (2).jpg";
+import armaniGrey3 from "../assets/images/Crestone/catelog2/Armani Grey_/Armani Grey (3).jpg";
 
-import biancoCarrara1 from "../assets/images/Crestone/catelog2/Bianco Carrara /Bianco Carrara (1).jpg";
-import biancoCarrara2 from "../assets/images/Crestone/catelog2/Bianco Carrara /Bianco Carrara (2).jpg";
-import biancoCarrara3 from "../assets/images/Crestone/catelog2/Bianco Carrara /Bianco Carrara (3).jpg";
+import biancoCarrara1 from "../assets/images/Crestone/catelog2/Bianco Carrara_/Bianco Carrara (1).jpg";
+import biancoCarrara2 from "../assets/images/Crestone/catelog2/Bianco Carrara_/Bianco Carrara (2).jpg";
+import biancoCarrara3 from "../assets/images/Crestone/catelog2/Bianco Carrara_/Bianco Carrara (3).jpg";
 
-import blackSandstone1 from "../assets/images/Crestone/catelog2/Black Sandstone /Black Sandstone (1).jpg";
-import blackSandstone2 from "../assets/images/Crestone/catelog2/Black Sandstone /Black Sandstone (2).jpg";
-import blackSandstone3 from "../assets/images/Crestone/catelog2/Black Sandstone /Black Sandstone (3).jpg";
+import blackSandstone1 from "../assets/images/Crestone/catelog2/Black Sandstone_/Black Sandstone (1).jpg";
+import blackSandstone2 from "../assets/images/Crestone/catelog2/Black Sandstone_/Black Sandstone (2).jpg";
+import blackSandstone3 from "../assets/images/Crestone/catelog2/Black Sandstone_/Black Sandstone (3).jpg";
 
-import bvlgari1 from "../assets/images/Crestone/catelog2/Bvlgari /Bvlgari (1).png";
-import bvlgari2 from "../assets/images/Crestone/catelog2/Bvlgari /Bvlgari (2).png";
-import bvlgari3 from "../assets/images/Crestone/catelog2/Bvlgari /Bvlgari (3).png";
+import bvlgari1 from "../assets/images/Crestone/catelog2/Bvlgari_/Bvlgari (1).png";
+import bvlgari2 from "../assets/images/Crestone/catelog2/Bvlgari_/Bvlgari (2).png";
+import bvlgari3 from "../assets/images/Crestone/catelog2/Bvlgari_/Bvlgari (3).png";
 
 import goldenCarrara1 from "../assets/images/Crestone/catelog2/Golden Carrara/Golden Carrara (1).jpg";
 import goldenCarrara2 from "../assets/images/Crestone/catelog2/Golden Carrara/Golden Carrara (2).jpg";
 import goldenCarrara3 from "../assets/images/Crestone/catelog2/Golden Carrara/Golden Carrara (3).jpg";
 
-import goldenSilkBeige1 from "../assets/images/Crestone/catelog2/Golden Silk Beige /Golden Silk Beige (1).jpg";
-import goldenSilkBeige2 from "../assets/images/Crestone/catelog2/Golden Silk Beige /Golden Silk Beige (2).jpg";
-import goldenSilkBeige3 from "../assets/images/Crestone/catelog2/Golden Silk Beige /Golden Silk Beige (3).jpg";
+import goldenSilkBeige1 from "../assets/images/Crestone/catelog2/Golden Silk Beige_/Golden Silk Beige (1).jpg";
+import goldenSilkBeige2 from "../assets/images/Crestone/catelog2/Golden Silk Beige_/Golden Silk Beige (2).jpg";
+import goldenSilkBeige3 from "../assets/images/Crestone/catelog2/Golden Silk Beige_/Golden Silk Beige (3).jpg";
 
-import greySandstone1 from "../assets/images/Crestone/catelog2/Grey Sandstone /Grey Sandstone (1).jpg";
-import greySandstone2 from "../assets/images/Crestone/catelog2/Grey Sandstone /Grey Sandstone (2).jpg";
-import greySandstone3 from "../assets/images/Crestone/catelog2/Grey Sandstone /Grey Sandstone (3).jpg";
+import greySandstone1 from "../assets/images/Crestone/catelog2/Grey Sandstone_/Grey Sandstone (1).jpg";
+import greySandstone2 from "../assets/images/Crestone/catelog2/Grey Sandstone_/Grey Sandstone (2).jpg";
+import greySandstone3 from "../assets/images/Crestone/catelog2/Grey Sandstone_/Grey Sandstone (3).jpg";
 
-import italianGoldenWhite1 from "../assets/images/Crestone/catelog2/Italian Golden White /Italian Golden White  (1).jpg";
-import italianGoldenWhite2 from "../assets/images/Crestone/catelog2/Italian Golden White /Italian Golden White  (2).jpg";
-import italianGoldenWhite3 from "../assets/images/Crestone/catelog2/Italian Golden White /Italian Golden White  (3).jpg";
+import italianGoldenWhite1 from "../assets/images/Crestone/catelog2/Italian Golden White_/Italian Golden White  (1).jpg";
+import italianGoldenWhite2 from "../assets/images/Crestone/catelog2/Italian Golden White_/Italian Golden White  (2).jpg";
+import italianGoldenWhite3 from "../assets/images/Crestone/catelog2/Italian Golden White_/Italian Golden White  (3).jpg";
 
-import italianWoodBrown from "../assets/images/Crestone/catelog2/Italian Wood /Italian Wood-Light Brown.jpg";
-import italianWoodGrey from "../assets/images/Crestone/catelog2/Italian Wood /Italian Wood-Light Grey.jpg";
-import italianWoodYellow from "../assets/images/Crestone/catelog2/Italian Wood /Italian Wood-Light Yellow.jpg";
+import italianWoodBrown from "../assets/images/Crestone/catelog2/Italian Wood_/Italian Wood-Light Brown.jpg";
+import italianWoodGrey from "../assets/images/Crestone/catelog2/Italian Wood_/Italian Wood-Light Grey.jpg";
+import italianWoodYellow from "../assets/images/Crestone/catelog2/Italian Wood_/Italian Wood-Light Yellow.jpg";
 
-import newVictoria1 from "../assets/images/Crestone/catelog2/New Victoria /New Victoria (1).jpg";
-import newVictoria2 from "../assets/images/Crestone/catelog2/New Victoria /New Victoria (2).jpg";
-import newVictoria3 from "../assets/images/Crestone/catelog2/New Victoria /New Victoria (3).jpg";
+import newVictoria1 from "../assets/images/Crestone/catelog2/New Victoria_/New Victoria (1).jpg";
+import newVictoria2 from "../assets/images/Crestone/catelog2/New Victoria_/New Victoria (2).jpg";
+import newVictoria3 from "../assets/images/Crestone/catelog2/New Victoria_/New Victoria (3).jpg";
 
-import pandora1 from "../assets/images/Crestone/catelog2/Pandora /Pandora (1).jpg";
-import pandora2 from "../assets/images/Crestone/catelog2/Pandora /Pandora (2).jpg";
-import pandora3 from "../assets/images/Crestone/catelog2/Pandora /Pandora (3).jpg";
+import pandora1 from "../assets/images/Crestone/catelog2/Pandora_/Pandora (1).jpg";
+import pandora2 from "../assets/images/Crestone/catelog2/Pandora_/Pandora (2).jpg";
+import pandora3 from "../assets/images/Crestone/catelog2/Pandora_/Pandora (3).jpg";
 
-import strangeBlack1 from "../assets/images/Crestone/catelog2/Strange Black /Strange Black (1).jpg";
-import strangeBlack2 from "../assets/images/Crestone/catelog2/Strange Black /Strange Black (2).jpg";
-import strangeBlack3 from "../assets/images/Crestone/catelog2/Strange Black /Strange Black (3).jpg";
+import strangeBlack1 from "../assets/images/Crestone/catelog2/Strange Black_/Strange Black (1).jpg";
+import strangeBlack2 from "../assets/images/Crestone/catelog2/Strange Black_/Strange Black (2).jpg";
+import strangeBlack3 from "../assets/images/Crestone/catelog2/Strange Black_/Strange Black (3).jpg";
 
-import topPandora1 from "../assets/images/Crestone/catelog2/Top Pandora /Top Pandora (1).jpg";
-import topPandora2 from "../assets/images/Crestone/catelog2/Top Pandora /Top Pandora (2).jpg";
-import topPandora3 from "../assets/images/Crestone/catelog2/Top Pandora /Top Pandora (3).jpg";
+import topPandora1 from "../assets/images/Crestone/catelog2/Top Pandora_/Top Pandora (1).jpg";
+import topPandora2 from "../assets/images/Crestone/catelog2/Top Pandora_/Top Pandora (2).jpg";
+import topPandora3 from "../assets/images/Crestone/catelog2/Top Pandora_/Top Pandora (3).jpg";
 
-import whiteSandstone1 from "../assets/images/Crestone/catelog2/White Sandstone /White Sandstone (1).jpg";
-import whiteSandstone2 from "../assets/images/Crestone/catelog2/White Sandstone /White Sandstone (2).jpg";
-import whiteSandstone3 from "../assets/images/Crestone/catelog2/White Sandstone /White Sandstone (3).jpg";
+import whiteSandstone1 from "../assets/images/Crestone/catelog2/White Sandstone_/White Sandstone (1).jpg";
+import whiteSandstone2 from "../assets/images/Crestone/catelog2/White Sandstone_/White Sandstone (2).jpg";
+import whiteSandstone3 from "../assets/images/Crestone/catelog2/White Sandstone_/White Sandstone (3).jpg";
 
 // ── CATELOG 3 ─────────────────────────────────────────────────────────────────
+// NOTE: All catelog3 folders have trailing underscore _
 
-import danxiaBeige from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board /Beige.jpg";
-import danxiaBrownRed from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board /Brown Red.jpg";
-import danxiaDarkGrey from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board /Dark Grey.jpg";
-import danxiaGradient from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board /Gradient Color.jpg";
-import danxiaKhaki from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board /Khaki.jpg";
-import danxiaPureWhite from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board /Pure White.jpg";
+import danxiaBeige from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board_/Beige.jpg";
+import danxiaBrownRed from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board_/Brown Red.jpg";
+import danxiaDarkGrey from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board_/Dark Grey.jpg";
+import danxiaGradient from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board_/Gradient Color.jpg";
+import danxiaKhaki from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board_/Khaki.jpg";
+import danxiaPureWhite from "../assets/images/Crestone/catelog3/1.Danxia Rammed Erath Board_/Pure White.jpg";
 
-import gobiBeige from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board /Beige.jpg";
-import gobiBrownRed from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board /Brown Red.jpg";
-import gobiDarkGrey from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board /Dark Grey.jpg";
-import gobiLightGrey from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board /Light Grey.jpg";
-import gobiPatternA from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board /Pattern A.jpg";
-import gobiPatternB from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board /Pattern B.jpg";
+import gobiBeige from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board_/Beige.jpg";
+import gobiBrownRed from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board_/Brown Red.jpg";
+import gobiDarkGrey from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board_/Dark Grey.jpg";
+import gobiLightGrey from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board_/Light Grey.jpg";
+import gobiPatternA from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board_/Pattern A.jpg";
+import gobiPatternB from "../assets/images/Crestone/catelog3/2.Gobi Rammed Earth Board_/Pattern B.jpg";
 
-import rammpartBeige from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board /BEIGE.jpg";
-import rammpartBrownRed from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board /BROWN RED.jpg";
-import rammpartDarkGrey from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board /DARK GREY.jpg";
-import rammpartKhaki from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board /KHAKI.jpg";
-import rammpartLightGrey from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board /LIGHT GREY.jpg";
-import rammpartPureWhite from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board /PURE WHITE.JPG";
+import rammpartBeige from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board_/BEIGE.jpg";
+import rammpartBrownRed from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board_/BROWN RED.jpg";
+import rammpartDarkGrey from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board_/DARK GREY.jpg";
+import rammpartKhaki from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board_/KHAKI.jpg";
+import rammpartLightGrey from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board_/LIGHT GREY.jpg";
+import rammpartPureWhite from "../assets/images/Crestone/catelog3/3.Rammpart Rammed Earth Board_/PURE WHITE.JPG";
 
-import relicGradientGrey from "../assets/images/Crestone/catelog3/4.Relic Rammed Earth Board /GRADIENT GREY.jpg";
-import relicMediumGrey from "../assets/images/Crestone/catelog3/4.Relic Rammed Earth Board /MEDIUM GREY.jpg";
+import relicGradientGrey from "../assets/images/Crestone/catelog3/4.Relic Rammed Earth Board_/GRADIENT GREY.jpg";
+import relicMediumGrey from "../assets/images/Crestone/catelog3/4.Relic Rammed Earth Board_/MEDIUM GREY.jpg";
 
-import caveBrownRed from "../assets/images/Crestone/catelog3/5.Cave Rammed Earth Board /BROWN RED.jpg";
-import caveDarkGrey from "../assets/images/Crestone/catelog3/5.Cave Rammed Earth Board /DARK GREY.jpg";
-import caveKhaki from "../assets/images/Crestone/catelog3/5.Cave Rammed Earth Board /KHAKI.jpg";
-import caveLightGrey from "../assets/images/Crestone/catelog3/5.Cave Rammed Earth Board /LIGHT GREY.jpg";
+import caveBrownRed from "../assets/images/Crestone/catelog3/5.Cave Rammed Earth Board_/BROWN RED.jpg";
+import caveDarkGrey from "../assets/images/Crestone/catelog3/5.Cave Rammed Earth Board_/DARK GREY.jpg";
+import caveKhaki from "../assets/images/Crestone/catelog3/5.Cave Rammed Earth Board_/KHAKI.jpg";
+import caveLightGrey from "../assets/images/Crestone/catelog3/5.Cave Rammed Earth Board_/LIGHT GREY.jpg";
 
 // ── CATELOG 4 ─────────────────────────────────────────────────────────────────
 
@@ -181,8 +184,8 @@ import aeroliteCoffeeGrey from "../assets/images/Crestone/catelog4/Aerolite/Coff
 import aeroliteEarthyBrown from "../assets/images/Crestone/catelog4/Aerolite/Earthy Brown.jpg";
 import aeroliteWarmWhite from "../assets/images/Crestone/catelog4/Aerolite/Warm White.JPG";
 
-import brickWallBeige from "../assets/images/Crestone/catelog4/Brick Wall /Beige.jpg";
-import brickWallKhaki from "../assets/images/Crestone/catelog4/Brick Wall /Khaki.jpg";
+import brickWallBeige from "../assets/images/Crestone/catelog4/Brick Wall_/Beige.jpg";
+import brickWallKhaki from "../assets/images/Crestone/catelog4/Brick Wall_/Khaki.jpg";
 
 import cementBoardLightGrey from "../assets/images/Crestone/catelog4/Cement Board/Cement Board Light Grey.jpg";
 import cementBoardMediumGrey from "../assets/images/Crestone/catelog4/Cement Board/Cement Board Medium Grey.jpg";
@@ -193,7 +196,7 @@ import cliffStoneBeige from "../assets/images/Crestone/catelog4/Cliff Stone/beig
 import cliffStoneDarkGrey from "../assets/images/Crestone/catelog4/Cliff Stone/dark grey043.jpg";
 import cliffStoneLightYellow from "../assets/images/Crestone/catelog4/Cliff Stone/light yellow053B.jpg";
 
-import coarseCharcoalDarkGrey from "../assets/images/Crestone/catelog4/Coarse Coarse Charcoal Burnt Wood Board /Dark Grey.jpg";
+import coarseCharcoalDarkGrey from "../assets/images/Crestone/catelog4/Coarse Coarse Charcoal Burnt Wood Board_/Dark Grey.jpg";
 
 import concreteBoardLightGrey from "../assets/images/Crestone/catelog4/Concrete Board/Light Grey.jpg";
 import concreteBoardMediumGrey from "../assets/images/Crestone/catelog4/Concrete Board/Medium Grey.jpg";
@@ -203,7 +206,7 @@ import concreteBoardBeige from "../assets/images/Crestone/catelog4/Concrete Boar
 import daciteBeige from "../assets/images/Crestone/catelog4/Dacite/beige052.jpg";
 import daciteDarkGrey from "../assets/images/Crestone/catelog4/Dacite/dark grey043.jpg";
 
-import desertStoneBeige from "../assets/images/Crestone/catelog4/Desert Stone /Beige.jpg";
+import desertStoneBeige from "../assets/images/Crestone/catelog4/Desert Stone_/Beige.jpg";
 
 import fineLineBeige from "../assets/images/Crestone/catelog4/Fine Line Stone Board/Beige.jpg";
 import fineLineConcrete from "../assets/images/Crestone/catelog4/Fine Line Stone Board/Concrete.jpg";
@@ -280,210 +283,211 @@ import woodFenceRed from "../assets/images/Crestone/catelog4/Wood Fence/red.jpg"
 import woodCementLightGrey from "../assets/images/Crestone/catelog4/Wood-cement Board/light grey031.jpg";
 import woodCementMediumGrey from "../assets/images/Crestone/catelog4/Wood-cement Board/medium grey038.jpg";
 
-import zenWoodBeige from "../assets/images/Crestone/catelog4/Zen Wood Panel /Beige.jpg";
-import zenWoodDarkGrey from "../assets/images/Crestone/catelog4/Zen Wood Panel /Dark Grey.jpg";
-import zenWoodYellowWood from "../assets/images/Crestone/catelog4/Zen Wood Panel /Yellow Wood.jpg";
+import zenWoodBeige from "../assets/images/Crestone/catelog4/Zen Wood Panel_/Beige.jpg";
+import zenWoodDarkGrey from "../assets/images/Crestone/catelog4/Zen Wood Panel_/Dark Grey.jpg";
+import zenWoodYellowWood from "../assets/images/Crestone/catelog4/Zen Wood Panel_/Yellow Wood.jpg";
 
 // ── CATELOG 5 ─────────────────────────────────────────────────────────────────
+// NOTE: Most catelog5 folders have trailing underscore _
 
 import woodConcreteBoard3DLightGrey from "../assets/images/Crestone/catelog5/3D Wood Concrete Board 3D/Light Grey.jpg";
 import woodConcreteBoard3DMediumGrey from "../assets/images/Crestone/catelog5/3D Wood Concrete Board 3D/Medium Grey.jpg";
 
-import ancientWoodBrown from "../assets/images/Crestone/catelog5/Ancient Wood Board /Brown 棕色.jpg";
-import ancientWoodDarkBrown from "../assets/images/Crestone/catelog5/Ancient Wood Board /Dark Brown深棕色.jpg";
-import ancientWoodKhaki from "../assets/images/Crestone/catelog5/Ancient Wood Board /Khaki卡其色.jpg";
+import ancientWoodBrown from "../assets/images/Crestone/catelog5/Ancient Wood Board_/Brown 棕色.jpg";
+import ancientWoodDarkBrown from "../assets/images/Crestone/catelog5/Ancient Wood Board_/Dark Brown深棕色.jpg";
+import ancientWoodKhaki from "../assets/images/Crestone/catelog5/Ancient Wood Board_/Khaki卡其色.jpg";
 
-import andoCementGrey1 from "../assets/images/Crestone/catelog5/Ando Cement /Cement Grey (1).jpg";
-import andoCementGrey2 from "../assets/images/Crestone/catelog5/Ando Cement /Cement Grey (2).jpg";
-import andoTaupe1 from "../assets/images/Crestone/catelog5/Ando Cement /Taupe (1).jpg";
-import andoTaupe2 from "../assets/images/Crestone/catelog5/Ando Cement /Taupe (2).jpg";
-import andoWarmGrey1 from "../assets/images/Crestone/catelog5/Ando Cement /Warm Grey (1).jpg";
-import andoWarmGrey2 from "../assets/images/Crestone/catelog5/Ando Cement /Warm Grey (2).jpg";
+import andoCementGrey1 from "../assets/images/Crestone/catelog5/Ando Cement_/Cement Grey (1).jpg";
+import andoCementGrey2 from "../assets/images/Crestone/catelog5/Ando Cement_/Cement Grey (2).jpg";
+import andoTaupe1 from "../assets/images/Crestone/catelog5/Ando Cement_/Taupe (1).jpg";
+import andoTaupe2 from "../assets/images/Crestone/catelog5/Ando Cement_/Taupe (2).jpg";
+import andoWarmGrey1 from "../assets/images/Crestone/catelog5/Ando Cement_/Warm Grey (1).jpg";
+import andoWarmGrey2 from "../assets/images/Crestone/catelog5/Ando Cement_/Warm Grey (2).jpg";
 
-import andoMarblePillarCementGrey from "../assets/images/Crestone/catelog5/Ando Marble Pillar /cement grey.jpg";
+import andoMarblePillarCementGrey from "../assets/images/Crestone/catelog5/Ando Marble Pillar_/cement grey.jpg";
 
-import bulgariMarblePillar1 from "../assets/images/Crestone/catelog5/Bulgari Marble Pillar /1.jpg";
-import bulgariMarblePillar2 from "../assets/images/Crestone/catelog5/Bulgari Marble Pillar /2.jpg";
-import bulgariMarblePillar3 from "../assets/images/Crestone/catelog5/Bulgari Marble Pillar /3.jpg";
+import bulgariMarblePillar1 from "../assets/images/Crestone/catelog5/Bulgari Marble Pillar_/1.jpg";
+import bulgariMarblePillar2 from "../assets/images/Crestone/catelog5/Bulgari Marble Pillar_/2.jpg";
+import bulgariMarblePillar3 from "../assets/images/Crestone/catelog5/Bulgari Marble Pillar_/3.jpg";
 
-import cloudDragon1 from "../assets/images/Crestone/catelog5/Cloud Dragon /1.jpg";
-import cloudDragon2 from "../assets/images/Crestone/catelog5/Cloud Dragon /2.jpg";
-import cloudDragon3 from "../assets/images/Crestone/catelog5/Cloud Dragon /3.jpg";
+import cloudDragon1 from "../assets/images/Crestone/catelog5/Cloud Dragon_/1.jpg";
+import cloudDragon2 from "../assets/images/Crestone/catelog5/Cloud Dragon_/2.jpg";
+import cloudDragon3 from "../assets/images/Crestone/catelog5/Cloud Dragon_/3.jpg";
 
-import crudeRippleDarkBrown from "../assets/images/Crestone/catelog5/Crude Wood Ripple Board /DARK BROWN.jpg";
-import crudeRipleLightBrown from "../assets/images/Crestone/catelog5/Crude Wood Ripple Board /LIGHT BROWN.jpg";
-import crudeRipleLightYellow from "../assets/images/Crestone/catelog5/Crude Wood Ripple Board /LIGHT YELLOW.jpg";
-import crudeRipleYellow from "../assets/images/Crestone/catelog5/Crude Wood Ripple Board /YELLOW.jpg";
+import crudeRippleDarkBrown from "../assets/images/Crestone/catelog5/Crude Wood Ripple Board_/DARK BROWN.jpg";
+import crudeRipleLightBrown from "../assets/images/Crestone/catelog5/Crude Wood Ripple Board_/LIGHT BROWN.jpg";
+import crudeRipleLightYellow from "../assets/images/Crestone/catelog5/Crude Wood Ripple Board_/LIGHT YELLOW.jpg";
+import crudeRipleYellow from "../assets/images/Crestone/catelog5/Crude Wood Ripple Board_/YELLOW.jpg";
 
-import daciteLimestoneWhite from "../assets/images/Crestone/catelog5/Dacite Lime Stone /Lime White.jpg";
-import daciteLimestoneYellow from "../assets/images/Crestone/catelog5/Dacite Lime Stone /Lime Yellow.jpg";
+import daciteLimestoneWhite from "../assets/images/Crestone/catelog5/Dacite Lime Stone_/Lime White.jpg";
+import daciteLimestoneYellow from "../assets/images/Crestone/catelog5/Dacite Lime Stone_/Lime Yellow.jpg";
 
-import dolomitMarblePillar1 from "../assets/images/Crestone/catelog5/Dolomitic Marble Pillar /claybank (1).jpg";
-import dolomitMarblePillar2 from "../assets/images/Crestone/catelog5/Dolomitic Marble Pillar /claybank (2).jpg";
-import dolomitMarblePillar3 from "../assets/images/Crestone/catelog5/Dolomitic Marble Pillar /claybank (3).jpg";
+import dolomitMarblePillar1 from "../assets/images/Crestone/catelog5/Dolomitic Marble Pillar_/claybank (1).jpg";
+import dolomitMarblePillar2 from "../assets/images/Crestone/catelog5/Dolomitic Marble Pillar_/claybank (2).jpg";
+import dolomitMarblePillar3 from "../assets/images/Crestone/catelog5/Dolomitic Marble Pillar_/claybank (3).jpg";
 
-import dolomitTravAndeanRed1 from "../assets/images/Crestone/catelog5/Dolomitic Travertine /andean red (1).jpg";
-import dolomitTravAndeanRed2 from "../assets/images/Crestone/catelog5/Dolomitic Travertine /andean red (2).jpg";
-import dolomitTravAndeanWhite1 from "../assets/images/Crestone/catelog5/Dolomitic Travertine /andean white (1).jpg";
-import dolomitTravAndeanWhite2 from "../assets/images/Crestone/catelog5/Dolomitic Travertine /andean white (2).jpg";
-import dolomitTravClaybank1 from "../assets/images/Crestone/catelog5/Dolomitic Travertine /claybank (1).jpg";
-import dolomitTravClaybank2 from "../assets/images/Crestone/catelog5/Dolomitic Travertine /claybank (2).jpg";
-import dolomitTravDarkGrey1 from "../assets/images/Crestone/catelog5/Dolomitic Travertine /dark grey (1).jpg";
-import dolomitTravDarkGrey2 from "../assets/images/Crestone/catelog5/Dolomitic Travertine /dark grey (2).jpg";
+import dolomitTravAndeanRed1 from "../assets/images/Crestone/catelog5/Dolomitic Travertine_/andean red (1).jpg";
+import dolomitTravAndeanRed2 from "../assets/images/Crestone/catelog5/Dolomitic Travertine_/andean red (2).jpg";
+import dolomitTravAndeanWhite1 from "../assets/images/Crestone/catelog5/Dolomitic Travertine_/andean white (1).jpg";
+import dolomitTravAndeanWhite2 from "../assets/images/Crestone/catelog5/Dolomitic Travertine_/andean white (2).jpg";
+import dolomitTravClaybank1 from "../assets/images/Crestone/catelog5/Dolomitic Travertine_/claybank (1).jpg";
+import dolomitTravClaybank2 from "../assets/images/Crestone/catelog5/Dolomitic Travertine_/claybank (2).jpg";
+import dolomitTravDarkGrey1 from "../assets/images/Crestone/catelog5/Dolomitic Travertine_/dark grey (1).jpg";
+import dolomitTravDarkGrey2 from "../assets/images/Crestone/catelog5/Dolomitic Travertine_/dark grey (2).jpg";
 
-import dunhuang1 from "../assets/images/Crestone/catelog5/Dunhuang Stone /1.jpg";
-import dunhuang2 from "../assets/images/Crestone/catelog5/Dunhuang Stone /2.jpg";
-import dunhuang3 from "../assets/images/Crestone/catelog5/Dunhuang Stone /3.jpg";
+import dunhuang1 from "../assets/images/Crestone/catelog5/Dunhuang Stone_/1.jpg";
+import dunhuang2 from "../assets/images/Crestone/catelog5/Dunhuang Stone_/2.jpg";
+import dunhuang3 from "../assets/images/Crestone/catelog5/Dunhuang Stone_/3.jpg";
 
-import goldSand1 from "../assets/images/Crestone/catelog5/Gold Sand /1(1).jpg";
-import goldSand2 from "../assets/images/Crestone/catelog5/Gold Sand /2(1).jpg";
-import goldSand3 from "../assets/images/Crestone/catelog5/Gold Sand /3(1).jpg";
+import goldSand1 from "../assets/images/Crestone/catelog5/Gold Sand_/1(1).jpg";
+import goldSand2 from "../assets/images/Crestone/catelog5/Gold Sand_/2(1).jpg";
+import goldSand3 from "../assets/images/Crestone/catelog5/Gold Sand_/3(1).jpg";
 
-import goldenFaithSunsetRed from "../assets/images/Crestone/catelog5/Golden Faith /Sunset Red.jpg";
+import goldenFaithSunsetRed from "../assets/images/Crestone/catelog5/Golden Faith_/Sunset Red.jpg";
 
-import goldenSunsetDarkClaybank1 from "../assets/images/Crestone/catelog5/Golden Sunset /Dark Claybank (1).jpg";
-import goldenSunsetDarkClaybank2 from "../assets/images/Crestone/catelog5/Golden Sunset /Dark Claybank (2).jpg";
-import goldenSunsetDarkGrey1 from "../assets/images/Crestone/catelog5/Golden Sunset /Dark Grey (1).jpg";
-import goldenSunsetDarkGrey2 from "../assets/images/Crestone/catelog5/Golden Sunset /Dark Grey (2).jpg";
-import goldenSunsetGolden1 from "../assets/images/Crestone/catelog5/Golden Sunset /Golden (1).jpg";
-import goldenSunsetGolden2 from "../assets/images/Crestone/catelog5/Golden Sunset /Golden (2).jpg";
-import goldenSunsetSilverGrey1 from "../assets/images/Crestone/catelog5/Golden Sunset /Silver Grey (1).jpg";
-import goldenSunsetSilverGrey2 from "../assets/images/Crestone/catelog5/Golden Sunset /Silver Grey (2).jpg";
+import goldenSunsetDarkClaybank1 from "../assets/images/Crestone/catelog5/Golden Sunset_/Dark Claybank (1).jpg";
+import goldenSunsetDarkClaybank2 from "../assets/images/Crestone/catelog5/Golden Sunset_/Dark Claybank (2).jpg";
+import goldenSunsetDarkGrey1 from "../assets/images/Crestone/catelog5/Golden Sunset_/Dark Grey (1).jpg";
+import goldenSunsetDarkGrey2 from "../assets/images/Crestone/catelog5/Golden Sunset_/Dark Grey (2).jpg";
+import goldenSunsetGolden1 from "../assets/images/Crestone/catelog5/Golden Sunset_/Golden (1).jpg";
+import goldenSunsetGolden2 from "../assets/images/Crestone/catelog5/Golden Sunset_/Golden (2).jpg";
+import goldenSunsetSilverGrey1 from "../assets/images/Crestone/catelog5/Golden Sunset_/Silver Grey (1).jpg";
+import goldenSunsetSilverGrey2 from "../assets/images/Crestone/catelog5/Golden Sunset_/Silver Grey (2).jpg";
 
-import italianAshCaslan1 from "../assets/images/Crestone/catelog5/Italian Ash Mountain Stone /Caslan (1).jpg";
-import italianAshCaslan2 from "../assets/images/Crestone/catelog5/Italian Ash Mountain Stone /Caslan (2).jpg";
-import italianAshNormandyGrey1 from "../assets/images/Crestone/catelog5/Italian Ash Mountain Stone /Normandy Grey (1).jpg";
-import italianAshNormandyGrey2 from "../assets/images/Crestone/catelog5/Italian Ash Mountain Stone /Normandy Grey (2).jpg";
+import italianAshCaslan1 from "../assets/images/Crestone/catelog5/Italian Ash Mountain Stone_/Caslan (1).jpg";
+import italianAshCaslan2 from "../assets/images/Crestone/catelog5/Italian Ash Mountain Stone_/Caslan (2).jpg";
+import italianAshNormandyGrey1 from "../assets/images/Crestone/catelog5/Italian Ash Mountain Stone_/Normandy Grey (1).jpg";
+import italianAshNormandyGrey2 from "../assets/images/Crestone/catelog5/Italian Ash Mountain Stone_/Normandy Grey (2).jpg";
 
-import italianTravBrown1 from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Brown Travertine (1).jpg";
-import italianTravBrown2 from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Brown Travertine (2).jpg";
-import italianTravRed1 from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Red Travertine (1).jpg";
-import italianTravRed2 from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Red Travertine (2).jpg";
-import italianTravSilverGrey1 from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Travertine-Silver Grey (1).jpg";
-import italianTravSilverGrey2 from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Travertine-Silver Grey (2).jpg";
-import italianTravWhite1 from "../assets/images/Crestone/catelog5/Italian Travertine /Italian White Travertine-Roman white (1).jpg";
-import italianTravWhite2 from "../assets/images/Crestone/catelog5/Italian Travertine /Italian White Travertine-Roman white (2).jpg";
-import italianWoodTravLightBrown from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Wood Travertine/Light Brown.jpg";
-import italianWoodTravLightGrey from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Wood Travertine/Light Grey.jpg";
-import italianWoodTravYellow from "../assets/images/Crestone/catelog5/Italian Travertine /Italian Wood Travertine/Yellow.jpg";
+import italianTravBrown1 from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Brown Travertine (1).jpg";
+import italianTravBrown2 from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Brown Travertine (2).jpg";
+import italianTravRed1 from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Red Travertine (1).jpg";
+import italianTravRed2 from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Red Travertine (2).jpg";
+import italianTravSilverGrey1 from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Travertine-Silver Grey (1).jpg";
+import italianTravSilverGrey2 from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Travertine-Silver Grey (2).jpg";
+import italianTravWhite1 from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian White Travertine-Roman white (1).jpg";
+import italianTravWhite2 from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian White Travertine-Roman white (2).jpg";
+import italianWoodTravLightBrown from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Wood Travertine/Light Brown.jpg";
+import italianWoodTravLightGrey from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Wood Travertine/Light Grey.jpg";
+import italianWoodTravYellow from "../assets/images/Crestone/catelog5/Italian Travertine_/Italian Wood Travertine/Yellow.jpg";
 
-import limeStoneDarkGrey from "../assets/images/Crestone/catelog5/Lime Stone /dark grey.jpg";
-import limeStoneOffWhite from "../assets/images/Crestone/catelog5/Lime Stone /off-white.jpg";
+import limeStoneDarkGrey from "../assets/images/Crestone/catelog5/Lime Stone_/dark grey.jpg";
+import limeStoneOffWhite from "../assets/images/Crestone/catelog5/Lime Stone_/off-white.jpg";
 
-import linearTravRed1 from "../assets/images/Crestone/catelog5/Linear Travertine /Red (1).jpg";
-import linearTravRed2 from "../assets/images/Crestone/catelog5/Linear Travertine /Red (2).jpg";
-import linearTravClaybank1 from "../assets/images/Crestone/catelog5/Linear Travertine /claybank (1).jpg";
-import linearTravClaybank2 from "../assets/images/Crestone/catelog5/Linear Travertine /claybank (2).jpg";
-import linearTravLightGrey1 from "../assets/images/Crestone/catelog5/Linear Travertine /light grey (1).jpg";
-import linearTravLightGrey2 from "../assets/images/Crestone/catelog5/Linear Travertine /light grey (2).jpg";
-import linearTravRomanWhite1 from "../assets/images/Crestone/catelog5/Linear Travertine /roman white (1).jpg";
-import linearTravRomanWhite2 from "../assets/images/Crestone/catelog5/Linear Travertine /roman white (2).jpg";
-import linearTravRomanYellow1 from "../assets/images/Crestone/catelog5/Linear Travertine /roman yellow (1).jpg";
-import linearTravRomanYellow2 from "../assets/images/Crestone/catelog5/Linear Travertine /roman yellow (2).jpg";
+import linearTravRed1 from "../assets/images/Crestone/catelog5/Linear Travertine_/Red (1).jpg";
+import linearTravRed2 from "../assets/images/Crestone/catelog5/Linear Travertine_/Red (2).jpg";
+import linearTravClaybank1 from "../assets/images/Crestone/catelog5/Linear Travertine_/claybank (1).jpg";
+import linearTravClaybank2 from "../assets/images/Crestone/catelog5/Linear Travertine_/claybank (2).jpg";
+import linearTravLightGrey1 from "../assets/images/Crestone/catelog5/Linear Travertine_/light grey (1).jpg";
+import linearTravLightGrey2 from "../assets/images/Crestone/catelog5/Linear Travertine_/light grey (2).jpg";
+import linearTravRomanWhite1 from "../assets/images/Crestone/catelog5/Linear Travertine_/roman white (1).jpg";
+import linearTravRomanWhite2 from "../assets/images/Crestone/catelog5/Linear Travertine_/roman white (2).jpg";
+import linearTravRomanYellow1 from "../assets/images/Crestone/catelog5/Linear Travertine_/roman yellow (1).jpg";
+import linearTravRomanYellow2 from "../assets/images/Crestone/catelog5/Linear Travertine_/roman yellow (2).jpg";
 
-import marbleBulgari1 from "../assets/images/Crestone/catelog5/Marble /Bulgari/单图 (1).jpg";
-import marbleBulgari2 from "../assets/images/Crestone/catelog5/Marble /Bulgari/单图 (2).jpg";
-import marbleCaslan1 from "../assets/images/Crestone/catelog5/Marble /Caslan/单图 (1).jpg";
-import marbleCaslan2 from "../assets/images/Crestone/catelog5/Marble /Caslan/单图 (2).jpg";
-import marbleInterstellaGrey1 from "../assets/images/Crestone/catelog5/Marble /Interstella Grey/Marble-Interstella Grey (1).jpg";
-import marbleInterstellaGrey2 from "../assets/images/Crestone/catelog5/Marble /Interstella Grey/Marble-Interstella Grey (2).jpg";
-import marbleNeroMargiua1 from "../assets/images/Crestone/catelog5/Marble /Nero Margiua/单图 (1).jpg";
-import marbleNeroMargiua2 from "../assets/images/Crestone/catelog5/Marble /Nero Margiua/单图 (2).jpg";
-import marbleRunaLightBrown1 from "../assets/images/Crestone/catelog5/Marble /Runa/Light Brown (1).jpg";
-import marbleRunaLightBrown2 from "../assets/images/Crestone/catelog5/Marble /Runa/Light Brown (2).jpg";
-import marbleRunaLightGrey1 from "../assets/images/Crestone/catelog5/Marble /Runa/Light Grey (1).jpg";
-import marbleRunaLightGrey2 from "../assets/images/Crestone/catelog5/Marble /Runa/Light Grey (2).jpg";
-import marbleRunaLightYellow1 from "../assets/images/Crestone/catelog5/Marble /Runa/Light Yellow (1).jpg";
-import marbleRunaLightYellow2 from "../assets/images/Crestone/catelog5/Marble /Runa/Light Yellow (2).jpg";
-import marbleVeilWhite1 from "../assets/images/Crestone/catelog5/Marble /Veil White/Marble-Veil White (1).jpg";
-import marbleVeilWhite2 from "../assets/images/Crestone/catelog5/Marble /Veil White/Marble-Veil White (2).jpg";
+import marbleBulgari1 from "../assets/images/Crestone/catelog5/Marble_/Bulgari/单图 (1).jpg";
+import marbleBulgari2 from "../assets/images/Crestone/catelog5/Marble_/Bulgari/单图 (2).jpg";
+import marbleCaslan1 from "../assets/images/Crestone/catelog5/Marble_/Caslan/单图 (1).jpg";
+import marbleCaslan2 from "../assets/images/Crestone/catelog5/Marble_/Caslan/单图 (2).jpg";
+import marbleInterstellaGrey1 from "../assets/images/Crestone/catelog5/Marble_/Interstella Grey/Marble-Interstella Grey (1).jpg";
+import marbleInterstellaGrey2 from "../assets/images/Crestone/catelog5/Marble_/Interstella Grey/Marble-Interstella Grey (2).jpg";
+import marbleNeroMargiua1 from "../assets/images/Crestone/catelog5/Marble_/Nero Margiua/单图 (1).jpg";
+import marbleNeroMargiua2 from "../assets/images/Crestone/catelog5/Marble_/Nero Margiua/单图 (2).jpg";
+import marbleRunaLightBrown1 from "../assets/images/Crestone/catelog5/Marble_/Runa/Light Brown (1).jpg";
+import marbleRunaLightBrown2 from "../assets/images/Crestone/catelog5/Marble_/Runa/Light Brown (2).jpg";
+import marbleRunaLightGrey1 from "../assets/images/Crestone/catelog5/Marble_/Runa/Light Grey (1).jpg";
+import marbleRunaLightGrey2 from "../assets/images/Crestone/catelog5/Marble_/Runa/Light Grey (2).jpg";
+import marbleRunaLightYellow1 from "../assets/images/Crestone/catelog5/Marble_/Runa/Light Yellow (1).jpg";
+import marbleRunaLightYellow2 from "../assets/images/Crestone/catelog5/Marble_/Runa/Light Yellow (2).jpg";
+import marbleVeilWhite1 from "../assets/images/Crestone/catelog5/Marble_/Veil White/Marble-Veil White (1).jpg";
+import marbleVeilWhite2 from "../assets/images/Crestone/catelog5/Marble_/Veil White/Marble-Veil White (2).jpg";
 
-import milanTravGrey1 from "../assets/images/Crestone/catelog5/Milan Travertine /Grey (1).jpg";
-import milanTravGrey2 from "../assets/images/Crestone/catelog5/Milan Travertine /Grey (2).jpg";
-import milanTravWhite1 from "../assets/images/Crestone/catelog5/Milan Travertine /White (1).jpg";
-import milanTravWhite2 from "../assets/images/Crestone/catelog5/Milan Travertine /White (2).jpg";
-import milanTravYellow1 from "../assets/images/Crestone/catelog5/Milan Travertine /Yellow (1).jpg";
-import milanTravYellow2 from "../assets/images/Crestone/catelog5/Milan Travertine /Yellow (2).jpg";
+import milanTravGrey1 from "../assets/images/Crestone/catelog5/Milan Travertine_/Grey (1).jpg";
+import milanTravGrey2 from "../assets/images/Crestone/catelog5/Milan Travertine_/Grey (2).jpg";
+import milanTravWhite1 from "../assets/images/Crestone/catelog5/Milan Travertine_/White (1).jpg";
+import milanTravWhite2 from "../assets/images/Crestone/catelog5/Milan Travertine_/White (2).jpg";
+import milanTravYellow1 from "../assets/images/Crestone/catelog5/Milan Travertine_/Yellow (1).jpg";
+import milanTravYellow2 from "../assets/images/Crestone/catelog5/Milan Travertine_/Yellow (2).jpg";
 
 import polyWoodLightBrown from "../assets/images/Crestone/catelog5/Poly Wood/Light Brown.jpg";
 import polyWoodYellow from "../assets/images/Crestone/catelog5/Poly Wood/Yellow.jpg";
 
-import rockDolomiticClaybank1 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone /Claybank (1).jpg";
-import rockDolomiticClaybank2 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone /Claybank (2).jpg";
-import rockDolomiticGrey1 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone /Grey (1).jpg";
-import rockDolomiticGrey2 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone /Grey (2).jpg";
-import rockDolomiticRed1 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone /Red (1).jpg";
-import rockDolomiticRed2 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone /Red (2).jpg";
-import rockDolomiticRomanYellow1 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone /Roman Yellow (1).jpg";
-import rockDolomiticRomanYellow2 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone /Roman Yellow (2).jpg";
+import rockDolomiticClaybank1 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone_/Claybank (1).jpg";
+import rockDolomiticClaybank2 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone_/Claybank (2).jpg";
+import rockDolomiticGrey1 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone_/Grey (1).jpg";
+import rockDolomiticGrey2 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone_/Grey (2).jpg";
+import rockDolomiticRed1 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone_/Red (1).jpg";
+import rockDolomiticRed2 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone_/Red (2).jpg";
+import rockDolomiticRomanYellow1 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone_/Roman Yellow (1).jpg";
+import rockDolomiticRomanYellow2 from "../assets/images/Crestone/catelog5/Rockcut Dolomitic Stone_/Roman Yellow (2).jpg";
 
-import rockLimestoneWhite1 from "../assets/images/Crestone/catelog5/Rockcut Lime Stone /Lime White (1).jpg";
-import rockLimestoneWhite2 from "../assets/images/Crestone/catelog5/Rockcut Lime Stone /Lime White (2).jpg";
-import rockLimestoneOffWhite1 from "../assets/images/Crestone/catelog5/Rockcut Lime Stone /Off-white (1).jpg";
-import rockLimestoneOffWhite2 from "../assets/images/Crestone/catelog5/Rockcut Lime Stone /Off-white (2).jpg";
+import rockLimestoneWhite1 from "../assets/images/Crestone/catelog5/Rockcut Lime Stone_/Lime White (1).jpg";
+import rockLimestoneWhite2 from "../assets/images/Crestone/catelog5/Rockcut Lime Stone_/Lime White (2).jpg";
+import rockLimestoneOffWhite1 from "../assets/images/Crestone/catelog5/Rockcut Lime Stone_/Off-white (1).jpg";
+import rockLimestoneOffWhite2 from "../assets/images/Crestone/catelog5/Rockcut Lime Stone_/Off-white (2).jpg";
 
-import romanPillarCementGrey from "../assets/images/Crestone/catelog5/Roman Pillar /Cement Grey.jpg";
-import romanPillarLimeYellow from "../assets/images/Crestone/catelog5/Roman Pillar /Lime Yellow.jpg";
-import romanPillarMilanGrey from "../assets/images/Crestone/catelog5/Roman Pillar /Milan Grey.jpg";
-import romanPillarMilanRed from "../assets/images/Crestone/catelog5/Roman Pillar /Milan RED.jpg";
-import romanPillarMilanWhite from "../assets/images/Crestone/catelog5/Roman Pillar /Milan White.jpg";
+import romanPillarCementGrey from "../assets/images/Crestone/catelog5/Roman Pillar_/Cement Grey.jpg";
+import romanPillarLimeYellow from "../assets/images/Crestone/catelog5/Roman Pillar_/Lime Yellow.jpg";
+import romanPillarMilanGrey from "../assets/images/Crestone/catelog5/Roman Pillar_/Milan Grey.jpg";
+import romanPillarMilanRed from "../assets/images/Crestone/catelog5/Roman Pillar_/Milan RED.jpg";
+import romanPillarMilanWhite from "../assets/images/Crestone/catelog5/Roman Pillar_/Milan White.jpg";
 
-import romaniteCloudyGrey1 from "../assets/images/Crestone/catelog5/Romanite /cloudy grey (1).jpg";
-import romaniteCloudyGrey2 from "../assets/images/Crestone/catelog5/Romanite /cloudy grey (2).jpg";
-import romaniteCloudyWhite1 from "../assets/images/Crestone/catelog5/Romanite /cloudy white (1).jpg";
-import romaniteCloudyWhite2 from "../assets/images/Crestone/catelog5/Romanite /cloudy white (2).jpg";
-import romaniteCloudyYellow1 from "../assets/images/Crestone/catelog5/Romanite /cloudy yellow (1).jpg";
-import romaniteCloudyYellow2 from "../assets/images/Crestone/catelog5/Romanite /cloudy yellow (2).jpg";
+import romaniteCloudyGrey1 from "../assets/images/Crestone/catelog5/Romanite_/cloudy grey (1).jpg";
+import romaniteCloudyGrey2 from "../assets/images/Crestone/catelog5/Romanite_/cloudy grey (2).jpg";
+import romaniteCloudyWhite1 from "../assets/images/Crestone/catelog5/Romanite_/cloudy white (1).jpg";
+import romaniteCloudyWhite2 from "../assets/images/Crestone/catelog5/Romanite_/cloudy white (2).jpg";
+import romaniteCloudyYellow1 from "../assets/images/Crestone/catelog5/Romanite_/cloudy yellow (1).jpg";
+import romaniteCloudyYellow2 from "../assets/images/Crestone/catelog5/Romanite_/cloudy yellow (2).jpg";
 
-import rowenaTravBeige from "../assets/images/Crestone/catelog5/Rowena Travertine /Beige.jpg";
-import rowenaTravCreamyYellow from "../assets/images/Crestone/catelog5/Rowena Travertine /Creamy Yellow.jpg";
-import rowenaTravGrey from "../assets/images/Crestone/catelog5/Rowena Travertine /Grey.jpg";
-import rowenaTravLightBrown from "../assets/images/Crestone/catelog5/Rowena Travertine /Light Brown.jpg";
-import rowenaTravTaupe from "../assets/images/Crestone/catelog5/Rowena Travertine /Taupe.jpg";
+import rowenaTravBeige from "../assets/images/Crestone/catelog5/Rowena Travertine_/Beige.jpg";
+import rowenaTravCreamyYellow from "../assets/images/Crestone/catelog5/Rowena Travertine_/Creamy Yellow.jpg";
+import rowenaTravGrey from "../assets/images/Crestone/catelog5/Rowena Travertine_/Grey.jpg";
+import rowenaTravLightBrown from "../assets/images/Crestone/catelog5/Rowena Travertine_/Light Brown.jpg";
+import rowenaTravTaupe from "../assets/images/Crestone/catelog5/Rowena Travertine_/Taupe.jpg";
 
 import rustyRedGrey1 from "../assets/images/Crestone/catelog5/Rusty Red/Grey (1).jpg";
 import rustyRedGrey2 from "../assets/images/Crestone/catelog5/Rusty Red/Grey (2).jpg";
 import rustyRedRed1 from "../assets/images/Crestone/catelog5/Rusty Red/Red (1).jpg";
 import rustyRedRed2 from "../assets/images/Crestone/catelog5/Rusty Red/Red (2).jpg";
 
-import skylineGrittyBeige from "../assets/images/Crestone/catelog5/Skyline Stone /Gritty Beige.jpg";
-import skylineGrittyClaybank from "../assets/images/Crestone/catelog5/Skyline Stone /Gritty Claybank.jpg";
-import skylineGrittyRed from "../assets/images/Crestone/catelog5/Skyline Stone /Gritty Red.jpg";
-import skylineNileDarkGrey from "../assets/images/Crestone/catelog5/Skyline Stone /Nile Dark Grey.jpg";
-import skylineNileGrey from "../assets/images/Crestone/catelog5/Skyline Stone /Nile Grey.jpg";
-import skylineNileSilverGrey from "../assets/images/Crestone/catelog5/Skyline Stone /Nile Silver Grey.jpg";
+import skylineGrittyBeige from "../assets/images/Crestone/catelog5/Skyline Stone_/Gritty Beige.jpg";
+import skylineGrittyClaybank from "../assets/images/Crestone/catelog5/Skyline Stone_/Gritty Claybank.jpg";
+import skylineGrittyRed from "../assets/images/Crestone/catelog5/Skyline Stone_/Gritty Red.jpg";
+import skylineNileDarkGrey from "../assets/images/Crestone/catelog5/Skyline Stone_/Nile Dark Grey.jpg";
+import skylineNileGrey from "../assets/images/Crestone/catelog5/Skyline Stone_/Nile Grey.jpg";
+import skylineNileSilverGrey from "../assets/images/Crestone/catelog5/Skyline Stone_/Nile Silver Grey.jpg";
 
-import slateGlacial1 from "../assets/images/Crestone/catelog5/Slate /Glacial Slate 冰川岩/Glacial Slate (1).jpg";
-import slateGlacial2 from "../assets/images/Crestone/catelog5/Slate /Glacial Slate 冰川岩/Glacial Slate (2).jpg";
-import slatePortoro1 from "../assets/images/Crestone/catelog5/Slate /Portoro 黑金花/Slate-Portoro (1).jpg";
-import slatePortoro2 from "../assets/images/Crestone/catelog5/Slate /Portoro 黑金花/Slate-Portoro (2).jpg";
-import slateVeilGrey1 from "../assets/images/Crestone/catelog5/Slate /Veil Grey 溪砂灰/Slate-Veil Grey (1).jpg";
-import slateVeilGrey2 from "../assets/images/Crestone/catelog5/Slate /Veil Grey 溪砂灰/Slate-Veil Grey (2).jpg";
-import slateVeilWhite1 from "../assets/images/Crestone/catelog5/Slate /Veil White 溪砂白/Slate-Veil White (1).jpg";
-import slateVeilWhite2 from "../assets/images/Crestone/catelog5/Slate /Veil White 溪砂白/Slate-Veil White (2).jpg";
+import slateGlacial1 from "../assets/images/Crestone/catelog5/Slate_/Glacial Slate 冰川岩/Glacial Slate (1).jpg";
+import slateGlacial2 from "../assets/images/Crestone/catelog5/Slate_/Glacial Slate 冰川岩/Glacial Slate (2).jpg";
+import slatePortoro1 from "../assets/images/Crestone/catelog5/Slate_/Portoro 黑金花/Slate-Portoro (1).jpg";
+import slatePortoro2 from "../assets/images/Crestone/catelog5/Slate_/Portoro 黑金花/Slate-Portoro (2).jpg";
+import slateVeilGrey1 from "../assets/images/Crestone/catelog5/Slate_/Veil Grey 溪砂灰/Slate-Veil Grey (1).jpg";
+import slateVeilGrey2 from "../assets/images/Crestone/catelog5/Slate_/Veil Grey 溪砂灰/Slate-Veil Grey (2).jpg";
+import slateVeilWhite1 from "../assets/images/Crestone/catelog5/Slate_/Veil White 溪砂白/Slate-Veil White (1).jpg";
+import slateVeilWhite2 from "../assets/images/Crestone/catelog5/Slate_/Veil White 溪砂白/Slate-Veil White (2).jpg";
 
-import streamLimestoneClaybank1 from "../assets/images/Crestone/catelog5/Stream Limestone /claybank (1).jpg";
-import streamLimestoneClaybank2 from "../assets/images/Crestone/catelog5/Stream Limestone /claybank (2).jpg";
-import streamLimestoneDarkGrey1 from "../assets/images/Crestone/catelog5/Stream Limestone /dark grey (1).jpg";
-import streamLimestoneDarkGrey2 from "../assets/images/Crestone/catelog5/Stream Limestone /dark grey (2).jpg";
+import streamLimestoneClaybank1 from "../assets/images/Crestone/catelog5/Stream Limestone_/claybank (1).jpg";
+import streamLimestoneClaybank2 from "../assets/images/Crestone/catelog5/Stream Limestone_/claybank (2).jpg";
+import streamLimestoneDarkGrey1 from "../assets/images/Crestone/catelog5/Stream Limestone_/dark grey (1).jpg";
+import streamLimestoneDarkGrey2 from "../assets/images/Crestone/catelog5/Stream Limestone_/dark grey (2).jpg";
 
-import taishanClaybank1 from "../assets/images/Crestone/catelog5/Taishan Stone /Claybank (1).jpg";
-import taishanClaybank2 from "../assets/images/Crestone/catelog5/Taishan Stone /Claybank (2).jpg";
-import taishanSilverWhite1 from "../assets/images/Crestone/catelog5/Taishan Stone /Silver White (1).jpg";
-import taishanSilverWhite2 from "../assets/images/Crestone/catelog5/Taishan Stone /Silver White (2).jpg";
+import taishanClaybank1 from "../assets/images/Crestone/catelog5/Taishan Stone_/Claybank (1).jpg";
+import taishanClaybank2 from "../assets/images/Crestone/catelog5/Taishan Stone_/Claybank (2).jpg";
+import taishanSilverWhite1 from "../assets/images/Crestone/catelog5/Taishan Stone_/Silver White (1).jpg";
+import taishanSilverWhite2 from "../assets/images/Crestone/catelog5/Taishan Stone_/Silver White (2).jpg";
 
-import terrazzoDarkGrey from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone /Dark Grey.jpg";
-import terrazzoGrey1 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone /Grey (1).jpg";
-import terrazzoGrey2 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone /Grey (2).jpg";
-import terrazzoLightGrey1 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone /Light Grey (1).jpg";
-import terrazzoLightGrey2 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone /Light Grey (2).jpg";
-import terrazzoYellow1 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone /Yellow (1).jpg";
-import terrazzoYellow2 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone /Yellow (2).jpg";
+import terrazzoDarkGrey from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone_/Dark Grey.jpg";
+import terrazzoGrey1 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone_/Grey (1).jpg";
+import terrazzoGrey2 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone_/Grey (2).jpg";
+import terrazzoLightGrey1 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone_/Light Grey (1).jpg";
+import terrazzoLightGrey2 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone_/Light Grey (2).jpg";
+import terrazzoYellow1 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone_/Yellow (1).jpg";
+import terrazzoYellow2 from "../assets/images/Crestone/catelog5/Terrazzo Rough Stone_/Yellow (2).jpg";
 
-import zenAndoCement1 from "../assets/images/Crestone/catelog5/Zen Ando Cement /1.jpg";
-import zenAndoCement2 from "../assets/images/Crestone/catelog5/Zen Ando Cement /2.jpg";
-import zenAndoCement3 from "../assets/images/Crestone/catelog5/Zen Ando Cement /3.jpg";
-import zenAndoCement4 from "../assets/images/Crestone/catelog5/Zen Ando Cement /4.jpg";
+import zenAndoCement1 from "../assets/images/Crestone/catelog5/Zen Ando Cement_/1.jpg";
+import zenAndoCement2 from "../assets/images/Crestone/catelog5/Zen Ando Cement_/2.jpg";
+import zenAndoCement3 from "../assets/images/Crestone/catelog5/Zen Ando Cement_/3.jpg";
+import zenAndoCement4 from "../assets/images/Crestone/catelog5/Zen Ando Cement_/4.jpg";
 
 // ============================================================
 // EXPORTED: crestoneBrandContent — used in ProjectSection
@@ -803,7 +807,7 @@ export const crestoneBrandContent = [
     name: "Strange Black",
     slug: "strange-black",
     image: strangeBlack1,
-    description: "Intense deep black stone with rare mineral veining — a bold architectural statement for feature walls and high-contrast facade design.",
+    description: "Intensely dark stone cladding with raw, dramatic mineral character — for architects seeking maximum contrast and visual impact.",
     variants: [
       { name: "View 1", image: strangeBlack1 },
       { name: "View 2", image: strangeBlack2 },
@@ -815,7 +819,7 @@ export const crestoneBrandContent = [
     name: "Top Pandora",
     slug: "top-pandora",
     image: topPandora1,
-    description: "Premium grade Pandora stone with enhanced veining clarity and depth — engineered for the highest standards of luxury architectural cladding.",
+    description: "An elevated evolution of the Pandora series — bolder veining and richer tonal depth for the most demanding luxury installations.",
     variants: [
       { name: "View 1", image: topPandora1 },
       { name: "View 2", image: topPandora2 },
@@ -827,7 +831,7 @@ export const crestoneBrandContent = [
     name: "White Sandstone",
     slug: "white-sandstone",
     image: whiteSandstone1,
-    description: "Pure white sandstone cladding with fine natural grain — clean, minimal, and elegant for contemporary architectural facades.",
+    description: "Pure white sandstone cladding with clean, refined texture — the ideal surface for bright, contemporary facades and minimalist interiors.",
     variants: [
       { name: "View 1", image: whiteSandstone1 },
       { name: "View 2", image: whiteSandstone2 },
@@ -835,14 +839,14 @@ export const crestoneBrandContent = [
     ],
   },
 
-  // ── CATELOG 3: Rammed Earth Boards ────────────────────────
+  // ── CATELOG 3: Rammed Earth Boards ─────────────────────────
 
   {
     id: 28,
-    name: "Danxia Rammed Earth Board",
+    name: "Danxia Rammed Earth",
     slug: "danxia-rammed-earth",
     image: danxiaBeige,
-    description: "Inspired by China's Danxia landforms — multi-layered rammed earth boards that capture the stratified beauty of ancient geological formations.",
+    description: "Inspired by China's Danxia landforms — these rammed earth boards bring dramatic layered geology to contemporary architectural surfaces.",
     variants: [
       { name: "Beige", image: danxiaBeige },
       { name: "Brown Red", image: danxiaBrownRed },
@@ -854,10 +858,10 @@ export const crestoneBrandContent = [
   },
   {
     id: 29,
-    name: "Gobi Rammed Earth Board",
+    name: "Gobi Rammed Earth",
     slug: "gobi-rammed-earth",
     image: gobiBeige,
-    description: "Desert-inspired rammed earth boards evoking the vast Gobi landscape — available in rich ochres, warm greys, and natural earth tones.",
+    description: "Desert-inspired rammed earth panels with rich layered strata — capturing the ancient geological beauty of the Gobi landscape.",
     variants: [
       { name: "Beige", image: gobiBeige },
       { name: "Brown Red", image: gobiBrownRed },
@@ -869,10 +873,10 @@ export const crestoneBrandContent = [
   },
   {
     id: 30,
-    name: "Rammpart Rammed Earth Board",
+    name: "Rammpart Rammed Earth",
     slug: "rammpart-rammed-earth",
     image: rammpartBeige,
-    description: "Bold fortress-inspired rammed earth cladding with pronounced horizontal stratification — commanding facade presence for civic and commercial architecture.",
+    description: "Bold rammed earth wall boards with tactile depth and authentic earthy tones — perfect for biophilic and heritage-inspired architecture.",
     variants: [
       { name: "Beige", image: rammpartBeige },
       { name: "Brown Red", image: rammpartBrownRed },
@@ -884,10 +888,10 @@ export const crestoneBrandContent = [
   },
   {
     id: 31,
-    name: "Relic Rammed Earth Board",
+    name: "Relic Rammed Earth",
     slug: "relic-rammed-earth",
     image: relicGradientGrey,
-    description: "Archaeological-inspired rammed earth boards with weathered gradient tones — evoking ancient ruins and natural mineral strata.",
+    description: "Aged relic-finish rammed earth boards with gradient mineral tones — evoking time-worn archaeological surfaces for distinctive interiors.",
     variants: [
       { name: "Gradient Grey", image: relicGradientGrey },
       { name: "Medium Grey", image: relicMediumGrey },
@@ -895,10 +899,10 @@ export const crestoneBrandContent = [
   },
   {
     id: 32,
-    name: "Cave Rammed Earth Board",
+    name: "Cave Rammed Earth",
     slug: "cave-rammed-earth",
-    image: caveDarkGrey,
-    description: "Cave-textured rammed earth boards with deep tonal layering — creating immersive, grotto-like architectural atmospheres.",
+    image: caveBrownRed,
+    description: "Raw cave-inspired rammed earth panels with deep mineral textures — ideal for dramatic feature walls and immersive architectural interiors.",
     variants: [
       { name: "Brown Red", image: caveBrownRed },
       { name: "Dark Grey", image: caveDarkGrey },
@@ -907,18 +911,18 @@ export const crestoneBrandContent = [
     ],
   },
 
-  // ── CATELOG 4: FCC Architectural Boards ────────────────────
+  // ── CATELOG 4: FCC Architectural Boards ─────────────────────
 
   {
     id: 33,
     name: "Aerolite",
     slug: "aerolite",
-    image: aeroliteWarmWhite,
-    description: "Lightweight FCC panel with superior thermal performance — engineered for large-scale commercial facades requiring structural efficiency.",
+    image: aeroliteCoffeeGrey,
+    description: "Lightweight FCC architectural boards with refined matte finish — engineered for large-format facade cladding with minimal structural load.",
     variants: [
-      { name: "Warm White", image: aeroliteWarmWhite },
-      { name: "Earthy Brown", image: aeroliteEarthyBrown },
       { name: "Coffee Grey", image: aeroliteCoffeeGrey },
+      { name: "Earthy Brown", image: aeroliteEarthyBrown },
+      { name: "Warm White", image: aeroliteWarmWhite },
     ],
   },
   {
@@ -926,7 +930,7 @@ export const crestoneBrandContent = [
     name: "Brick Wall",
     slug: "brick-wall",
     image: brickWallBeige,
-    description: "Authentic brick-bond pattern FCC cladding — the warmth and character of traditional brickwork with modern performance credentials.",
+    description: "FCC brick-pattern wall panels delivering authentic brick aesthetics with engineered durability — ideal for feature walls and residential exteriors.",
     variants: [
       { name: "Beige", image: brickWallBeige },
       { name: "Khaki", image: brickWallKhaki },
@@ -937,7 +941,7 @@ export const crestoneBrandContent = [
     name: "Cement Board",
     slug: "cement-board",
     image: cementBoardLightGrey,
-    description: "Contemporary cement-effect FCC panels for industrial-modern architecture — clean, minimal, and exceptionally durable.",
+    description: "Industrial-grade FCC cement board panels with clean, minimalist texture — a versatile surface for contemporary commercial and residential facades.",
     variants: [
       { name: "Light Grey", image: cementBoardLightGrey },
       { name: "Medium Grey", image: cementBoardMediumGrey },
@@ -945,10 +949,10 @@ export const crestoneBrandContent = [
   },
   {
     id: 36,
-    name: "Charcoal Burnt Wood Board",
+    name: "Charcoal Burnt Wood",
     slug: "charcoal-burnt-wood",
     image: charcoalDarkGrey,
-    description: "Shou Sugi Ban-inspired charcoal burnt wood FCC panels — the dramatic visual of scorched timber with superior fire and weather resistance.",
+    description: "Charred wood-effect FCC boards with dramatic dark surface texture — delivering the aesthetic of burnt timber with superior durability.",
     variants: [
       { name: "Dark Grey", image: charcoalDarkGrey },
     ],
@@ -958,7 +962,7 @@ export const crestoneBrandContent = [
     name: "Cliff Stone",
     slug: "cliff-stone",
     image: cliffStoneBeige,
-    description: "Dramatic cliff-face stone texture FCC panels — projecting raw geological power for bold architectural facades and cultural buildings.",
+    description: "Rugged cliff-face textured FCC panels inspired by natural rock formations — delivering raw geological character to architectural surfaces.",
     variants: [
       { name: "Beige", image: cliffStoneBeige },
       { name: "Dark Grey", image: cliffStoneDarkGrey },
@@ -967,10 +971,10 @@ export const crestoneBrandContent = [
   },
   {
     id: 38,
-    name: "Coarse Charcoal Burnt Wood Board",
+    name: "Coarse Charcoal Burnt Wood",
     slug: "coarse-charcoal-burnt-wood",
     image: coarseCharcoalDarkGrey,
-    description: "Extra-coarse grain Shou Sugi Ban-effect panels with intensified tactile definition — for architecturally bold timber-inspired cladding systems.",
+    description: "Heavily textured charcoal burnt wood FCC boards — maximising surface depth and tactile contrast for bold architectural feature applications.",
     variants: [
       { name: "Dark Grey", image: coarseCharcoalDarkGrey },
     ],
@@ -979,8 +983,8 @@ export const crestoneBrandContent = [
     id: 39,
     name: "Concrete Board",
     slug: "concrete-board",
-    image: concreteBoardMediumGrey,
-    description: "Smooth and textured concrete-effect FCC panels — delivering the brutalist aesthetic of poured concrete with lightweight installation performance.",
+    image: concreteBoardLightGrey,
+    description: "Smooth concrete-finish FCC boards for industrial-modern facades — delivering the precision of cast concrete with engineering-grade versatility.",
     variants: [
       { name: "Light Grey", image: concreteBoardLightGrey },
       { name: "Medium Grey", image: concreteBoardMediumGrey },
@@ -993,7 +997,7 @@ export const crestoneBrandContent = [
     name: "Dacite",
     slug: "dacite",
     image: daciteBeige,
-    description: "Volcanic dacite stone-effect FCC panels with raw mineral texture — commanding and elemental for contemporary architectural facades.",
+    description: "Fine-grain volcanic dacite-effect FCC panels — understated yet distinctive for refined contemporary architecture.",
     variants: [
       { name: "Beige", image: daciteBeige },
       { name: "Dark Grey", image: daciteDarkGrey },
@@ -1004,7 +1008,7 @@ export const crestoneBrandContent = [
     name: "Desert Stone",
     slug: "desert-stone",
     image: desertStoneBeige,
-    description: "Sun-baked desert stone FCC panels in warm sandstone tones — bringing the warmth of arid landscapes into timeless architectural surfaces.",
+    description: "Sun-baked desert stone FCC panels with warm earthy tones — evoking the beauty of arid landscapes in built architectural form.",
     variants: [
       { name: "Beige", image: desertStoneBeige },
     ],
@@ -1014,7 +1018,7 @@ export const crestoneBrandContent = [
     name: "Fine Line Stone Board",
     slug: "fine-line-stone-board",
     image: fineLineBeige,
-    description: "Precision-ruled fine line stone FCC panels with clean linear texture — a refined choice for high-specification contemporary facades.",
+    description: "Precision-ruled fine line stone FCC boards with linear texture detail — delivering elegant grain for luxury residential and commercial facades.",
     variants: [
       { name: "Beige", image: fineLineBeige },
       { name: "Concrete", image: fineLineConcrete },
@@ -1025,11 +1029,11 @@ export const crestoneBrandContent = [
     id: 43,
     name: "Foamed Aluminium Alloy Board",
     slug: "foamed-aluminium-alloy",
-    image: foamedAlumSilver,
-    description: "High-performance foamed aluminium alloy facade panels — ultra-lightweight with exceptional rigidity for large-scale commercial cladding.",
+    image: foamedAlumGolden,
+    description: "Ultra-lightweight foamed aluminium alloy panels — a premium metal cladding system engineered for the most demanding high-rise facade applications.",
     variants: [
-      { name: "Silver", image: foamedAlumSilver },
       { name: "Golden", image: foamedAlumGolden },
+      { name: "Silver", image: foamedAlumSilver },
     ],
   },
   {
@@ -1037,12 +1041,12 @@ export const crestoneBrandContent = [
     name: "Huge Travertine",
     slug: "huge-travertine",
     image: hugeTravBeige,
-    description: "Oversized travertine-format FCC panels with classical open-pore texture — delivering monumental Roman grandeur to contemporary architecture.",
+    description: "Large-format travertine-effect FCC boards with authentic open-pore texture — making a grand statement on luxury hotel and residential facades.",
     variants: [
       { name: "Beige", image: hugeTravBeige },
-      { name: "Pure White", image: hugeTravPureWhite },
       { name: "Concrete", image: hugeTravConcrete },
       { name: "Gradient Yellow", image: hugeTravGradientYellow },
+      { name: "Pure White", image: hugeTravPureWhite },
     ],
   },
   {
@@ -1050,7 +1054,7 @@ export const crestoneBrandContent = [
     name: "Line Stone Board",
     slug: "line-stone-board",
     image: lineStoneBoardBeige,
-    description: "Horizontally-lined stone-effect FCC board delivering refined linear rhythm to contemporary facades — minimal, precise, and architectural.",
+    description: "Clean-lined stone board FCC panels engineered for seamless large-format facade installations with refined linear detail.",
     variants: [
       { name: "Beige", image: lineStoneBoardBeige },
       { name: "Dark Grey", image: lineStoneBoardDarkGrey },
@@ -1061,7 +1065,7 @@ export const crestoneBrandContent = [
     name: "Moonscape Stone",
     slug: "moonscape-stone",
     image: moonscapeBeige,
-    description: "Lunar-textured stone FCC panels with craters and ridged relief — a distinctly contemporary materiality for statement architectural facades.",
+    description: "Otherworldly moonscape-inspired FCC stone panels — pitted, textured surfaces that create dramatic depth and visual intrigue in any architectural context.",
     variants: [
       { name: "Beige", image: moonscapeBeige },
       { name: "Dark Grey", image: moonscapeDarkGrey },
@@ -1074,7 +1078,7 @@ export const crestoneBrandContent = [
     name: "New Rock Cut Stone",
     slug: "new-rock-cut-stone",
     image: newRockCutBeige,
-    description: "Freshly quarried rock-cut stone FCC panels with sharp cleavage lines — projecting raw geological energy for bold facade design.",
+    description: "Freshly cut rock-face FCC stone panels with raw, unpolished edge detail — delivering bold geological character to contemporary facades.",
     variants: [
       { name: "Beige", image: newRockCutBeige },
       { name: "Dark Grey", image: newRockCutDarkGrey },
@@ -1085,7 +1089,7 @@ export const crestoneBrandContent = [
     name: "Ridged Stone",
     slug: "ridged-stone",
     image: ridgedStoneBeige,
-    description: "Deeply ridged stone FCC panels with pronounced relief texture — creating dramatic light-and-shadow effects across large architectural facades.",
+    description: "FCC ridged stone panels with raised linear texture — capturing the layered strata of natural rock in a precisely engineered cladding format.",
     variants: [
       { name: "Beige", image: ridgedStoneBeige },
       { name: "Dark Grey", image: ridgedStoneGrey },
@@ -1098,7 +1102,7 @@ export const crestoneBrandContent = [
     name: "Ripple Board",
     slug: "ripple-board",
     image: rippleBoardBeige,
-    description: "Wave-ripple textured FCC panels inspired by water reflection — dynamic and fluid for contemporary facades and interior feature walls.",
+    description: "Wave-textured FCC ripple boards with fluid, organic surface movement — creating visually dynamic facades and feature wall installations.",
     variants: [
       { name: "Beige", image: rippleBoardBeige },
       { name: "Grey", image: rippleBoardGrey },
@@ -1110,7 +1114,7 @@ export const crestoneBrandContent = [
     name: "Roman Huge Travertine",
     slug: "roman-huge-travertine",
     image: romanHugeTravIvoryWhite,
-    description: "Grand Roman travertine FCC panels in oversized format — a majestic surface for landmark buildings and luxury architectural projects.",
+    description: "Grand Roman-scale travertine FCC panels — echoing the imperial stone of ancient Rome in a modern, engineered cladding format.",
     variants: [
       { name: "Ivory White", image: romanHugeTravIvoryWhite },
       { name: "Golden Grey", image: romanHugeTravGoldenGrey },
@@ -1123,7 +1127,7 @@ export const crestoneBrandContent = [
     name: "Round Line Stone",
     slug: "round-line-stone",
     image: roundLineBeige,
-    description: "Rounded linear groove stone FCC panels with soft, rhythmic texture — an elegant complement to refined residential and boutique commercial facades.",
+    description: "Softly curved linear stone FCC boards — a subtle, refined surface texture for luxury residential and hospitality facade applications.",
     variants: [
       { name: "Beige", image: roundLineBeige },
       { name: "Dark Grey", image: roundLineDarkGrey },
@@ -1134,7 +1138,7 @@ export const crestoneBrandContent = [
     name: "Rust Board",
     slug: "rust-board",
     image: rustBoardBushHammered,
-    description: "Industrial-chic rust-effect FCC panels with corroded metal patina — authentic Corten aesthetic for contemporary urban architectural design.",
+    description: "Rust-patina FCC boards with authentic weathered surface texture — delivering the raw industrial character of aged Corten steel.",
     variants: [
       { name: "Bush-hammered", image: rustBoardBushHammered },
       { name: "Medium Plaid", image: rustBoardMediumPlaid },
@@ -1144,12 +1148,12 @@ export const crestoneBrandContent = [
     id: 53,
     name: "Sawing Wood Board",
     slug: "sawing-wood-board",
-    image: sawingWoodGradientBrown,
-    description: "Sawmill-finish wood-grain FCC panels with authentic timber texture — the natural warmth of sawn wood with century-long durability.",
+    image: sawingWoodBeige,
+    description: "Saw-cut wood-grain FCC boards that deliver authentic timber aesthetics without the maintenance demands of natural wood cladding.",
     variants: [
-      { name: "Gradient Brown", image: sawingWoodGradientBrown },
       { name: "Beige", image: sawingWoodBeige },
       { name: "Dark Grey", image: sawingWoodDarkGrey },
+      { name: "Gradient Brown", image: sawingWoodGradientBrown },
       { name: "Yellow Wood", image: sawingWoodYellowWood },
     ],
   },
@@ -1158,7 +1162,7 @@ export const crestoneBrandContent = [
     name: "Square Line Board",
     slug: "square-line-board",
     image: squareLineBeige,
-    description: "Grid-pattern square line FCC panels with precise geometric relief — a clean, architectural surface for modernist facade compositions.",
+    description: "Geometric square-pattern FCC boards with bold linear relief — defining contemporary architectural facades with precision and visual impact.",
     variants: [
       { name: "Beige", image: squareLineBeige },
       { name: "Dark Grey", image: squareLineDarkGrey },
@@ -1170,12 +1174,12 @@ export const crestoneBrandContent = [
     name: "Starmoon Stone",
     slug: "starmoon-stone",
     image: starmoonBeige,
-    description: "Celestial-inspired stone texture FCC panels with patterned relief — a distinctive surface for feature facades and landmark architectural installations.",
+    description: "Star and moon-patterned FCC stone panels with deep pitted texture — creating dramatically tactile facade surfaces with a sculptural quality.",
     variants: [
       { name: "Beige", image: starmoonBeige },
       { name: "Dark Grey", image: starmoonDarkGrey },
-      { name: "Light Grey", image: starmoonLightGrey },
       { name: "Deep Khaki", image: starmoonDeepKhaki },
+      { name: "Light Grey", image: starmoonLightGrey },
     ],
   },
   {
@@ -1183,7 +1187,7 @@ export const crestoneBrandContent = [
     name: "Travertine Oceanic",
     slug: "travertine-oceanic",
     image: travertineOceanicBeige,
-    description: "Ocean-inspired travertine FCC panels with flowing pore patterns that evoke wave motion — a serene and prestigious architectural surface.",
+    description: "Ocean-inspired travertine FCC panels with flowing surface patterns — evoking coastal rock formations for premium waterfront and luxury architecture.",
     variants: [
       { name: "Beige", image: travertineOceanicBeige },
       { name: "Gradient Grey", image: travertineOceanicGradientGrey },
@@ -1195,12 +1199,12 @@ export const crestoneBrandContent = [
     name: "Travertino",
     slug: "travertino",
     image: travertinoBeige,
-    description: "Classic Italian Travertino FCC cladding with refined open-pore surface — delivering the prestige of natural stone at architectural scale.",
+    description: "Italian Travertino-inspired FCC panels that capture the classic open-pore warmth of travertine stone in a durable, engineered format.",
     variants: [
       { name: "Beige", image: travertinoBeige },
+      { name: "Dark Grey", image: travertinoDarkGrey },
       { name: "Light Grey", image: travertinoLightGrey },
       { name: "Medium Grey", image: travertinoMediumGrey },
-      { name: "Dark Grey", image: travertinoDarkGrey },
     ],
   },
   {
@@ -1208,7 +1212,7 @@ export const crestoneBrandContent = [
     name: "Wood Concrete Board",
     slug: "wood-concrete-board",
     image: woodConcreteLightGrey,
-    description: "Hybrid wood-concrete texture FCC panels — bridging organic warmth and industrial minimalism for distinctive contemporary architecture.",
+    description: "Hybrid wood-concrete FCC boards combining the warmth of timber with the solidity of concrete — a distinctive surface for modern architectural design.",
     variants: [
       { name: "Light Grey", image: woodConcreteLightGrey },
       { name: "Medium Grey", image: woodConcreteMediumGrey },
@@ -1219,7 +1223,7 @@ export const crestoneBrandContent = [
     name: "Wood Fence",
     slug: "wood-fence",
     image: woodFenceOriginal,
-    description: "Louvred wood-fence FCC panels that deliver privacy screening, ventilation, and architectural beauty in one engineered system.",
+    description: "FCC wood-fence pattern boards delivering classic timber slat aesthetics for boundary walls, screens, and architectural privacy panels.",
     variants: [
       { name: "Original", image: woodFenceOriginal },
       { name: "Red", image: woodFenceRed },
@@ -1230,7 +1234,7 @@ export const crestoneBrandContent = [
     name: "Wood-Cement Board",
     slug: "wood-cement-board",
     image: woodCementLightGrey,
-    description: "Wood-fibre reinforced cement FCC panels combining natural texture with superior weathering performance for modern facade systems.",
+    description: "Premium wood-cement composite FCC boards with fine grain texture — engineered for exterior facades requiring long-term weather resistance.",
     variants: [
       { name: "Light Grey", image: woodCementLightGrey },
       { name: "Medium Grey", image: woodCementMediumGrey },
@@ -1240,23 +1244,23 @@ export const crestoneBrandContent = [
     id: 61,
     name: "Zen Wood Panel",
     slug: "zen-wood-panel",
-    image: zenWoodDarkGrey,
-    description: "Japanese Zen-inspired FCC wood panels with meditative grain texture — cultivating calm and natural balance in interior and exterior design.",
+    image: zenWoodBeige,
+    description: "Zen-inspired natural wood-effect FCC panels with calm, meditative grain patterns — ideal for spa, hospitality, and premium residential interiors.",
     variants: [
-      { name: "Dark Grey", image: zenWoodDarkGrey },
       { name: "Beige", image: zenWoodBeige },
+      { name: "Dark Grey", image: zenWoodDarkGrey },
       { name: "Yellow Wood", image: zenWoodYellowWood },
     ],
   },
 
-  // ── CATELOG 5: Premium Stone Collections ──────────────────
+  // ── CATELOG 5: Premium Stone Collections ─────────────────────
 
   {
     id: 62,
     name: "3D Wood Concrete Board",
     slug: "3d-wood-concrete-board",
     image: woodConcreteBoard3DLightGrey,
-    description: "Three-dimensional relief wood-concrete FCC boards with deep tactile texture — adding sculptural dimension to architectural surfaces.",
+    description: "Three-dimensional wood-concrete FCC panels with pronounced surface relief — delivering maximum textural depth for statement facade applications.",
     variants: [
       { name: "Light Grey", image: woodConcreteBoard3DLightGrey },
       { name: "Medium Grey", image: woodConcreteBoard3DMediumGrey },
@@ -1267,7 +1271,7 @@ export const crestoneBrandContent = [
     name: "Ancient Wood Board",
     slug: "ancient-wood-board",
     image: ancientWoodBrown,
-    description: "Reclaimed ancient wood-effect FCC panels with centuries of patina — evoking heritage craftsmanship in a modern architectural system.",
+    description: "Aged ancient wood-effect FCC panels with deep grain and time-worn patina — evoking centuries of natural wood character.",
     variants: [
       { name: "Brown", image: ancientWoodBrown },
       { name: "Dark Brown", image: ancientWoodDarkBrown },
@@ -1279,7 +1283,7 @@ export const crestoneBrandContent = [
     name: "Ando Cement",
     slug: "ando-cement",
     image: andoCementGrey1,
-    description: "Tadao Ando-inspired bare concrete FCC panels with silky smooth finish — the meditative quality of Japanese Brutalism in architectural cladding.",
+    description: "Tadao Ando-inspired exposed concrete FCC panels — capturing the philosophical simplicity and precision of the world's most celebrated concrete architect.",
     variants: [
       { name: "Cement Grey 1", image: andoCementGrey1 },
       { name: "Cement Grey 2", image: andoCementGrey2 },
@@ -1294,7 +1298,7 @@ export const crestoneBrandContent = [
     name: "Ando Marble Pillar",
     slug: "ando-marble-pillar",
     image: andoMarblePillarCementGrey,
-    description: "Architectural marble pillar in Ando's signature concrete-grey tones — commanding vertical presence for entrance halls and civic structures.",
+    description: "Architectural marble pillar FCC panels in the Ando tradition — combining monolithic concrete presence with refined marble surface character.",
     variants: [
       { name: "Cement Grey", image: andoMarblePillarCementGrey },
     ],
@@ -1304,7 +1308,7 @@ export const crestoneBrandContent = [
     name: "Bulgari Marble Pillar",
     slug: "bulgari-marble-pillar",
     image: bulgariMarblePillar1,
-    description: "Ultra-luxury Bulgari-inspired marble pillar system — the pinnacle of ornamental stone architecture for the most prestigious interiors.",
+    description: "Prestige-grade Bulgari marble pillar FCC elements — ultra-luxury architectural surfaces for flagship retail, hospitality, and premium residential lobbies.",
     variants: [
       { name: "View 1", image: bulgariMarblePillar1 },
       { name: "View 2", image: bulgariMarblePillar2 },
@@ -1316,7 +1320,7 @@ export const crestoneBrandContent = [
     name: "Cloud Dragon",
     slug: "cloud-dragon",
     image: cloudDragon1,
-    description: "Ornate Cloud Dragon relief stone — deeply sculpted decorative panels inspired by classical Chinese architectural motifs for statement facades.",
+    description: "Dynamic cloud-dragon pattern FCC panels with organic, flowing surface relief — a striking choice for cultural buildings and feature architectural installations.",
     variants: [
       { name: "View 1", image: cloudDragon1 },
       { name: "View 2", image: cloudDragon2 },
@@ -1327,21 +1331,21 @@ export const crestoneBrandContent = [
     id: 68,
     name: "Crude Wood Ripple Board",
     slug: "crude-wood-ripple-board",
-    image: crudeRippleDarkBrown,
-    description: "Raw, unrefined wood ripple FCC boards with exaggerated grain — amplifying the organic character of timber for bold architectural surfaces.",
+    image: crudeRipleLightBrown,
+    description: "Raw, crude-cut wood ripple FCC boards with heavily textured surface — delivering an intensely tactile, artisan-crafted quality to architectural facades.",
     variants: [
-      { name: "Dark Brown", image: crudeRippleDarkBrown },
       { name: "Light Brown", image: crudeRipleLightBrown },
+      { name: "Dark Brown", image: crudeRippleDarkBrown },
       { name: "Light Yellow", image: crudeRipleLightYellow },
       { name: "Yellow", image: crudeRipleYellow },
     ],
   },
   {
     id: 69,
-    name: "Dacite Limestone",
-    slug: "dacite-limestone",
+    name: "Dacite Lime Stone",
+    slug: "dacite-lime-stone",
     image: daciteLimestoneWhite,
-    description: "Volcanic dacite-limestone hybrid material with unique mineral crystalline texture — a geological rarity captured in architectural panel form.",
+    description: "Dacite and limestone composite FCC panels with refined natural texture — combining volcanic and sedimentary stone character in a single premium surface.",
     variants: [
       { name: "Lime White", image: daciteLimestoneWhite },
       { name: "Lime Yellow", image: daciteLimestoneYellow },
@@ -1352,7 +1356,7 @@ export const crestoneBrandContent = [
     name: "Dolomitic Marble Pillar",
     slug: "dolomitic-marble-pillar",
     image: dolomitMarblePillar1,
-    description: "Dolomitic marble pillar system with warm claybank tones — classical proportions and refined mineral texture for prestigious architectural columns.",
+    description: "Premium dolomitic marble pillar FCC elements with rich claybank tonal warmth — architectural columns and pilasters of distinguished character.",
     variants: [
       { name: "Claybank 1", image: dolomitMarblePillar1 },
       { name: "Claybank 2", image: dolomitMarblePillar2 },
@@ -1363,13 +1367,13 @@ export const crestoneBrandContent = [
     id: 71,
     name: "Dolomitic Travertine",
     slug: "dolomitic-travertine",
-    image: dolomitTravAndeanWhite1,
-    description: "Dolomitic travertine panels with multi-tonal finish options — spanning Andean white, claybank, and dark grey for diverse architectural palettes.",
+    image: dolomitTravClaybank1,
+    description: "Premium dolomitic travertine FCC panels with authentic pore structure and rich mineralogical tonal variation — four colour families for complete design freedom.",
     variants: [
-      { name: "Andean White 1", image: dolomitTravAndeanWhite1 },
-      { name: "Andean White 2", image: dolomitTravAndeanWhite2 },
       { name: "Andean Red 1", image: dolomitTravAndeanRed1 },
       { name: "Andean Red 2", image: dolomitTravAndeanRed2 },
+      { name: "Andean White 1", image: dolomitTravAndeanWhite1 },
+      { name: "Andean White 2", image: dolomitTravAndeanWhite2 },
       { name: "Claybank 1", image: dolomitTravClaybank1 },
       { name: "Claybank 2", image: dolomitTravClaybank2 },
       { name: "Dark Grey 1", image: dolomitTravDarkGrey1 },
@@ -1381,7 +1385,7 @@ export const crestoneBrandContent = [
     name: "Dunhuang Stone",
     slug: "dunhuang-stone",
     image: dunhuang1,
-    description: "Inspired by the ancient Dunhuang oasis — mineral-rich stone panels that channel Silk Road heritage into contemporary architectural surfaces.",
+    description: "Inspired by the ancient Dunhuang caves — these FCC stone panels capture the layered geological beauty of Silk Road sandstone formations.",
     variants: [
       { name: "View 1", image: dunhuang1 },
       { name: "View 2", image: dunhuang2 },
@@ -1393,7 +1397,7 @@ export const crestoneBrandContent = [
     name: "Gold Sand",
     slug: "gold-sand",
     image: goldSand1,
-    description: "Shimmering gold-sand stone panels with metallic mineral lustre — a prestige surface for luxury hospitality and high-end commercial interiors.",
+    description: "Shimmering gold sand FCC stone panels — a warm, luminous surface choice for prestigious facade and interior architectural applications.",
     variants: [
       { name: "View 1", image: goldSand1 },
       { name: "View 2", image: goldSand2 },
@@ -1405,7 +1409,7 @@ export const crestoneBrandContent = [
     name: "Golden Faith",
     slug: "golden-faith",
     image: goldenFaithSunsetRed,
-    description: "Golden Faith stone with Sunset Red mineral depth — a rich, warm surface for premium architectural accents and statement feature walls.",
+    description: "Golden Faith FCC stone panels with sunset-red warmth — a rare and distinctive surface for luxury architectural feature installations.",
     variants: [
       { name: "Sunset Red", image: goldenFaithSunsetRed },
     ],
@@ -1415,16 +1419,16 @@ export const crestoneBrandContent = [
     name: "Golden Sunset",
     slug: "golden-sunset",
     image: goldenSunsetGolden1,
-    description: "Multi-tonal sunset-inspired stone panels spanning golden, silver grey, dark grey, and dark claybank — a versatile premium facade collection.",
+    description: "Evocative golden sunset FCC panels — warm tonal gradients inspired by the amber light of dusk, available in four distinct colour families.",
     variants: [
       { name: "Golden 1", image: goldenSunsetGolden1 },
       { name: "Golden 2", image: goldenSunsetGolden2 },
-      { name: "Silver Grey 1", image: goldenSunsetSilverGrey1 },
-      { name: "Silver Grey 2", image: goldenSunsetSilverGrey2 },
       { name: "Dark Claybank 1", image: goldenSunsetDarkClaybank1 },
       { name: "Dark Claybank 2", image: goldenSunsetDarkClaybank2 },
       { name: "Dark Grey 1", image: goldenSunsetDarkGrey1 },
       { name: "Dark Grey 2", image: goldenSunsetDarkGrey2 },
+      { name: "Silver Grey 1", image: goldenSunsetSilverGrey1 },
+      { name: "Silver Grey 2", image: goldenSunsetSilverGrey2 },
     ],
   },
   {
@@ -1432,7 +1436,7 @@ export const crestoneBrandContent = [
     name: "Italian Ash Mountain Stone",
     slug: "italian-ash-mountain-stone",
     image: italianAshCaslan1,
-    description: "Ash mountain stone with Italian provenance — Caslan and Normandy Grey tones engineered for refined European-style facade cladding.",
+    description: "Italian alpine ash mountain stone FCC panels with authentic mountain rock character — refined and dramatic for high-end residential and commercial facades.",
     variants: [
       { name: "Caslan 1", image: italianAshCaslan1 },
       { name: "Caslan 2", image: italianAshCaslan2 },
@@ -1445,45 +1449,54 @@ export const crestoneBrandContent = [
     name: "Italian Travertine",
     slug: "italian-travertine",
     image: italianTravWhite1,
-    description: "Authentic Italian travertine in five colour expressions — Roman White, Brown, Red, Silver Grey, and Wood — for complete architectural design freedom.",
+    description: "Authentic Italian travertine FCC panels across four classic colour families — Brown, Red, Silver Grey, and White — the definitive premium stone surface.",
     variants: [
-      { name: "Roman White 1", image: italianTravWhite1 },
-      { name: "Roman White 2", image: italianTravWhite2 },
+      { name: "White 1", image: italianTravWhite1 },
+      { name: "White 2", image: italianTravWhite2 },
       { name: "Brown 1", image: italianTravBrown1 },
       { name: "Brown 2", image: italianTravBrown2 },
       { name: "Red 1", image: italianTravRed1 },
       { name: "Red 2", image: italianTravRed2 },
       { name: "Silver Grey 1", image: italianTravSilverGrey1 },
       { name: "Silver Grey 2", image: italianTravSilverGrey2 },
-      { name: "Wood Light Brown", image: italianWoodTravLightBrown },
-      { name: "Wood Light Grey", image: italianWoodTravLightGrey },
-      { name: "Wood Yellow", image: italianWoodTravYellow },
     ],
   },
   {
     id: 78,
-    name: "Limestone",
-    slug: "limestone-premium",
-    image: limeStoneOffWhite,
-    description: "Premium limestone cladding in off-white and dark grey — organic and understated, delivering enduring elegance to interior and exterior surfaces.",
+    name: "Italian Wood Travertine",
+    slug: "italian-wood-travertine",
+    image: italianWoodTravLightBrown,
+    description: "A unique fusion of Italian wood grain and travertine textures — FCC panels that unite organic warmth with classic stone elegance.",
     variants: [
-      { name: "Off-White", image: limeStoneOffWhite },
-      { name: "Dark Grey", image: limeStoneDarkGrey },
+      { name: "Light Brown", image: italianWoodTravLightBrown },
+      { name: "Light Grey", image: italianWoodTravLightGrey },
+      { name: "Yellow", image: italianWoodTravYellow },
     ],
   },
   {
     id: 79,
+    name: "Lime Stone",
+    slug: "lime-stone",
+    image: limeStoneOffWhite,
+    description: "Refined limestone FCC panels with subtle sedimentary texture — a timeless, elegant surface for luxury residential and boutique commercial architecture.",
+    variants: [
+      { name: "Off White", image: limeStoneOffWhite },
+      { name: "Dark Grey", image: limeStoneDarkGrey },
+    ],
+  },
+  {
+    id: 80,
     name: "Linear Travertine",
     slug: "linear-travertine",
     image: linearTravRomanWhite1,
-    description: "Elongated linear-grooved travertine panels in five colours — Red, Claybank, Light Grey, Roman White, and Roman Yellow — for refined contemporary facades.",
+    description: "Linear-format travertine FCC panels with horizontal flow lines — creating bold, directional facades with the prestige of authentic travertine stone.",
     variants: [
       { name: "Roman White 1", image: linearTravRomanWhite1 },
       { name: "Roman White 2", image: linearTravRomanWhite2 },
-      { name: "Light Grey 1", image: linearTravLightGrey1 },
-      { name: "Light Grey 2", image: linearTravLightGrey2 },
       { name: "Claybank 1", image: linearTravClaybank1 },
       { name: "Claybank 2", image: linearTravClaybank2 },
+      { name: "Light Grey 1", image: linearTravLightGrey1 },
+      { name: "Light Grey 2", image: linearTravLightGrey2 },
       { name: "Red 1", image: linearTravRed1 },
       { name: "Red 2", image: linearTravRed2 },
       { name: "Roman Yellow 1", image: linearTravRomanYellow1 },
@@ -1491,20 +1504,20 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 80,
+    id: 81,
     name: "Marble Collection",
     slug: "marble-collection",
     image: marbleVeilWhite1,
-    description: "A curated marble collection spanning Veil White, Interstella Grey, Caslan, Bulgari, Nero Margiua, and Runa — premium surfaces for luxury interiors.",
+    description: "Premium marble FCC panel collection spanning Bulgari, Caslan, Interstella Grey, Nero Margiua, Runa, and Veil White — a complete luxury marble portfolio.",
     variants: [
       { name: "Veil White 1", image: marbleVeilWhite1 },
       { name: "Veil White 2", image: marbleVeilWhite2 },
-      { name: "Interstella Grey 1", image: marbleInterstellaGrey1 },
-      { name: "Interstella Grey 2", image: marbleInterstellaGrey2 },
-      { name: "Caslan 1", image: marbleCaslan1 },
-      { name: "Caslan 2", image: marbleCaslan2 },
       { name: "Bulgari 1", image: marbleBulgari1 },
       { name: "Bulgari 2", image: marbleBulgari2 },
+      { name: "Caslan 1", image: marbleCaslan1 },
+      { name: "Caslan 2", image: marbleCaslan2 },
+      { name: "Interstella Grey 1", image: marbleInterstellaGrey1 },
+      { name: "Interstella Grey 2", image: marbleInterstellaGrey2 },
       { name: "Nero Margiua 1", image: marbleNeroMargiua1 },
       { name: "Nero Margiua 2", image: marbleNeroMargiua2 },
       { name: "Runa Light Brown 1", image: marbleRunaLightBrown1 },
@@ -1516,11 +1529,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 81,
+    id: 82,
     name: "Milan Travertine",
     slug: "milan-travertine",
     image: milanTravWhite1,
-    description: "Milanese-inspired travertine in three elegant finishes — Grey, White, and Yellow — capturing the refined aesthetic of Northern Italian architecture.",
+    description: "Milan-inspired premium travertine FCC panels — the refined sophistication of Italian fashion capital applied to architectural stone cladding.",
     variants: [
       { name: "White 1", image: milanTravWhite1 },
       { name: "White 2", image: milanTravWhite2 },
@@ -1531,22 +1544,22 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 82,
+    id: 83,
     name: "Poly Wood",
     slug: "poly-wood",
     image: polyWoodLightBrown,
-    description: "Engineered poly-wood panels combining the natural grain of timber with superior UV, moisture, and fire resistance for modern facade applications.",
+    description: "Polymer wood-effect composite FCC panels combining authentic grain aesthetics with engineered durability for exterior facade and cladding applications.",
     variants: [
       { name: "Light Brown", image: polyWoodLightBrown },
       { name: "Yellow", image: polyWoodYellow },
     ],
   },
   {
-    id: 83,
+    id: 84,
     name: "Rockcut Dolomitic Stone",
     slug: "rockcut-dolomitic-stone",
     image: rockDolomiticGrey1,
-    description: "Rock-cut dolomitic stone with dramatic split face — spanning Claybank, Grey, Red, and Roman Yellow for diverse architectural expressions.",
+    description: "Rock-cut dolomitic stone FCC panels with authentic quarried surface character — four colour families for dramatic architectural contrast.",
     variants: [
       { name: "Grey 1", image: rockDolomiticGrey1 },
       { name: "Grey 2", image: rockDolomiticGrey2 },
@@ -1559,11 +1572,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 84,
-    name: "Rockcut Limestone",
-    slug: "rockcut-limestone",
+    id: 85,
+    name: "Rockcut Lime Stone",
+    slug: "rockcut-lime-stone",
     image: rockLimestoneWhite1,
-    description: "Rock-cut limestone panels in Lime White and Off-White — precision-cleaved natural stone for refined contemporary and classical architectural facades.",
+    description: "Rock-cut limestone FCC panels with authentic quarried surface character — clean white and off-white tones for refined architectural facades.",
     variants: [
       { name: "Lime White 1", image: rockLimestoneWhite1 },
       { name: "Lime White 2", image: rockLimestoneWhite2 },
@@ -1572,11 +1585,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 85,
+    id: 86,
     name: "Roman Pillar",
     slug: "roman-pillar",
     image: romanPillarMilanWhite,
-    description: "Classical Roman column system spanning Cement Grey, Lime Yellow, Milan Grey, Milan Red, and Milan White — architectural grandeur for prestige spaces.",
+    description: "Classical Roman pillar FCC column elements — precision-engineered architectural columns for prestigious facades, lobbies, and civic architecture.",
     variants: [
       { name: "Milan White", image: romanPillarMilanWhite },
       { name: "Cement Grey", image: romanPillarCementGrey },
@@ -1586,11 +1599,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 86,
+    id: 87,
     name: "Romanite",
     slug: "romanite",
     image: romaniteCloudyWhite1,
-    description: "Romanite stone panels with cloudy mineral translucence in Grey, White, and Yellow — atmospheric and refined for luxury architectural surfaces.",
+    description: "Roman-era inspired FCC stone panels with cloud-patterned mineral surface — warm and organic for luxury residential and boutique hospitality facades.",
     variants: [
       { name: "Cloudy White 1", image: romaniteCloudyWhite1 },
       { name: "Cloudy White 2", image: romaniteCloudyWhite2 },
@@ -1601,11 +1614,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 87,
+    id: 88,
     name: "Rowena Travertine",
     slug: "rowena-travertine",
     image: rowenaTravBeige,
-    description: "Rowena travertine panels in five refined finishes — Beige, Creamy Yellow, Grey, Light Brown, and Taupe — a complete travertine palette for luxury architecture.",
+    description: "Rowena collection travertine FCC panels with warm sedimentary tonal range — five distinct colours for complete architectural specification freedom.",
     variants: [
       { name: "Beige", image: rowenaTravBeige },
       { name: "Creamy Yellow", image: rowenaTravCreamyYellow },
@@ -1615,11 +1628,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 88,
+    id: 89,
     name: "Rusty Red",
     slug: "rusty-red",
     image: rustyRedRed1,
-    description: "Oxidised metal-effect stone panels in Red and Grey — capturing the raw industrial patina of weathered Corten steel in a durable architectural surface.",
+    description: "Iron-oxide rusty red FCC stone panels with warm oxidised patina — delivering dramatic, aged character to bold contemporary architectural facades.",
     variants: [
       { name: "Red 1", image: rustyRedRed1 },
       { name: "Red 2", image: rustyRedRed2 },
@@ -1628,11 +1641,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 89,
+    id: 90,
     name: "Skyline Stone",
     slug: "skyline-stone",
     image: skylineGrittyBeige,
-    description: "Urban skyline-inspired stone panels in Gritty and Nile finishes — channelling the energy of metropolitan architecture into refined surface design.",
+    description: "Urban skyline-inspired FCC stone panels in two distinct texture families — Gritty and Nile — for dynamic, city-scale architectural facades.",
     variants: [
       { name: "Gritty Beige", image: skylineGrittyBeige },
       { name: "Gritty Claybank", image: skylineGrittyClaybank },
@@ -1643,11 +1656,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 90,
-    name: "Slate Premium",
-    slug: "slate-premium",
+    id: 91,
+    name: "Slate Collection",
+    slug: "slate-collection",
     image: slateVeilWhite1,
-    description: "Premium architectural slate panels — Glacial, Portoro, Veil Grey, and Veil White — delivering dramatic mineral depth for high-impact facades.",
+    description: "Premium slate FCC panel collection spanning Glacial, Portoro, Veil Grey, and Veil White — authentic mineral elegance in four distinguished colourways.",
     variants: [
       { name: "Veil White 1", image: slateVeilWhite1 },
       { name: "Veil White 2", image: slateVeilWhite2 },
@@ -1660,11 +1673,11 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 91,
+    id: 92,
     name: "Stream Limestone",
     slug: "stream-limestone",
     image: streamLimestoneClaybank1,
-    description: "Stream-washed limestone panels with softly eroded surface in Claybank and Dark Grey — organic and serene for premium interior and exterior installations.",
+    description: "Water-worn stream limestone FCC panels with flowing surface textures — capturing the organic beauty of riverbed stone in architectural cladding.",
     variants: [
       { name: "Claybank 1", image: streamLimestoneClaybank1 },
       { name: "Claybank 2", image: streamLimestoneClaybank2 },
@@ -1673,40 +1686,40 @@ export const crestoneBrandContent = [
     ],
   },
   {
-    id: 92,
+    id: 93,
     name: "Taishan Stone",
     slug: "taishan-stone",
-    image: taishanClaybank1,
-    description: "Sacred Taishan mountain stone in Claybank and Silver White — channelling the spiritual authority of China's most revered peak into architectural cladding.",
+    image: taishanSilverWhite1,
+    description: "Sacred Taishan mountain-inspired FCC stone panels — capturing the revered geological character of China's most sacred peak in architectural cladding.",
     variants: [
-      { name: "Claybank 1", image: taishanClaybank1 },
-      { name: "Claybank 2", image: taishanClaybank2 },
       { name: "Silver White 1", image: taishanSilverWhite1 },
       { name: "Silver White 2", image: taishanSilverWhite2 },
+      { name: "Claybank 1", image: taishanClaybank1 },
+      { name: "Claybank 2", image: taishanClaybank2 },
     ],
   },
   {
-    id: 93,
+    id: 94,
     name: "Terrazzo Rough Stone",
     slug: "terrazzo-rough-stone",
-    image: terrazzoLightGrey1,
-    description: "Rough terrazzo aggregate stone panels in Dark Grey, Grey, Light Grey, and Yellow — bold and tactile for contemporary interior and exterior feature walls.",
+    image: terrazzoGrey1,
+    description: "Terrazzo-inspired rough stone FCC panels with aggregate mineral texture — delivering the premium character of bespoke terrazzo in an engineered cladding system.",
     variants: [
-      { name: "Light Grey 1", image: terrazzoLightGrey1 },
-      { name: "Light Grey 2", image: terrazzoLightGrey2 },
       { name: "Grey 1", image: terrazzoGrey1 },
       { name: "Grey 2", image: terrazzoGrey2 },
       { name: "Dark Grey", image: terrazzoDarkGrey },
+      { name: "Light Grey 1", image: terrazzoLightGrey1 },
+      { name: "Light Grey 2", image: terrazzoLightGrey2 },
       { name: "Yellow 1", image: terrazzoYellow1 },
       { name: "Yellow 2", image: terrazzoYellow2 },
     ],
   },
   {
-    id: 94,
+    id: 95,
     name: "Zen Ando Cement",
     slug: "zen-ando-cement",
     image: zenAndoCement1,
-    description: "Zen-influenced Ando concrete panels — combining Japanese meditative minimalism with Tadao Ando's iconic exposed concrete materiality.",
+    description: "Meditative Zen and Ando-inspired exposed cement FCC panels — the perfect union of Japanese philosophical restraint and concrete architectural mastery.",
     variants: [
       { name: "View 1", image: zenAndoCement1 },
       { name: "View 2", image: zenAndoCement2 },
@@ -1715,5 +1728,3 @@ export const crestoneBrandContent = [
     ],
   },
 ];
-
-
