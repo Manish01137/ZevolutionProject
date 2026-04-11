@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(ln -s ../vite/bin/vite.js node_modules/.bin/vite)",
+      "Bash(git commit -m ':*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
