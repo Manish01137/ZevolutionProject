@@ -1,25 +1,25 @@
-import manish from "../../assets/images/Manish.jpg";
-import abhishek from "../../assets/images/Abhishek.jpg";
-import himanshu from "../../assets/images/Himanshu.jpg";
+import dheeraj from "../../assets/images/founder-dheeraj.webp";
+import hitesh from "../../assets/images/founder-hitesh.webp";
+import nakul from "../../assets/images/founder-nakul.webp";
 
 const founders = [
   {
-    name: "Manish Beniwal",
+    name: "Dheeraj",
     title: "Founder & CEO",
-    image: manish,
-    bio: "Manish drives the vision of Zevolution — bringing together premium material brands to redefine architectural excellence across India.",
+    image: dheeraj,
+    bio: "Dheeraj drives the vision of Zevolution — bringing together premium material brands to redefine architectural excellence across India.",
   },
   {
-    name: "Abhishek",
+    name: "Hitesh",
     title: "Co-Founder & Operations",
-    image: abhishek,
-    bio: "Abhishek oversees the seamless delivery and operational excellence that has become the hallmark of every Zevolution project.",
+    image: hitesh,
+    bio: "Hitesh oversees the seamless delivery and operational excellence that has become the hallmark of every Zevolution project.",
   },
   {
-    name: "Himanshu",
+    name: "Nakul",
     title: "Co-Founder & Design",
-    image: himanshu,
-    bio: "Himanshu leads the design and curation philosophy ensuring every material selection exceeds the expectations of architects and clients alike.",
+    image: nakul,
+    bio: "Nakul leads the design and curation philosophy ensuring every material selection exceeds the expectations of architects and clients alike.",
   },
 ];
 
