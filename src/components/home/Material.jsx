@@ -171,17 +171,20 @@ const Material = () => {
               {/* Content */}
               <div className="material-content flex flex-col justify-center">
 
-                {item.logo ? (
-                  <img
-                    src={item.logo}
-                    alt={item.brand}
-                    className="w-[120px] md:w-[140px] h-auto mb-2 object-contain opacity-95"
-                  />
-                ) : (
-                  <p className="text-gold tracking-widest text-xs mb-1 uppercase">
-                    {item.brand}
-                  </p>
-                )}
+                {/* Brand logo or name — fixed height keeps title aligned across sections */}
+                <div className="h-8 md:h-10 flex items-center mb-3">
+                  {item.logo ? (
+                    <img
+                      src={item.logo}
+                      alt={item.brand}
+                      className="h-full w-auto object-contain opacity-95"
+                    />
+                  ) : (
+                    <p className="text-gold tracking-widest text-xs uppercase leading-none">
+                      {item.brand}
+                    </p>
+                  )}
+                </div>
 
                 <h3 className="text-2xl sm:text-3xl md:text-5xl font-light mb-4 leading-tight">
                   {item.title}

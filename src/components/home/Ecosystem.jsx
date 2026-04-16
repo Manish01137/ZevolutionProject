@@ -146,18 +146,20 @@ const Ecosystem = () => {
                 {/* Content */}
                 <div className="absolute bottom-8 left-6 right-6 flex flex-col items-start text-left">
 
-                  {/* LOGO OR TITLE */}
-                  {brand.logo ? (
-                    <img
-                      src={brand.logo}
-                      alt={brand.name}
-                      className="w-[130px] mb-1 object-contain -m-2"
-                    />
-                  ) : (
-                    <h3 className="text-white text-xl font-light mb-2 tracking-wide">
-                      {brand.name.toUpperCase()}
-                    </h3>
-                  )}
+                  {/* LOGO OR TITLE — fixed height so subheading aligns across all cards */}
+                  <div className="h-10 flex items-center mb-3">
+                    {brand.logo ? (
+                      <img
+                        src={brand.logo}
+                        alt={brand.name}
+                        className="h-10 w-auto object-contain"
+                      />
+                    ) : (
+                      <h3 className="text-white text-xl font-light tracking-wide leading-none">
+                        {brand.name.toUpperCase()}
+                      </h3>
+                    )}
+                  </div>
 
                   {/* CATEGORY */}
                   <p className="text-gold text-[15px] tracking-[0.25em] mb-2">
