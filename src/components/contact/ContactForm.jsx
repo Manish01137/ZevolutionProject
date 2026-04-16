@@ -62,8 +62,7 @@ const ContactForm = () => {
             <div>
               <h4 className="font-light mb-1">Email Us</h4>
               <p className="text-gray-400 font-extralight text-sm">
-                connect@zevolution.com <br />
-                architects@zevolution.com
+                info@zevolution.in
               </p>
             </div>
           </div>

@@ -127,7 +127,7 @@ const Footer = () => {
             </p>
 
             <p className="hover:text-gold transition-colors duration-300 cursor-pointer">
-              connect@zevolution.com
+              info@zevolution.in
             </p>
           </div>
         </div>
