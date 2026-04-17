@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import crestImg from "../../assets/images/CrestStone1.png";
-import zerraImg from "../../assets/images/ZERRA_HANDPEELED1.png";
+import zerraImg from "../../assets/images/zerraupdated.jpeg";
 import formiqImg from "../../assets/images/FORMIQ32.png";
 
 import crestLogo from "../../assets/images/CrestStonelogo02.png";
