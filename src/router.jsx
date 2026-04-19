@@ -10,7 +10,7 @@ import BrandDetails from "./pages/BrandDetails";
 import ProjectDetails from "./pages/ProjectDetails";
 import BrandProducts from "./pages/BrandProducts"; // NEW PAGE
 import ProductDetail from "./pages/ProductDetail";
-import QRCodes from "./pages/QRCodes";
+import ProductURLs from "./pages/ProductURLs";
 
 export const router = createBrowserRouter([
   {
@@ -52,15 +52,15 @@ export const router = createBrowserRouter([
     element: <BrandProducts />,
   },
 
-  // Individual product page with QR code
+  // Individual product page — this is where QR scans land
   {
     path: "/brand/:brandSlug/product/:productSlug",
     element: <ProductDetail />,
   },
 
-  // All product QR codes in one place (for printing)
+  // Admin page with all product URLs for copying to external QR generator
   {
-    path: "/qr-codes",
-    element: <QRCodes />,
+    path: "/product-urls",
+    element: <ProductURLs />,
   },
 ]);

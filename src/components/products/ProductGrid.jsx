@@ -2,8 +2,11 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useParams, Link } from "react-router-dom";
 import { productsData } from "../../data/productsData";
+import { slugify } from "../../utils/slug";
 
-const ProductCard = ({ product, index }) => {
+const ProductCard = ({ product, index, brandSlug }) => {
+  const productSlug = product.slug || slugify(product.name);
+  const productUrl = `/brand/${brandSlug}/product/${productSlug}`;
   const [openVariant, setOpenVariant] = useState(null);
   const [activeImage, setActiveImage] = useState(product.image);
 
@@ -25,24 +28,26 @@ const ProductCard = ({ product, index }) => {
       transition={{ duration: 0.7, delay: index * 0.08 }}
       className="bg-[#0e0e0e] border border-[#1e1e1e] hover:border-[#C6A75E] transition-all duration-500 overflow-hidden flex flex-col"
     >
-      {/* Product Image — switches on variant open */}
-      <div className="relative overflow-hidden">
+      {/* Product Image — switches on variant open — clickable to product page */}
+      <Link to={productUrl} className="relative overflow-hidden block group/image">
         <img
           src={activeImage}
           alt={product.name}
-          className="w-full h-56 object-cover transition-all duration-700"
+          className="w-full h-56 object-cover transition-all duration-700 group-hover/image:scale-105"
         />
         {/* Cinematic overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-70" />
-      </div>
+      </Link>
 
       {/* Content */}
       <div className="p-6 flex flex-col flex-1">
 
-        {/* Name */}
-        <h3 className="text-white text-lg font-light tracking-wide mb-2">
-          {product.name}
-        </h3>
+        {/* Name — clickable */}
+        <Link to={productUrl}>
+          <h3 className="text-white text-lg font-light tracking-wide mb-2 hover:text-[#C6A75E] transition-colors">
+            {product.name}
+          </h3>
+        </Link>
 
         {/* Description */}
         <p className="text-gray-400 text-sm leading-relaxed mb-3 font-light">
@@ -129,7 +134,7 @@ const ProductGrid = () => {
     <section className="bg-black py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
         {data.products.map((product, index) => (
-          <ProductCard key={index} product={product} index={index} />
+          <ProductCard key={index} product={product} index={index} brandSlug={slug} />
         ))}
       </div>
     </section>
