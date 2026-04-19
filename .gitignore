@@ -1,5 +1,5 @@
-# ── Build outputs ─────────────────────────────────────────────
-# dist/ is committed for Hostinger static deployment
+# ── Build outputs (Hostinger builds this itself) ──────────────
+dist/
 dist-ssr/
 out/
 build/
