@@ -76,116 +76,124 @@ const mumbaiPlaceholder =
 export const projectsData = [
   {
     slug: "chhavi-eye-hospital",
-    title: "Chhavi Eye Hospital",
+    title: "Chhavi Superspeciality Eye Hospital",
     heroImage: chhavi1,
-    location: "India",
+    location: "Jabalpur",
     type: "Healthcare",
-    year: "2024",
+    year: "2026",
     category: "Healthcare",
+    brand: "Creststone",
+    product: "Dolomitic Marble Pillar",
+    architect: "Ar. Selaish Nema",
+    client: "Dr. Akhilesh Nema",
 
     challenge:
-      "Design and deliver a premium façade and interior surface solution for a modern eye hospital that conveys trust, hygiene, and clinical sophistication — while maintaining aesthetic warmth for patients.",
+      "Developing a hygienic, premium healthcare environment with seamless interior finishes and a façade material resistant to moisture, staining, and structural stress.",
 
     solution:
-      "Zevolution specified high-precision FCC wall panels and seamless flooring systems that meet healthcare-grade durability standards, delivering a clean, professional environment with minimal maintenance requirements.",
+      "Integration of Creststone Dolomitic Marble Pillar stone veneer, a lightweight, non-porous cladding system delivering natural marble aesthetics with enhanced durability and zero crack formation.",
 
     execution:
-      "Our team coordinated closely with the hospital's project consultants to ensure zero-disruption installation. All materials were selected for anti-bacterial properties and ease of sanitization.",
+      "High-precision panel alignment with dry-fix methodology, ensuring smooth surface continuity, minimal joints, and optimized installation across both interior feature walls and external elevations.",
 
     outcome:
-      "Chhavi Eye Hospital now features a world-class interior finish that builds patient confidence and reflects the institution's commitment to excellence in healthcare.",
+      "A clean, sophisticated healthcare space with a luxurious stone finish is maintenance-efficient, weather-resistant, and aligned with clinical and aesthetic performance standards.",
 
     testimonial:
       "Zevolution understood the unique demands of a healthcare environment. The finish quality and professionalism were outstanding.",
-
-    client: "Management — Chhavi Eye Hospital",
 
     gallery: [chhavi1, chhavi2, chhavi3, chhavi4, chhavi5],
   },
 
   {
     slug: "kuchaiya",
-    title: "Kuchaiya",
+    title: "Kucheya Jewellers",
     heroImage: kuchaiya1,
-    location: "India",
-    type: "Residential",
-    year: "2024",
-    category: "Residential",
+    location: "Jabalpur",
+    type: "Retail",
+    year: "2025",
+    category: "Commercial",
+    brand: "Creststone",
+    product: "Travertine Yellow",
+    architect: "Ar. Sidarth Gokhle",
+    client: "Salil Kuchaya",
 
     challenge:
-      "Transform a traditional residential property with contemporary surface solutions that respect regional architectural character while elevating the overall finish quality.",
+      "Designing a high-end retail façade with curved architectural elements requiring material flexibility, seamless finish, and a premium stone aesthetic without risk of cracking.",
 
     solution:
-      "Zevolution's HandPeeled Stone cladding and textured wall systems brought authentic natural aesthetics with modern durability, perfectly suited to the local climate and design sensibility.",
+      "Use of Creststone Travertine Yellow stone veneer — a lightweight, flexible cladding system enabling curvature adaptability with high durability and weather resistance.",
 
     execution:
-      "Custom material selection and on-site consultation ensured seamless integration with the existing structure. Installation was completed with precision and minimal disruption to occupants.",
+      "Precision contour installation across arches and vertical planes with minimal joint visibility, ensuring uniform texture continuity and structural load optimization.",
 
     outcome:
-      "The Kuchaiya residence now stands as a refined example of how traditional homes can be transformed with premium surface materials.",
+      "A luxurious, monolithic façade with refined curvature detailing — crack-free, weatherproof, and visually aligned with the brand's premium identity.",
 
     testimonial:
-      "The transformation was beyond what we imagined. Zevolution brought expertise and craftsmanship that truly elevated our home.",
-
-    client: "Homeowner — Kuchaiya Residence",
+      "The curved façade turned out exactly as envisioned. Zevolution's craftsmanship and material flexibility delivered a premium storefront identity.",
 
     gallery: [kuchaiya1, kuchaiya2, kuchaiya3, kuchaiya4, kuchaiya5, kuchaiya6],
   },
 
   {
     slug: "marcos-a-muscles",
-    title: "Marcos a Muscles",
+    title: "Atmanamm Spa",
     heroImage: marcos1,
-    location: "India",
-    type: "Fitness & Commercial",
-    year: "2024",
+    location: "Jabalpur",
+    type: "Wellness & Spa",
+    year: "2026",
     category: "Commercial",
+    brand: "Zerra",
+    product: "Mint Sunrise / Vintage Shine",
+    architect: "Not Given",
+    client: "Vikram Raj Singh",
 
     challenge:
-      "Create a high-energy gym environment with surface solutions that withstand heavy usage, moisture, and mechanical stress — while projecting a bold, premium brand identity.",
+      "Designing fluid, organic interior elements with seamless curvature and spa-grade moisture resistance, while maintaining a high-end, calming aesthetic aligned with the brand identity.",
 
     solution:
-      "Zevolution deployed industrial-grade flooring and feature wall systems designed for high-impact environments. The material palette was chosen to reinforce the brand's strength-focused identity.",
+      "Integration of Zerra stone veneer enabling thermo-flexible application over curved reception desks and bathtubs, delivering crack-resistant, water-resistant, and lightweight natural stone finishes.",
 
     execution:
-      "Fast-track installation was coordinated to meet the gym's launch timeline. Surface treatments were applied to ensure slip resistance, durability, and easy maintenance.",
+      "Precision layering and contour-forming techniques allowed monolithic surface continuity across complex radii, concealed joints, and integrated lighting details without compromising structural efficiency.",
 
     outcome:
-      "Marcos a Muscles opened to strong client response, with the interior finish becoming a key differentiator in the competitive fitness market.",
+      "A sculptural, luxury spa environment with tactile natural textures, enhanced durability in wet zones, and a visually seamless design language driven by flexibility and refined craftsmanship.",
 
     testimonial:
-      "Our gym looks incredible. Zevolution delivered exactly the bold, premium look we were going for — on time and on budget.",
-
-    client: "Owner — Marcos a Muscles",
+      "Zevolution delivered exactly the calming, tactile environment we wanted. Every surface feels crafted, premium, and completely on-brand.",
 
     gallery: [marcos1, marcos2, marcos3, marcos4, marcos6, marcos7],
   },
 
   {
     slug: "mumbai-project",
-    title: "Mumbai",
+    title: "Asteria Tower B, Courtyard Society",
     heroImage: mumbaiPlaceholder,
     location: "Mumbai",
-    type: "Commercial",
-    year: "2024",
-    category: "Commercial",
+    type: "Luxury Residential",
+    year: "2026",
+    category: "Residential",
+    brand: "Zerra",
+    product: "Sea White / Light Concrete",
+    architect: "Ar. Rohit Sutaria",
+    client: "Anonymous",
 
     challenge:
-      "Deliver premium façade and surface solutions for a commercial project in Mumbai's competitive urban landscape, where coastal humidity and high foot traffic demand exceptional material performance.",
+      "Achieving a refined luxury interior with natural stone aesthetics while integrating seamless curvature and modern minimal design without adding structural load.",
 
     solution:
-      "Zevolution's FCC system provided a high-performance exterior finish engineered for Mumbai's coastal climate — combining visual impact with long-term resistance to humidity and salt exposure.",
+      "Application of Zerra Sea White / Light Concrete stone veneer — a lightweight, flexible cladding system enabling fluid surface adaptation with natural texture and crack-resistant performance.",
 
     execution:
-      "Precision fabrication and expert installation ensured tight tolerances and a flawless finish. The project was delivered in phases to align with the client's operational timeline.",
+      "Precision dry installation with concealed joints and backlit integration, ensuring smooth transitions across curved panels and cabinetry surfaces.",
 
     outcome:
-      "The Mumbai project stands as a benchmark commercial property, combining architectural prestige with Zevolution's signature material quality.",
+      "A sophisticated, nature-inspired modern space — visually striking, lightweight, and highly durable, delivering a seamless blend of luxury and organic texture.",
 
     testimonial:
-      "Working with Zevolution on our Mumbai project was seamless. Their understanding of coastal conditions and premium finishes is unmatched.",
-
-    client: "Project Director — Mumbai",
+      "Zevolution's material flexibility allowed us to execute the design exactly as envisioned — seamless, sculptural, and deeply premium.",
 
     gallery: [
       mumbaiPlaceholder,
@@ -197,87 +205,93 @@ export const projectsData = [
 
   {
     slug: "rajput-jewellers",
-    title: "Rajput Jewellers",
+    title: "Rajput Brother's Jewellers",
     heroImage: rajput1,
-    location: "India",
+    location: "Jabalpur",
     type: "Retail",
-    year: "2024",
+    year: "2025",
     category: "Commercial",
+    brand: "Zerra",
+    product: "Copper Series",
+    architect: "Not Specified",
+    client: "Harginder Singh Rajput",
 
     challenge:
-      "Design a luxury retail environment for a premium jewellery brand where surface materials must reflect opulence, trust, and timeless elegance — while maintaining practicality for a high-footfall retail space.",
+      "Creating a bold, premium retail façade with natural stone aesthetics while achieving seamless curvature and long-term exterior durability against environmental exposure.",
 
     solution:
-      "Zevolution curated a bespoke combination of polished stone finishes and FCC accent panels to create an environment of refined luxury, complementing the jewellery displays and brand identity.",
+      "Use of Zerra Copper stone veneer — a flexible, lightweight cladding system enabling curved surface application with high resistance to moisture, cracking, and weathering.",
 
     execution:
-      "Material selection was guided by the store's design consultants. Installation was executed with jeweller's precision — every joint, edge, and surface treated as a design detail.",
+      "Precision bending and adhesion on arched geometries with minimal joints, ensuring uniform texture continuity and integration with façade lighting elements.",
 
     outcome:
-      "Rajput Jewellers now commands one of the most distinguished retail interiors in the region, with customers regularly commenting on the store's premium ambiance.",
+      "A striking, high-impact storefront with a luxurious natural finish — durable, maintenance-efficient, and visually distinctive in a modern retail context.",
 
     testimonial:
       "The attention to detail Zevolution brought to our store is extraordinary. Every surface reflects our brand's commitment to quality.",
-
-    client: "Owner — Rajput Jewellers",
 
     gallery: [rajput1, rajput2, rajput3, rajput4, rajput5, rajput6],
   },
 
   {
     slug: "residency",
-    title: "Residency",
+    title: "Tamatu Residency",
     heroImage: residency1,
-    location: "India",
+    location: "Jabalpur",
     type: "Luxury Residential",
-    year: "2024",
+    year: "2025",
     category: "Residential",
+    brand: "Creststone",
+    product: "Travertine White Gold",
+    architect: "Ar. Sonal Choudhary",
+    client: "Virat Jain",
 
     challenge:
-      "Deliver a complete premium residential surface package — from exterior cladding to interior finishes — that meets the expectations of discerning homeowners seeking a distinguished living environment.",
+      "Creating a façade that delivers a premium natural stone aesthetic while ensuring resistance to weathering, cracking, and long-term structural stress.",
 
     solution:
-      "A curated selection of Zevolution's HandPeeled Stones and engineered flooring systems was specified across the property, creating cohesive luxury from entrance to interior.",
+      "Application of Creststone Travertine White Gold stone veneer — a lightweight, flexible system replicating natural travertine with superior durability and zero water absorption issues.",
 
     execution:
-      "A dedicated project team managed all phases from material sampling to final installation, ensuring every surface met the client's exacting standards.",
+      "Precision dry-fix installation with aligned horizontal banding, ensuring seamless joints, reduced load on structure, and enhanced façade detailing.",
 
     outcome:
-      "The Residency project delivers a living environment of exceptional quality — a home that speaks the language of refined taste and enduring craftsmanship.",
+      "A refined, contemporary elevation with a luxurious natural finish — highly durable, weather-resistant, and maintenance-efficient, elevating both visual appeal and performance.",
 
     testimonial:
       "Zevolution transformed our vision into reality. The finish quality across every surface is simply impeccable.",
-
-    client: "Homeowner — Residency Project",
 
     gallery: [residency1, residency2, residency3, residency4, residency5, residency6],
   },
 
   {
     slug: "sanjay-plastic",
-    title: "Sanjay Plastic",
+    title: "Sanjay Plastic Residency",
     heroImage: sanjay1,
-    location: "India",
-    type: "Industrial & Commercial",
-    year: "2024",
-    category: "Commercial",
+    location: "Jabalpur",
+    type: "Luxury Residential",
+    year: "2026",
+    category: "Residential",
+    brand: "Zerra",
+    product: "Slate & Quartzite (Vintage Shine)",
+    architect: "Ar. Sishir Shenghai",
+    client: "Sanjay Jain",
 
     challenge:
-      "Upgrade the commercial façade and office interiors of an industrial business to project a modern, professional corporate identity without disrupting ongoing operations.",
+      "Integrating natural stone aesthetics within a contemporary façade while addressing vertical elevations, recessed sections, and long-term resistance to weather-induced deterioration.",
 
     solution:
-      "Zevolution delivered a clean, contemporary façade and interior finish package using low-maintenance FCC panels and durable flooring solutions suited to industrial-adjacent environments.",
+      "Application of Zerra Vintage Shine stone veneer — a flexible, ultra-thin slate & quartzite composite enabling seamless cladding across flat and recessed surfaces with superior durability and crack resistance.",
 
     execution:
-      "Installation was phased to ensure the business remained fully operational throughout. Materials were selected for ease of maintenance and long-term performance in a commercial setting.",
+      "Systematic panel alignment with controlled joint detailing, allowing adaptability across projections, niches, and ceiling integrations, ensuring uniform texture flow and structural compatibility.",
 
     outcome:
-      "Sanjay Plastic's upgraded premises now project the credibility and professionalism the brand deserves, with a finish that impresses clients and partners alike.",
+      "A refined, modern elevation enriched with natural textures — lightweight, weather-resilient, and visually distinctive, delivering a luxurious yet organic architectural identity.",
 
     testimonial:
-      "Our office looks completely transformed. Zevolution delivered a professional result that has changed how clients perceive our business.",
-
-    client: "Director — Sanjay Plastic",
+      "The façade completely transformed the character of the building. Zevolution delivered a result that elevates the entire property.",
 
     gallery: [sanjay1, sanjay2, sanjay3, sanjay4, sanjay5, sanjay6],
   },
@@ -286,56 +300,60 @@ export const projectsData = [
     slug: "satya-prakash-public-school",
     title: "Satya Prakash Public School",
     heroImage: satya1,
-    location: "India",
+    location: "Jabalpur",
     type: "Education",
-    year: "2024",
+    year: "2026",
     category: "Education",
+    brand: "Zerra",
+    product: "Slate & Quartzite (Indian Autumn)",
+    architect: "Ar. Nirja Kalantre",
+    client: "Not Given",
 
     challenge:
-      "Deliver durable, safe, and inspiring surface solutions for a school environment that must withstand heavy daily use while creating a positive, stimulating space for students and staff.",
+      "Creating a strong institutional identity through natural stone while maintaining design continuity across entrance focal points and large interior surfaces without adding structural load.",
 
     solution:
-      "Zevolution specified child-safe, high-durability flooring and wall systems designed for educational environments — combining vibrant aesthetics with materials engineered for high-traffic performance.",
+      "Deployment of Zerra Indian Autumn stone veneer — a flexible, lightweight slate & quartzite system enabling seamless application on vertical planes with high resistance to moisture, cracking, and surface degradation.",
 
     execution:
-      "Work was scheduled during non-school hours to avoid disruption to academic activities. All materials met safety standards appropriate for educational facilities.",
+      "Precision panel mapping with vein continuity alignment, enabling smooth integration across columns, feature walls, and double-height interiors while ensuring substrate adaptability and clean edge detailing.",
 
     outcome:
-      "Satya Prakash Public School now features an environment that inspires learning — with surfaces that look exceptional and perform reliably year after year.",
+      "A bold, premium institutional façade and interior language that reflects clarity, strength, and natural elegance — delivering a durable, maintenance-efficient, and visually commanding architectural statement.",
 
     testimonial:
       "The school has been completely revitalized. Students and parents have noticed the transformation — it's created real pride in our institution.",
-
-    client: "Principal — Satya Prakash Public School",
 
     gallery: [satya1, satya2, satya3, satya4, satya5, satya6],
   },
 
   {
     slug: "villa-jaipur",
-    title: "Villa Jaipur",
+    title: "Residency Villa",
     heroImage: villa1,
     location: "Jaipur",
     type: "Luxury Villa",
-    year: "2024",
+    year: "2025",
     category: "Residential",
+    brand: "Zerra",
+    product: "Slate & Quartzite (Indian Autumn / Autumn Cream)",
+    architect: "Not Given",
+    client: "Not Given",
 
     challenge:
-      "Create a luxury villa finish that honours Jaipur's rich architectural heritage while delivering the modern standards of quality and comfort expected by today's discerning homeowners.",
+      "Achieving a seamless luxury façade across complex geometries — cantilever frames, curved cut-outs, and vertical planes — without adding dead load or risking weather-induced deterioration.",
 
     solution:
-      "Zevolution's HandPeeled Stone collection in warm Rajasthani tones was selected to echo the region's architectural identity, combined with premium engineered flooring for interior spaces.",
+      "Application of Zerra stone veneer in Indian Autumn & Autumn Cream, offering high flexibility, low thickness, and superior resistance to moisture, UV exposure, and cracking compared to conventional stone cladding.",
 
     execution:
-      "The project required careful material curation and skilled craftsmanship to honour the villa's architectural character. Our team worked alongside the architect to ensure every detail was perfect.",
+      "Advanced surface calibration with modular paneling, enabling precise wrapping over sharp edges, soffits, and circular voids while maintaining vein flow continuity and structural compatibility.",
 
     outcome:
-      "Villa Jaipur is now a masterpiece of contemporary luxury rooted in regional heritage — a residence that tells a story through its surfaces and materials.",
+      "A refined, contemporary villa envelope delivering a premium natural stone aesthetic with long-term durability, minimal maintenance, and a bold architectural identity driven by flexibility and precision.",
 
     testimonial:
-      "Zevolution captured the soul of Jaipur in our villa's finish. It's exactly the heritage-meets-luxury aesthetic we were dreaming of.",
-
-    client: "Owner — Villa Jaipur",
+      "Zevolution captured exactly the heritage-meets-luxury aesthetic we were dreaming of. The finish quality is outstanding.",
 
     gallery: [villa1, villa2, villa3, villa4, villa5, villa6],
   },

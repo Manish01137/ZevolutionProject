@@ -89,6 +89,34 @@ const ProjectDetails = () => {
             >
               {project.location} • {project.type} • {project.year}
             </motion.p>
+
+            {(project.brand || project.product || project.architect) && (
+              <motion.div
+                variants={fadeUp}
+                initial="hidden"
+                animate="show"
+                className="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-3 text-xs tracking-[0.2em] uppercase"
+              >
+                {project.brand && (
+                  <div>
+                    <span className="text-white/40 mr-2">Brand</span>
+                    <span className="text-[#C6A75E]">{project.brand}</span>
+                  </div>
+                )}
+                {project.product && (
+                  <div>
+                    <span className="text-white/40 mr-2">Product</span>
+                    <span className="text-[#C6A75E]">{project.product}</span>
+                  </div>
+                )}
+                {project.architect && project.architect !== "Not Given" && project.architect !== "Not Specified" && (
+                  <div>
+                    <span className="text-white/40 mr-2">Architect</span>
+                    <span className="text-[#C6A75E]">{project.architect}</span>
+                  </div>
+                )}
+              </motion.div>
+            )}
           </div>
         </motion.section>
 
