@@ -15,7 +15,6 @@ import BrandCTA from "../components/brand/BrandCTA";
 import BrandCollections from "../components/brand/BrandCollections";
 
 import ProjectSection from "../components/brand/ProjectSection";
-import CategoryGrid from "../components/brand/CategoryGrid";
 
 const BrandDetails = () => {
 
@@ -51,17 +50,13 @@ const BrandDetails = () => {
       {/* OVERVIEW */}
       <BrandOverview data={material} />
       
-      {/* PRODUCT / CATEGORY GRID */}
-      {slug === "zerra" ? (
-        <CategoryGrid brand={slug} />
-      ) : (
-        <>
-          <ProjectSection brand={slug} />
-          <div className="-mt-16 md:-mt-24">
-            <BrandCollections data={material} />
-          </div>
-        </>
-      )}
+      {/* PRODUCT GRID */}
+      <ProjectSection brand={slug} />
+
+      {/* COLLECTIONS (reduced gap) */}
+      <div className="-mt-16 md:-mt-24">
+        <BrandCollections data={material} />
+      </div>
 
       {/* BENEFITS */}
       <BrandBenefits data={material} />

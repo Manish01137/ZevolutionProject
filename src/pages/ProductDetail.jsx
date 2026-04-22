@@ -23,11 +23,11 @@ const findProduct = (brandSlug, productSlug) => {
 const ProductDetail = () => {
   const { brandSlug, productSlug } = useParams();
   const product = findProduct(brandSlug, productSlug);
-  const [activeImage, setActiveImage] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    setActiveImage(0);
+    setActiveIndex(0);
   }, [productSlug]);
 
   if (!product) {
@@ -47,8 +47,17 @@ const ProductDetail = () => {
     );
   }
 
-  const gallery = product.gallery && product.gallery.length > 0 ? product.gallery : [product.image];
-  const mainImg = gallery[activeImage] || product.image;
+  // variants are the authoritative list; fall back to gallery or single image
+  const variants =
+    product.variants && product.variants.length > 0
+      ? product.variants
+      : (product.gallery || [product.image]).map((img, i) => ({
+          name: product.gallery?.length > 1 ? `View ${i + 1}` : product.name,
+          image: img,
+        }));
+
+  const activeVariant = variants[activeIndex] || variants[0];
+  const mainImg = activeVariant.image;
 
   return (
     <>
@@ -69,39 +78,21 @@ const ProductDetail = () => {
           </div>
 
           {/* Hero grid */}
-          <div className="grid lg:grid-cols-5 gap-10 mb-20">
+          <div className="grid lg:grid-cols-5 gap-10 mb-16">
 
             {/* Main image (left, 3 cols) */}
             <div className="lg:col-span-3">
-              <div className="aspect-[4/3] overflow-hidden bg-white/5 mb-4">
+              <div className="aspect-[4/3] overflow-hidden bg-white/5">
                 <img
                   src={mainImg}
-                  alt={product.name}
+                  alt={activeVariant.name}
                   className="w-full h-full object-cover transition-opacity duration-300"
                 />
               </div>
-
-              {/* Thumbnail strip */}
-              {gallery.length > 1 && (
-                <div className="flex gap-2 overflow-x-auto pb-2">
-                  {gallery.map((img, i) => (
-                    <button
-                      key={i}
-                      onClick={() => setActiveImage(i)}
-                      className={`flex-shrink-0 w-20 h-20 overflow-hidden border-2 transition-all duration-200 ${
-                        activeImage === i
-                          ? "border-[#C8A75B]"
-                          : "border-transparent opacity-60 hover:opacity-100"
-                      }`}
-                    >
-                      <img
-                        src={img}
-                        alt=""
-                        className="w-full h-full object-cover"
-                      />
-                    </button>
-                  ))}
-                </div>
+              {variants.length > 1 && (
+                <p className="text-center mt-3 text-white/60 text-sm font-light">
+                  {activeVariant.name}
+                </p>
               )}
             </div>
 
@@ -130,10 +121,12 @@ const ProductDetail = () => {
                 </div>
               )}
 
-              {gallery.length > 1 && (
+              {variants.length > 1 && (
                 <div className="mb-4">
-                  <p className="text-white/30 text-xs tracking-[0.3em] uppercase mb-2">Images</p>
-                  <p className="text-white/70 text-sm">{gallery.length} views available</p>
+                  <p className="text-white/30 text-xs tracking-[0.3em] uppercase mb-2">Finishes</p>
+                  <p className="text-white/70 text-sm">
+                    {variants.length} colour{variants.length > 1 ? "s" : ""} available
+                  </p>
                 </div>
               )}
 
@@ -158,30 +151,48 @@ const ProductDetail = () => {
             </div>
           </div>
 
-          {/* Full gallery grid */}
-          {gallery.length > 1 && (
-            <div>
-              <div className="flex items-end justify-between mb-8 border-b border-white/10 pb-4">
-                <h2 className="text-2xl md:text-3xl font-light">All Views</h2>
+          {/* Variant swatches */}
+          {variants.length > 1 && (
+            <div className="mt-10">
+              <div className="flex items-end justify-between mb-6 border-b border-white/10 pb-3">
+                <h2 className="text-xl md:text-2xl font-light">Available Finishes</h2>
                 <p className="text-white/40 text-xs tracking-[0.3em] uppercase">
-                  {gallery.length} Images
+                  {variants.length} Colours
                 </p>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {gallery.map((img, i) => (
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
+                {variants.map((v, i) => (
                   <button
                     key={i}
                     onClick={() => {
-                      setActiveImage(i);
+                      setActiveIndex(i);
                       window.scrollTo({ top: 0, behavior: "smooth" });
                     }}
-                    className="aspect-square overflow-hidden bg-white/5 group"
+                    className={`group text-left transition-all duration-300 ${
+                      activeIndex === i ? "opacity-100" : "opacity-80 hover:opacity-100"
+                    }`}
                   >
-                    <img
-                      src={img}
-                      alt={`${product.name} ${i + 1}`}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
+                    <div
+                      className={`aspect-square overflow-hidden bg-white/5 border-2 transition-colors duration-200 ${
+                        activeIndex === i
+                          ? "border-[#C8A75B]"
+                          : "border-transparent group-hover:border-[#C8A75B]/50"
+                      }`}
+                    >
+                      <img
+                        src={v.image}
+                        alt={v.name}
+                        loading="lazy"
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                    <p
+                      className={`mt-2 text-xs font-light tracking-wide leading-tight ${
+                        activeIndex === i ? "text-[#C8A75B]" : "text-white/60"
+                      }`}
+                    >
+                      {v.name}
+                    </p>
                   </button>
                 ))}
               </div>

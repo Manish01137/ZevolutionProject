@@ -1,8 +1,54 @@
 import { zerraProducts, crestoneProducts } from "./generatedProducts";
 import sandstoneAgra from "../assets/images/zerra/Sandstone/AgraRedSandStone.jpg";
+import { slugify } from "../utils/slug";
 
-// ── Brand-level metadata ─────────────────────────────────────────────────────
-// Product arrays come from generatedProducts.js (auto-built from filesystem).
+// ── Group Zerra variants into 5 products by category ─────────────────────────
+const ZERRA_DESCRIPTIONS = {
+  Sandstone:
+    "Warm toned HandPeeled™ sandstone veneers with rich natural surface variation, sourced from India's finest quarries. Ideal for heritage facades and contemporary residential exteriors.",
+  Marble:
+    "Authentic marble veneers hand finished to capture the depth and luminescence of quarried stone at a fraction of the structural weight. Designed for luxury interiors and feature walls.",
+  Limestone:
+    "Organic limestone surfaces with refined texture and subtle natural variation, ideal for luxury interiors and light toned exterior facades.",
+  Concrete:
+    "Industrial inspired concrete stone veneers with bold, contemporary character, engineered for high impact facades and feature wall applications.",
+  "Slate & Quartzite":
+    "Dramatic slate and quartzite veneers with rich mineral tones and layered texture, engineered for architecturally bold exterior and interior installations.",
+};
+
+const buildZerraGroupedProducts = () => {
+  const map = new Map();
+  for (const p of zerraProducts) {
+    const key = p.category;
+    if (!map.has(key)) {
+      map.set(key, {
+        name: key,
+        slug: slugify(key),
+        category: key,
+        description: ZERRA_DESCRIPTIONS[key] || `${key} HandPeeled™ stone veneers.`,
+        sizes: "Free form pieces · 25-60cm lengths",
+        tags: ["HandPeeled™", "Exterior", "Interior"],
+        cover: p.image,
+        variants: [],
+      });
+    }
+    const group = map.get(key);
+    for (let i = 0; i < p.gallery.length; i++) {
+      const variantName = p.gallery.length > 1 ? `${p.name} ${i + 1}` : p.name;
+      group.variants.push({
+        name: variantName,
+        image: p.gallery[i],
+      });
+    }
+  }
+
+  const CATEGORY_ORDER = ["Sandstone", "Marble", "Limestone", "Concrete", "Slate & Quartzite"];
+  return Array.from(map.values()).sort(
+    (a, b) => CATEGORY_ORDER.indexOf(a.name) - CATEGORY_ORDER.indexOf(b.name)
+  );
+};
+
+const zerraGrouped = buildZerraGroupedProducts();
 
 export const productsData = {
   "crest-stone": {
@@ -17,7 +63,7 @@ export const productsData = {
     intro: {
       title: "Five Collections. Limitless Architecture.",
       description:
-        "Crest Stone FCC Systems span five distinct product families, from hand-textured stone claddings and authentic marble finishes to rammed earth boards, architectural FCC panels, and premium stone collections. Every surface is precision engineered to deliver decades of performance without compromise.",
+        "Crest Stone FCC Systems span five distinct product families, from hand textured stone claddings and authentic marble finishes to rammed earth boards, architectural FCC panels, and premium stone collections. Every surface is precision engineered to deliver decades of performance without compromise.",
     },
 
     instagram: "https://instagram.com/creststone",
@@ -26,7 +72,7 @@ export const productsData = {
       name: p.name,
       slug: p.slug,
       category: p.category,
-      description: `${p.name} is part of the ${p.category} collection. A premium Crest Stone finish engineered for high durability, crack resistance, and long-term architectural performance.`,
+      description: `${p.name} is part of the ${p.category} collection. A premium Crest Stone finish engineered for high durability, crack resistance, and long term architectural performance.`,
       sizes: "Custom sizing available · Standard 600×300mm to 1200×600mm",
       tags: ["Exterior", "Interior", "FCC System"],
       image: p.image,
@@ -50,15 +96,16 @@ export const productsData = {
 
     instagram: "https://instagram.com/zerra_stoneveneers",
 
-    products: zerraProducts.map((p) => ({
+    products: zerraGrouped.map((p) => ({
       name: p.name,
       slug: p.slug,
       category: p.category,
-      description: `${p.name} is part of our ${p.category} family. Hand peeled natural stone veneer that captures authentic texture and depth while weighing 90% less than quarried stone.`,
-      sizes: "Free form pieces · 25-60cm lengths",
-      tags: ["Exterior", "Interior", "Natural"],
-      image: p.image,
-      gallery: p.gallery,
+      description: p.description,
+      sizes: p.sizes,
+      tags: p.tags,
+      image: p.cover,
+      gallery: p.variants.map((v) => v.image),
+      variants: p.variants,
     })),
   },
 
