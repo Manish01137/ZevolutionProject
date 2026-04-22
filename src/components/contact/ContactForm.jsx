@@ -8,7 +8,7 @@ const ContactForm = () => {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-16">
 
-        {/* LEFT SIDE — CONTACT INFO */}
+        {/* LEFT SIDE, CONTACT INFO */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
@@ -33,9 +33,8 @@ const ContactForm = () => {
             <div>
               <h4 className="font-light mb-1">Visit Us</h4>
               <p className="text-gray-400 font-extralight text-sm leading-relaxed">
-                Mumbai-Raipur <br />
-                Jaipur-Rajkot <br />
-                
+                Design District, New Delhi <br />
+                India 110001
               </p>
             </div>
           </div>
@@ -48,8 +47,7 @@ const ContactForm = () => {
             <div>
               <h4 className="font-light mb-1">Call Us</h4>
               <p className="text-gray-400 font-extralight text-sm">
-                +91 11 4567 8900 <br />
-                +91 9152220055
+                +91 91522 20055
               </p>
             </div>
           </div>
@@ -82,7 +80,7 @@ const ContactForm = () => {
           </div>
         </motion.div>
 
-        {/* RIGHT SIDE — FORM */}
+        {/* RIGHT SIDE, FORM */}
         <motion.div
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}

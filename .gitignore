@@ -42,3 +42,6 @@ zevolution/
 
 # ── Git save files ─────────────────────────────────────────────
 *.save
+
+# ── Local deployment archives ──────────────────────────────────
+*.zip

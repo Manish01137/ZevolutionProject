@@ -102,7 +102,7 @@ const Material = () => {
     {
       brand: "Zerra",
       logo: zerraLogo,
-      title: "HandPeeled Stones",
+      title: "HandPeeled™ Stones",
       description:
         "Lightweight natural stone veneers with authentic textures. The elegance of stone without the structural demands.",
       points: [
@@ -171,7 +171,7 @@ const Material = () => {
               {/* Content */}
               <div className="material-content flex flex-col justify-center">
 
-                {/* Brand logo or name — fixed height keeps title aligned across sections */}
+                {/* Brand logo or name, fixed height keeps title aligned across sections */}
                 <div className="h-8 md:h-10 flex items-center mb-3">
                   {item.logo ? (
                     <img

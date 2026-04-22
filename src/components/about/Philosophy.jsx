@@ -21,7 +21,7 @@ const Philosophy = () => {
 
             <p>
               At Zevolution, we believe that exceptional architecture begins
-              with exceptional materials. We’re not just suppliers — we are
+              with exceptional materials. We’re not just suppliers, we are
               partners in the creative process, bringing together innovation,
               craftsmanship, and sustainability to deliver materials that inspire.
             </p>

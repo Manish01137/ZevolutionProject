@@ -2,8 +2,9 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
+import { Instagram } from "lucide-react";
 
-const BrandHero = ({ data }) => {
+const BrandHero = ({ data, instagram }) => {
   const navigate = useNavigate();
   const heroRef = useRef(null);
 
@@ -41,6 +42,22 @@ const BrandHero = ({ data }) => {
         >
           ← Back to Brands
         </button>
+
+        {/* Instagram (brand-specific) */}
+        {instagram && (
+          <a
+            href={instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${data.name} on Instagram`}
+            className="absolute top-8 right-6 md:right-12 flex items-center gap-2 text-sm text-white/70 hover:text-[#C6A75E] transition group"
+          >
+            <span className="w-9 h-9 border border-white/30 group-hover:border-[#C6A75E] rounded-full flex items-center justify-center transition">
+              <Instagram size={16} />
+            </span>
+            <span className="hidden md:inline tracking-widest text-xs uppercase">Instagram</span>
+          </a>
+        )}
 
         {/* HERO TEXT BLOCK */}
         <div className="flex flex-col items-center gap-1 md:gap-2 -mt-16">

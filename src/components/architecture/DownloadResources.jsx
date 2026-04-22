@@ -8,7 +8,7 @@ const files = [
     type: "PDF • 2.4 MB",
   },
   {
-    title: "Zerra HandPeeled Stone Catalog",
+    title: "Zerra HandPeeled™ Stone Catalog",
     type: "PDF • 8.1 MB",
   },
   {

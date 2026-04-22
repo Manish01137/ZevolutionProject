@@ -1,7 +1,7 @@
 const principles = [
     {
       title: "Transformation",
-      desc: "We don’t just supply materials — we transform vision into architectural reality.",
+      desc: "We don’t just supply materials, we transform vision into architectural reality.",
     },
     {
       title: "Creation",

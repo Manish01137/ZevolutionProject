@@ -6,8 +6,8 @@ import zerraHero from "../assets/images/ZERRA.png";
 
 // ── Zerra Engineering showcase images ─────────────────────────────────────────
 import zerraEng1 from "../assets/images/zerra/Sandstone/AgraRedSandStone.jpg";
-import zerraEng2 from "../assets/images/zerra/Marble/AtlanticWhitemarble.jpg";
-import zerraEng3 from "../assets/images/zerra/slate&Quartzite/SilverShineSlate.jpg";
+import zerraEng2 from "../assets/images/zerra/Marble/Atlantic White.jpg";
+import zerraEng3 from "../assets/images/zerra/slate&Quartzite/Silver Shine.jpg";
 
 export const materialsData = [
   {
@@ -98,7 +98,7 @@ export const materialsData = [
     overviewTitle: "Natural Elegance Reinvented",
 
     overviewDescription:
-      "Zerra HandPeeled Stones bring the tactile richness of natural stone into a lightweight, versatile format. Five curated stone families — Sandstone, Marble, Limestone, Concrete, and Slate & Quartzite — each hand-finished to preserve authentic surface depth. Zerra enables architects to achieve timeless façades with dramatically reduced structural load.",
+      "Zerra HandPeeled™ Stones bring the tactile richness of natural stone into a lightweight, versatile format. Five curated stone families, Sandstone, Marble, Limestone, Concrete, and Slate & Quartzite, each hand-finished to preserve authentic surface depth. Zerra enables architects to achieve timeless façades with dramatically reduced structural load.",
 
     applications: [
       "Luxury villa elevations & façades",
@@ -143,7 +143,7 @@ export const materialsData = [
     ],
 
     engineeringText:
-      "Zerra panels utilise a reinforced composite backing integrated with authentic hand-peeled stone veneers. The system ensures dimensional stability while preserving natural variation across all five stone families. Each module is factory-calibrated for seamless alignment and rapid installation — indoors and out.",
+      "Zerra panels utilise a reinforced composite backing integrated with authentic HandPeeled™ stone veneers. The system ensures dimensional stability while preserving natural variation across all five stone families. Each module is factory-calibrated for seamless alignment and rapid installation, indoors and out.",
 
     engineeringImages: [zerraEng1, zerraEng2, zerraEng3],
 

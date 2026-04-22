@@ -7,7 +7,7 @@ const steps = [
   {
     number: "02",
     title: "Curate",
-    desc: "Our specialists curate a tailored material selection from across our brand ecosystem — matching aesthetics, performance, and budget with precision.",
+    desc: "Our specialists curate a tailored material selection from across our brand ecosystem, matching aesthetics, performance, and budget with precision.",
   },
   {
     number: "03",

@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { materialsData } from "../data/materialsData";
+import { productsData } from "../data/productsData";
 
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
@@ -44,7 +45,7 @@ const BrandDetails = () => {
       <Navbar />
 
       {/* HERO */}
-      <BrandHero data={material} />
+      <BrandHero data={material} instagram={productsData[slug]?.instagram} />
 
       {/* OVERVIEW */}
       <BrandOverview data={material} />

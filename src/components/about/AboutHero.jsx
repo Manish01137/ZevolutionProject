@@ -22,7 +22,7 @@ const AboutHero = () => {
           Built on Vision,<br />Driven by Craft
         </h1>
         <p className="text-white/70 text-base md:text-xl font-light max-w-2xl mx-auto leading-relaxed">
-          Zevolution is the architecture of premium materials — a brand ecosystem
+          Zevolution is the architecture of premium materials, a brand ecosystem
           created to elevate every surface, every space, every structure.
         </p>
       </div>

@@ -24,7 +24,7 @@ const Ecosystem = () => {
     },
     {
       name: "Zerra",
-      category: "Handpeeled Stones",
+      category: "HandPeeled™ Stones",
       description: "Lightweight elegance. Architectural precision.",
       slug: "zerra",
       image: zerra,
@@ -146,7 +146,7 @@ const Ecosystem = () => {
                 {/* Content */}
                 <div className="absolute bottom-8 left-6 right-6 flex flex-col items-start text-left">
 
-                  {/* LOGO OR TITLE — fixed height so subheading aligns across all cards */}
+                  {/* LOGO OR TITLE, fixed height so subheading aligns across all cards */}
                   <div className="h-10 flex items-center mb-3">
                     {brand.logo ? (
                       <img

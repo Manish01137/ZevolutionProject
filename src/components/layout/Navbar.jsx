@@ -7,7 +7,7 @@ import logo from "../../assets/images/Zev Logo-02.png";
 // A flat, searchable index of all website content
 const SEARCH_INDEX = [
   // Pages
-  { type: "Page", title: "Home", path: "/", desc: "Zevolution — premium architectural surface solutions" },
+  { type: "Page", title: "Home", path: "/", desc: "Zevolution, premium architectural surface solutions" },
   { type: "Page", title: "About Zevolution", path: "/about", desc: "Our story, mission, and founding team" },
   { type: "Page", title: "Our Brands", path: "/brands", desc: "Explore all Zevolution brand collections" },
   { type: "Page", title: "Projects", path: "/projects", desc: "Real-world installations and case studies" },
@@ -15,9 +15,9 @@ const SEARCH_INDEX = [
   { type: "Page", title: "Contact", path: "/contact", desc: "Get in touch with our team" },
 
   // Brands
-  { type: "Brand", title: "Crest Stone", path: "/brand/crest-stone", desc: "FCC Stone Cladding Systems — 94 premium products across 5 collections" },
-  { type: "Brand", title: "Zerra", path: "/brand/zerra", desc: "HandPeeled Stone Veneers — authentic natural stone surfaces" },
-  { type: "Brand", title: "Formiq", path: "/brand/formiq", desc: "Premium Flooring Systems — engineered for luxury interiors" },
+  { type: "Brand", title: "Crest Stone", path: "/brand/crest-stone", desc: "FCC Stone Cladding Systems, 94 premium products across 5 collections" },
+  { type: "Brand", title: "Zerra", path: "/brand/zerra", desc: "HandPeeled™ Stone Veneers, authentic natural stone surfaces" },
+  { type: "Brand", title: "Formiq", path: "/brand/formiq", desc: "Premium Flooring Systems, engineered for luxury interiors" },
 
   // Crest Stone Products
   { type: "Product", title: "Age Stone", path: "/brand/crest-stone", desc: "Crest Stone · Stone Cladding Textures" },
@@ -50,7 +50,7 @@ const SEARCH_INDEX = [
   { type: "Product", title: "Zen Ando Cement", path: "/brand/crest-stone", desc: "Crest Stone · Meditative cement panels" },
 
   // Zerra Products
-  { type: "Product", title: "Sandstone Veneer", path: "/brand/zerra", desc: "Zerra · Warm-toned hand-peeled sandstone" },
+  { type: "Product", title: "Sandstone Veneer", path: "/brand/zerra", desc: "Zerra · Warm-toned HandPeeled™ sandstone" },
   { type: "Product", title: "Marble Veneer", path: "/brand/zerra", desc: "Zerra · Authentic marble veneers" },
   { type: "Product", title: "Limestone Veneer", path: "/brand/zerra", desc: "Zerra · Organic limestone surfaces" },
   { type: "Product", title: "Concrete Veneer", path: "/brand/zerra", desc: "Zerra · Industrial concrete stone veneers" },
@@ -64,7 +64,7 @@ const SEARCH_INDEX = [
 
   // Projects
   { type: "Project", title: "Chhavi Eye Hospital", path: "/projects/chhavi-eye-hospital", desc: "Healthcare · Premium facade and interior surfaces" },
-  { type: "Project", title: "Kuchaiya Residence", path: "/projects/kuchaiya", desc: "Residential · HandPeeled stone transformation" },
+  { type: "Project", title: "Kuchaiya Residence", path: "/projects/kuchaiya", desc: "Residential · HandPeeled™ stone transformation" },
   { type: "Project", title: "Marcos a Muscles", path: "/projects/marcos-a-muscles", desc: "Fitness & Commercial · Bold premium interior" },
   { type: "Project", title: "Mumbai Commercial", path: "/projects/mumbai-project", desc: "Commercial · Coastal facade system" },
   { type: "Project", title: "Rajput Jewellers", path: "/projects/rajput-jewellers", desc: "Retail · Luxury stone interior surfaces" },

@@ -6,13 +6,6 @@ import nakul from "../../assets/images/founder-nakul.webp";
 
 const founders = [
   {
-    name: "Dheeraj",
-    title: "Founder & CEO",
-    image: dheeraj,
-    bio: "Dheeraj drives the vision of Zevolution — bringing together premium material brands to redefine architectural excellence across India.",
-    linkedin: "https://www.linkedin.com/in/dheeraj-gehani-956009365",
-  },
-  {
     name: "Hitesh",
     title: "Co-Founder & Operations",
     image: hitesh,
@@ -25,6 +18,13 @@ const founders = [
     image: nakul,
     bio: "Nakul leads the design and curation philosophy ensuring every material selection exceeds the expectations of architects and clients alike.",
     linkedin: "https://www.linkedin.com/in/nakul-kanchhal-unihome",
+  },
+  {
+    name: "Dheeraj",
+    title: "Founder & CEO",
+    image: dheeraj,
+    bio: "Dheeraj drives the vision of Zevolution, bringing together premium material brands to redefine architectural excellence across India.",
+    linkedin: "https://www.linkedin.com/in/dheeraj-gehani-956009365",
   },
 ];
 

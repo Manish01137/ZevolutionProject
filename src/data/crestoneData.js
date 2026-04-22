@@ -1,5 +1,5 @@
 // ============================================================
-// CRESTONE PRODUCT DATA — All 5 Catalogs
+// CRESTONE PRODUCT DATA, All 5 Catalogs
 // ============================================================
 // Catelog1  → Stone Cladding Textures (11 products)
 // catelog2  → Marble & Sandstone Finishes (16 products)
@@ -490,7 +490,7 @@ import zenAndoCement3 from "../assets/images/Crestone/catelog5/Zen Ando Cement_/
 import zenAndoCement4 from "../assets/images/Crestone/catelog5/Zen Ando Cement_/4.jpg";
 
 // ============================================================
-// EXPORTED: crestoneBrandContent — used in ProjectSection
+// EXPORTED: crestoneBrandContent, used in ProjectSection
 // ============================================================
 // This mirrors the structure of brandContent.js > zerra key
 // Each product has: id, name, slug, image (hero), description, variants[]
@@ -504,7 +504,7 @@ export const crestoneBrandContent = [
     name: "Age Stone",
     slug: "age-stone",
     image: ageStoneBeige,
-    description: "Timeless aged stone surface with natural colour variation — ideal for heritage facades, boundary walls, and rustic architectural accents.",
+    description: "Timeless aged stone surface with natural colour variation, ideal for heritage facades, boundary walls, and rustic architectural accents.",
     variants: [
       { name: "Beige", image: ageStoneBeige },
       { name: "Dark Grey", image: ageStoneDarkGrey },
@@ -519,7 +519,7 @@ export const crestoneBrandContent = [
     name: "Cut Stone",
     slug: "cut-stone",
     image: cutStoneBeige,
-    description: "Precision-cut stone panels with clean linear edges — designed for contemporary facades and modern architectural statements.",
+    description: "Precision-cut stone panels with clean linear edges, designed for contemporary facades and modern architectural statements.",
     variants: [
       { name: "Beige", image: cutStoneBeige },
       { name: "Grey", image: cutStoneGrey },
@@ -531,7 +531,7 @@ export const crestoneBrandContent = [
     name: "Morocco",
     slug: "morocco",
     image: moroccoBeige,
-    description: "Inspired by North African architecture — Morocco cladding blends warm earth tones with intricate relief texture for distinctive facades.",
+    description: "Inspired by North African architecture, Morocco cladding blends warm earth tones with intricate relief texture for distinctive facades.",
     variants: [
       { name: "Beige", image: moroccoBeige },
       { name: "Grey", image: moroccoGrey },
@@ -544,7 +544,7 @@ export const crestoneBrandContent = [
     name: "Muretto",
     slug: "muretto",
     image: murettoBeige,
-    description: "Italian-inspired brick-bond stone cladding with refined dimensional relief — perfect for premium residential and boutique commercial facades.",
+    description: "Italian-inspired brick-bond stone cladding with refined dimensional relief, perfect for premium residential and boutique commercial facades.",
     variants: [
       { name: "Beige", image: murettoBeige },
       { name: "Dark Grey", image: murettoDarkGrey },
@@ -578,7 +578,7 @@ export const crestoneBrandContent = [
     name: "Rough Granite",
     slug: "rough-granite",
     image: roughGraniteBeige,
-    description: "Heavy-duty granite-finish cladding with raw, unpolished surface texture — delivering elemental strength for exterior applications.",
+    description: "Heavy-duty granite-finish cladding with raw, unpolished surface texture, delivering elemental strength for exterior applications.",
     variants: [
       { name: "Beige", image: roughGraniteBeige },
       { name: "Dark Grey", image: roughGraniteDarkGrey },
@@ -591,7 +591,7 @@ export const crestoneBrandContent = [
     name: "Slate",
     slug: "slate-cladding",
     image: slateC1Beige,
-    description: "Classic slate-effect cladding with layered mineral texture — a premium choice for luxury residential facades and feature walls.",
+    description: "Classic slate-effect cladding with layered mineral texture, a premium choice for luxury residential facades and feature walls.",
     variants: [
       { name: "Beige", image: slateC1Beige },
       { name: "Dark Grey", image: slateC1DarkGrey },
@@ -606,7 +606,7 @@ export const crestoneBrandContent = [
     name: "Travertine Classic",
     slug: "travertine-classic",
     image: travC1Beige,
-    description: "Roman-inspired travertine cladding with open-pore surface texture — delivering timeless warmth for luxury interiors and high-end exteriors.",
+    description: "Roman-inspired travertine cladding with open-pore surface texture, delivering timeless warmth for luxury interiors and high-end exteriors.",
     variants: [
       { name: "Beige", image: travC1Beige },
       { name: "Concrete", image: travC1Concrete },
@@ -622,7 +622,7 @@ export const crestoneBrandContent = [
     name: "Weaving",
     slug: "weaving",
     image: weavingBeige,
-    description: "Interlocked weave-pattern cladding panels that create dynamic three-dimensional texture — a bold contemporary choice for statement facades.",
+    description: "Interlocked weave-pattern cladding panels that create dynamic three-dimensional texture, a bold contemporary choice for statement facades.",
     variants: [
       { name: "Beige", image: weavingBeige },
       { name: "Grey", image: weavingGrey },
@@ -651,7 +651,7 @@ export const crestoneBrandContent = [
     name: "Arabescato Corchia",
     slug: "arabescato-corchia",
     image: arabescato1,
-    description: "Arabescato Corchia marble-effect cladding with dramatic white-and-grey veining — the signature stone of Italian luxury architecture.",
+    description: "Arabescato Corchia marble-effect cladding with dramatic white-and-grey veining, the signature stone of Italian luxury architecture.",
     variants: [
       { name: "View 1", image: arabescato1 },
       { name: "View 2", image: arabescato2 },
@@ -663,7 +663,7 @@ export const crestoneBrandContent = [
     name: "Armani Dark Grey",
     slug: "armani-dark-grey",
     image: armaniDarkGrey1,
-    description: "Refined dark grey stone cladding inspired by minimalist luxury — delivering bold architectural gravitas for premium commercial facades.",
+    description: "Refined dark grey stone cladding inspired by minimalist luxury, delivering bold architectural gravitas for premium commercial facades.",
     variants: [
       { name: "View 1", image: armaniDarkGrey1 },
       { name: "View 2", image: armaniDarkGrey2 },
@@ -675,7 +675,7 @@ export const crestoneBrandContent = [
     name: "Armani Grey",
     slug: "armani-grey",
     image: armaniGrey1,
-    description: "Sophisticated warm-grey stone finish with subtle mineral variation — an elevated choice for luxury retail, hospitality, and residential facades.",
+    description: "Sophisticated warm-grey stone finish with subtle mineral variation, an elevated choice for luxury retail, hospitality, and residential facades.",
     variants: [
       { name: "View 1", image: armaniGrey1 },
       { name: "View 2", image: armaniGrey2 },
@@ -687,7 +687,7 @@ export const crestoneBrandContent = [
     name: "Bianco Carrara",
     slug: "bianco-carrara",
     image: biancoCarrara1,
-    description: "Classic Italian Bianco Carrara marble — pure white with delicate grey veining, the epitome of architectural elegance across centuries.",
+    description: "Classic Italian Bianco Carrara marble, pure white with delicate grey veining, the epitome of architectural elegance across centuries.",
     variants: [
       { name: "View 1", image: biancoCarrara1 },
       { name: "View 2", image: biancoCarrara2 },
@@ -699,7 +699,7 @@ export const crestoneBrandContent = [
     name: "Black Sandstone",
     slug: "black-sandstone",
     image: blackSandstone1,
-    description: "Dramatic black sandstone cladding with rich mineral depth — commanding and contemporary for bold architectural facades.",
+    description: "Dramatic black sandstone cladding with rich mineral depth, commanding and contemporary for bold architectural facades.",
     variants: [
       { name: "View 1", image: blackSandstone1 },
       { name: "View 2", image: blackSandstone2 },
@@ -711,7 +711,7 @@ export const crestoneBrandContent = [
     name: "Bvlgari",
     slug: "bvlgari-stone",
     image: bvlgari1,
-    description: "Ultra-luxury stone finish inspired by Bvlgari's iconic material palette — a prestige surface for the most discerning architectural interiors.",
+    description: "Ultra-luxury stone finish inspired by Bvlgari's iconic material palette, a prestige surface for the most discerning architectural interiors.",
     variants: [
       { name: "View 1", image: bvlgari1 },
       { name: "View 2", image: bvlgari2 },
@@ -723,7 +723,7 @@ export const crestoneBrandContent = [
     name: "Golden Carrara",
     slug: "golden-carrara",
     image: goldenCarrara1,
-    description: "Warm golden-toned Carrara marble cladding that fuses Italian heritage with contemporary luxury — perfect for interior feature walls and facades.",
+    description: "Warm golden-toned Carrara marble cladding that fuses Italian heritage with contemporary luxury, perfect for interior feature walls and facades.",
     variants: [
       { name: "View 1", image: goldenCarrara1 },
       { name: "View 2", image: goldenCarrara2 },
@@ -735,7 +735,7 @@ export const crestoneBrandContent = [
     name: "Golden Silk Beige",
     slug: "golden-silk-beige",
     image: goldenSilkBeige1,
-    description: "Silky smooth beige stone surface with golden mineral shimmer — an opulent choice for luxury hospitality and high-end residential projects.",
+    description: "Silky smooth beige stone surface with golden mineral shimmer, an opulent choice for luxury hospitality and high-end residential projects.",
     variants: [
       { name: "View 1", image: goldenSilkBeige1 },
       { name: "View 2", image: goldenSilkBeige2 },
@@ -747,7 +747,7 @@ export const crestoneBrandContent = [
     name: "Grey Sandstone",
     slug: "grey-sandstone",
     image: greySandstone1,
-    description: "Natural grey sandstone cladding with fine layered texture — versatile and elegant for both contemporary and traditional architecture.",
+    description: "Natural grey sandstone cladding with fine layered texture, versatile and elegant for both contemporary and traditional architecture.",
     variants: [
       { name: "View 1", image: greySandstone1 },
       { name: "View 2", image: greySandstone2 },
@@ -759,7 +759,7 @@ export const crestoneBrandContent = [
     name: "Italian Golden White",
     slug: "italian-golden-white",
     image: italianGoldenWhite1,
-    description: "Refined Italian stone with golden-white surface tones — a sophisticated palette for prestigious facade and interior architectural applications.",
+    description: "Refined Italian stone with golden-white surface tones, a sophisticated palette for prestigious facade and interior architectural applications.",
     variants: [
       { name: "View 1", image: italianGoldenWhite1 },
       { name: "View 2", image: italianGoldenWhite2 },
@@ -771,7 +771,7 @@ export const crestoneBrandContent = [
     name: "Italian Wood",
     slug: "italian-wood",
     image: italianWoodBrown,
-    description: "Italian wood-grain stone panels — the warmth of timber with the permanence of stone, ideal for feature walls and contemporary interiors.",
+    description: "Italian wood-grain stone panels, the warmth of timber with the permanence of stone, ideal for feature walls and contemporary interiors.",
     variants: [
       { name: "Light Brown", image: italianWoodBrown },
       { name: "Light Grey", image: italianWoodGrey },
@@ -783,7 +783,7 @@ export const crestoneBrandContent = [
     name: "New Victoria",
     slug: "new-victoria",
     image: newVictoria1,
-    description: "Timeless Victorian-inspired stone finish with classical proportions — refined and enduring for premium civic and residential architecture.",
+    description: "Timeless Victorian-inspired stone finish with classical proportions, refined and enduring for premium civic and residential architecture.",
     variants: [
       { name: "View 1", image: newVictoria1 },
       { name: "View 2", image: newVictoria2 },
@@ -795,7 +795,7 @@ export const crestoneBrandContent = [
     name: "Pandora",
     slug: "pandora",
     image: pandora1,
-    description: "Pandora marble-effect stone with dramatic veining patterns — a statement surface for luxury interiors and high-profile commercial facades.",
+    description: "Pandora marble-effect stone with dramatic veining patterns, a statement surface for luxury interiors and high-profile commercial facades.",
     variants: [
       { name: "View 1", image: pandora1 },
       { name: "View 2", image: pandora2 },
@@ -807,7 +807,7 @@ export const crestoneBrandContent = [
     name: "Strange Black",
     slug: "strange-black",
     image: strangeBlack1,
-    description: "Intensely dark stone cladding with raw, dramatic mineral character — for architects seeking maximum contrast and visual impact.",
+    description: "Intensely dark stone cladding with raw, dramatic mineral character, for architects seeking maximum contrast and visual impact.",
     variants: [
       { name: "View 1", image: strangeBlack1 },
       { name: "View 2", image: strangeBlack2 },
@@ -819,7 +819,7 @@ export const crestoneBrandContent = [
     name: "Top Pandora",
     slug: "top-pandora",
     image: topPandora1,
-    description: "An elevated evolution of the Pandora series — bolder veining and richer tonal depth for the most demanding luxury installations.",
+    description: "An elevated evolution of the Pandora series, bolder veining and richer tonal depth for the most demanding luxury installations.",
     variants: [
       { name: "View 1", image: topPandora1 },
       { name: "View 2", image: topPandora2 },
@@ -831,7 +831,7 @@ export const crestoneBrandContent = [
     name: "White Sandstone",
     slug: "white-sandstone",
     image: whiteSandstone1,
-    description: "Pure white sandstone cladding with clean, refined texture — the ideal surface for bright, contemporary facades and minimalist interiors.",
+    description: "Pure white sandstone cladding with clean, refined texture, the ideal surface for bright, contemporary facades and minimalist interiors.",
     variants: [
       { name: "View 1", image: whiteSandstone1 },
       { name: "View 2", image: whiteSandstone2 },
@@ -846,7 +846,7 @@ export const crestoneBrandContent = [
     name: "Danxia Rammed Earth",
     slug: "danxia-rammed-earth",
     image: danxiaBeige,
-    description: "Inspired by China's Danxia landforms — these rammed earth boards bring dramatic layered geology to contemporary architectural surfaces.",
+    description: "Inspired by China's Danxia landforms, these rammed earth boards bring dramatic layered geology to contemporary architectural surfaces.",
     variants: [
       { name: "Beige", image: danxiaBeige },
       { name: "Brown Red", image: danxiaBrownRed },
@@ -861,7 +861,7 @@ export const crestoneBrandContent = [
     name: "Gobi Rammed Earth",
     slug: "gobi-rammed-earth",
     image: gobiBeige,
-    description: "Desert-inspired rammed earth panels with rich layered strata — capturing the ancient geological beauty of the Gobi landscape.",
+    description: "Desert-inspired rammed earth panels with rich layered strata, capturing the ancient geological beauty of the Gobi landscape.",
     variants: [
       { name: "Beige", image: gobiBeige },
       { name: "Brown Red", image: gobiBrownRed },
@@ -876,7 +876,7 @@ export const crestoneBrandContent = [
     name: "Rammpart Rammed Earth",
     slug: "rammpart-rammed-earth",
     image: rammpartBeige,
-    description: "Bold rammed earth wall boards with tactile depth and authentic earthy tones — perfect for biophilic and heritage-inspired architecture.",
+    description: "Bold rammed earth wall boards with tactile depth and authentic earthy tones, perfect for biophilic and heritage-inspired architecture.",
     variants: [
       { name: "Beige", image: rammpartBeige },
       { name: "Brown Red", image: rammpartBrownRed },
@@ -891,7 +891,7 @@ export const crestoneBrandContent = [
     name: "Relic Rammed Earth",
     slug: "relic-rammed-earth",
     image: relicGradientGrey,
-    description: "Aged relic-finish rammed earth boards with gradient mineral tones — evoking time-worn archaeological surfaces for distinctive interiors.",
+    description: "Aged relic-finish rammed earth boards with gradient mineral tones, evoking time-worn archaeological surfaces for distinctive interiors.",
     variants: [
       { name: "Gradient Grey", image: relicGradientGrey },
       { name: "Medium Grey", image: relicMediumGrey },
@@ -902,7 +902,7 @@ export const crestoneBrandContent = [
     name: "Cave Rammed Earth",
     slug: "cave-rammed-earth",
     image: caveBrownRed,
-    description: "Raw cave-inspired rammed earth panels with deep mineral textures — ideal for dramatic feature walls and immersive architectural interiors.",
+    description: "Raw cave-inspired rammed earth panels with deep mineral textures, ideal for dramatic feature walls and immersive architectural interiors.",
     variants: [
       { name: "Brown Red", image: caveBrownRed },
       { name: "Dark Grey", image: caveDarkGrey },
@@ -918,7 +918,7 @@ export const crestoneBrandContent = [
     name: "Aerolite",
     slug: "aerolite",
     image: aeroliteCoffeeGrey,
-    description: "Lightweight FCC architectural boards with refined matte finish — engineered for large-format facade cladding with minimal structural load.",
+    description: "Lightweight FCC architectural boards with refined matte finish, engineered for large-format facade cladding with minimal structural load.",
     variants: [
       { name: "Coffee Grey", image: aeroliteCoffeeGrey },
       { name: "Earthy Brown", image: aeroliteEarthyBrown },
@@ -930,7 +930,7 @@ export const crestoneBrandContent = [
     name: "Brick Wall",
     slug: "brick-wall",
     image: brickWallBeige,
-    description: "FCC brick-pattern wall panels delivering authentic brick aesthetics with engineered durability — ideal for feature walls and residential exteriors.",
+    description: "FCC brick-pattern wall panels delivering authentic brick aesthetics with engineered durability, ideal for feature walls and residential exteriors.",
     variants: [
       { name: "Beige", image: brickWallBeige },
       { name: "Khaki", image: brickWallKhaki },
@@ -941,7 +941,7 @@ export const crestoneBrandContent = [
     name: "Cement Board",
     slug: "cement-board",
     image: cementBoardLightGrey,
-    description: "Industrial-grade FCC cement board panels with clean, minimalist texture — a versatile surface for contemporary commercial and residential facades.",
+    description: "Industrial-grade FCC cement board panels with clean, minimalist texture, a versatile surface for contemporary commercial and residential facades.",
     variants: [
       { name: "Light Grey", image: cementBoardLightGrey },
       { name: "Medium Grey", image: cementBoardMediumGrey },
@@ -952,7 +952,7 @@ export const crestoneBrandContent = [
     name: "Charcoal Burnt Wood",
     slug: "charcoal-burnt-wood",
     image: charcoalDarkGrey,
-    description: "Charred wood-effect FCC boards with dramatic dark surface texture — delivering the aesthetic of burnt timber with superior durability.",
+    description: "Charred wood-effect FCC boards with dramatic dark surface texture, delivering the aesthetic of burnt timber with superior durability.",
     variants: [
       { name: "Dark Grey", image: charcoalDarkGrey },
     ],
@@ -962,7 +962,7 @@ export const crestoneBrandContent = [
     name: "Cliff Stone",
     slug: "cliff-stone",
     image: cliffStoneBeige,
-    description: "Rugged cliff-face textured FCC panels inspired by natural rock formations — delivering raw geological character to architectural surfaces.",
+    description: "Rugged cliff-face textured FCC panels inspired by natural rock formations, delivering raw geological character to architectural surfaces.",
     variants: [
       { name: "Beige", image: cliffStoneBeige },
       { name: "Dark Grey", image: cliffStoneDarkGrey },
@@ -974,7 +974,7 @@ export const crestoneBrandContent = [
     name: "Coarse Charcoal Burnt Wood",
     slug: "coarse-charcoal-burnt-wood",
     image: coarseCharcoalDarkGrey,
-    description: "Heavily textured charcoal burnt wood FCC boards — maximising surface depth and tactile contrast for bold architectural feature applications.",
+    description: "Heavily textured charcoal burnt wood FCC boards, maximising surface depth and tactile contrast for bold architectural feature applications.",
     variants: [
       { name: "Dark Grey", image: coarseCharcoalDarkGrey },
     ],
@@ -984,7 +984,7 @@ export const crestoneBrandContent = [
     name: "Concrete Board",
     slug: "concrete-board",
     image: concreteBoardLightGrey,
-    description: "Smooth concrete-finish FCC boards for industrial-modern facades — delivering the precision of cast concrete with engineering-grade versatility.",
+    description: "Smooth concrete-finish FCC boards for industrial-modern facades, delivering the precision of cast concrete with engineering-grade versatility.",
     variants: [
       { name: "Light Grey", image: concreteBoardLightGrey },
       { name: "Medium Grey", image: concreteBoardMediumGrey },
@@ -997,7 +997,7 @@ export const crestoneBrandContent = [
     name: "Dacite",
     slug: "dacite",
     image: daciteBeige,
-    description: "Fine-grain volcanic dacite-effect FCC panels — understated yet distinctive for refined contemporary architecture.",
+    description: "Fine-grain volcanic dacite-effect FCC panels, understated yet distinctive for refined contemporary architecture.",
     variants: [
       { name: "Beige", image: daciteBeige },
       { name: "Dark Grey", image: daciteDarkGrey },
@@ -1008,7 +1008,7 @@ export const crestoneBrandContent = [
     name: "Desert Stone",
     slug: "desert-stone",
     image: desertStoneBeige,
-    description: "Sun-baked desert stone FCC panels with warm earthy tones — evoking the beauty of arid landscapes in built architectural form.",
+    description: "Sun-baked desert stone FCC panels with warm earthy tones, evoking the beauty of arid landscapes in built architectural form.",
     variants: [
       { name: "Beige", image: desertStoneBeige },
     ],
@@ -1018,7 +1018,7 @@ export const crestoneBrandContent = [
     name: "Fine Line Stone Board",
     slug: "fine-line-stone-board",
     image: fineLineBeige,
-    description: "Precision-ruled fine line stone FCC boards with linear texture detail — delivering elegant grain for luxury residential and commercial facades.",
+    description: "Precision-ruled fine line stone FCC boards with linear texture detail, delivering elegant grain for luxury residential and commercial facades.",
     variants: [
       { name: "Beige", image: fineLineBeige },
       { name: "Concrete", image: fineLineConcrete },
@@ -1030,7 +1030,7 @@ export const crestoneBrandContent = [
     name: "Foamed Aluminium Alloy Board",
     slug: "foamed-aluminium-alloy",
     image: foamedAlumGolden,
-    description: "Ultra-lightweight foamed aluminium alloy panels — a premium metal cladding system engineered for the most demanding high-rise facade applications.",
+    description: "Ultra-lightweight foamed aluminium alloy panels, a premium metal cladding system engineered for the most demanding high-rise facade applications.",
     variants: [
       { name: "Golden", image: foamedAlumGolden },
       { name: "Silver", image: foamedAlumSilver },
@@ -1041,7 +1041,7 @@ export const crestoneBrandContent = [
     name: "Huge Travertine",
     slug: "huge-travertine",
     image: hugeTravBeige,
-    description: "Large-format travertine-effect FCC boards with authentic open-pore texture — making a grand statement on luxury hotel and residential facades.",
+    description: "Large-format travertine-effect FCC boards with authentic open-pore texture, making a grand statement on luxury hotel and residential facades.",
     variants: [
       { name: "Beige", image: hugeTravBeige },
       { name: "Concrete", image: hugeTravConcrete },
@@ -1065,7 +1065,7 @@ export const crestoneBrandContent = [
     name: "Moonscape Stone",
     slug: "moonscape-stone",
     image: moonscapeBeige,
-    description: "Otherworldly moonscape-inspired FCC stone panels — pitted, textured surfaces that create dramatic depth and visual intrigue in any architectural context.",
+    description: "Otherworldly moonscape-inspired FCC stone panels, pitted, textured surfaces that create dramatic depth and visual intrigue in any architectural context.",
     variants: [
       { name: "Beige", image: moonscapeBeige },
       { name: "Dark Grey", image: moonscapeDarkGrey },
@@ -1078,7 +1078,7 @@ export const crestoneBrandContent = [
     name: "New Rock Cut Stone",
     slug: "new-rock-cut-stone",
     image: newRockCutBeige,
-    description: "Freshly cut rock-face FCC stone panels with raw, unpolished edge detail — delivering bold geological character to contemporary facades.",
+    description: "Freshly cut rock-face FCC stone panels with raw, unpolished edge detail, delivering bold geological character to contemporary facades.",
     variants: [
       { name: "Beige", image: newRockCutBeige },
       { name: "Dark Grey", image: newRockCutDarkGrey },
@@ -1089,7 +1089,7 @@ export const crestoneBrandContent = [
     name: "Ridged Stone",
     slug: "ridged-stone",
     image: ridgedStoneBeige,
-    description: "FCC ridged stone panels with raised linear texture — capturing the layered strata of natural rock in a precisely engineered cladding format.",
+    description: "FCC ridged stone panels with raised linear texture, capturing the layered strata of natural rock in a precisely engineered cladding format.",
     variants: [
       { name: "Beige", image: ridgedStoneBeige },
       { name: "Dark Grey", image: ridgedStoneGrey },
@@ -1102,7 +1102,7 @@ export const crestoneBrandContent = [
     name: "Ripple Board",
     slug: "ripple-board",
     image: rippleBoardBeige,
-    description: "Wave-textured FCC ripple boards with fluid, organic surface movement — creating visually dynamic facades and feature wall installations.",
+    description: "Wave-textured FCC ripple boards with fluid, organic surface movement, creating visually dynamic facades and feature wall installations.",
     variants: [
       { name: "Beige", image: rippleBoardBeige },
       { name: "Grey", image: rippleBoardGrey },
@@ -1114,7 +1114,7 @@ export const crestoneBrandContent = [
     name: "Roman Huge Travertine",
     slug: "roman-huge-travertine",
     image: romanHugeTravIvoryWhite,
-    description: "Grand Roman-scale travertine FCC panels — echoing the imperial stone of ancient Rome in a modern, engineered cladding format.",
+    description: "Grand Roman-scale travertine FCC panels, echoing the imperial stone of ancient Rome in a modern, engineered cladding format.",
     variants: [
       { name: "Ivory White", image: romanHugeTravIvoryWhite },
       { name: "Golden Grey", image: romanHugeTravGoldenGrey },
@@ -1127,7 +1127,7 @@ export const crestoneBrandContent = [
     name: "Round Line Stone",
     slug: "round-line-stone",
     image: roundLineBeige,
-    description: "Softly curved linear stone FCC boards — a subtle, refined surface texture for luxury residential and hospitality facade applications.",
+    description: "Softly curved linear stone FCC boards, a subtle, refined surface texture for luxury residential and hospitality facade applications.",
     variants: [
       { name: "Beige", image: roundLineBeige },
       { name: "Dark Grey", image: roundLineDarkGrey },
@@ -1138,7 +1138,7 @@ export const crestoneBrandContent = [
     name: "Rust Board",
     slug: "rust-board",
     image: rustBoardBushHammered,
-    description: "Rust-patina FCC boards with authentic weathered surface texture — delivering the raw industrial character of aged Corten steel.",
+    description: "Rust-patina FCC boards with authentic weathered surface texture, delivering the raw industrial character of aged Corten steel.",
     variants: [
       { name: "Bush-hammered", image: rustBoardBushHammered },
       { name: "Medium Plaid", image: rustBoardMediumPlaid },
@@ -1162,7 +1162,7 @@ export const crestoneBrandContent = [
     name: "Square Line Board",
     slug: "square-line-board",
     image: squareLineBeige,
-    description: "Geometric square-pattern FCC boards with bold linear relief — defining contemporary architectural facades with precision and visual impact.",
+    description: "Geometric square-pattern FCC boards with bold linear relief, defining contemporary architectural facades with precision and visual impact.",
     variants: [
       { name: "Beige", image: squareLineBeige },
       { name: "Dark Grey", image: squareLineDarkGrey },
@@ -1174,7 +1174,7 @@ export const crestoneBrandContent = [
     name: "Starmoon Stone",
     slug: "starmoon-stone",
     image: starmoonBeige,
-    description: "Star and moon-patterned FCC stone panels with deep pitted texture — creating dramatically tactile facade surfaces with a sculptural quality.",
+    description: "Star and moon-patterned FCC stone panels with deep pitted texture, creating dramatically tactile facade surfaces with a sculptural quality.",
     variants: [
       { name: "Beige", image: starmoonBeige },
       { name: "Dark Grey", image: starmoonDarkGrey },
@@ -1187,7 +1187,7 @@ export const crestoneBrandContent = [
     name: "Travertine Oceanic",
     slug: "travertine-oceanic",
     image: travertineOceanicBeige,
-    description: "Ocean-inspired travertine FCC panels with flowing surface patterns — evoking coastal rock formations for premium waterfront and luxury architecture.",
+    description: "Ocean-inspired travertine FCC panels with flowing surface patterns, evoking coastal rock formations for premium waterfront and luxury architecture.",
     variants: [
       { name: "Beige", image: travertineOceanicBeige },
       { name: "Gradient Grey", image: travertineOceanicGradientGrey },
@@ -1212,7 +1212,7 @@ export const crestoneBrandContent = [
     name: "Wood Concrete Board",
     slug: "wood-concrete-board",
     image: woodConcreteLightGrey,
-    description: "Hybrid wood-concrete FCC boards combining the warmth of timber with the solidity of concrete — a distinctive surface for modern architectural design.",
+    description: "Hybrid wood-concrete FCC boards combining the warmth of timber with the solidity of concrete, a distinctive surface for modern architectural design.",
     variants: [
       { name: "Light Grey", image: woodConcreteLightGrey },
       { name: "Medium Grey", image: woodConcreteMediumGrey },
@@ -1234,7 +1234,7 @@ export const crestoneBrandContent = [
     name: "Wood-Cement Board",
     slug: "wood-cement-board",
     image: woodCementLightGrey,
-    description: "Premium wood-cement composite FCC boards with fine grain texture — engineered for exterior facades requiring long-term weather resistance.",
+    description: "Premium wood-cement composite FCC boards with fine grain texture, engineered for exterior facades requiring long-term weather resistance.",
     variants: [
       { name: "Light Grey", image: woodCementLightGrey },
       { name: "Medium Grey", image: woodCementMediumGrey },
@@ -1245,7 +1245,7 @@ export const crestoneBrandContent = [
     name: "Zen Wood Panel",
     slug: "zen-wood-panel",
     image: zenWoodBeige,
-    description: "Zen-inspired natural wood-effect FCC panels with calm, meditative grain patterns — ideal for spa, hospitality, and premium residential interiors.",
+    description: "Zen-inspired natural wood-effect FCC panels with calm, meditative grain patterns, ideal for spa, hospitality, and premium residential interiors.",
     variants: [
       { name: "Beige", image: zenWoodBeige },
       { name: "Dark Grey", image: zenWoodDarkGrey },
@@ -1260,7 +1260,7 @@ export const crestoneBrandContent = [
     name: "3D Wood Concrete Board",
     slug: "3d-wood-concrete-board",
     image: woodConcreteBoard3DLightGrey,
-    description: "Three-dimensional wood-concrete FCC panels with pronounced surface relief — delivering maximum textural depth for statement facade applications.",
+    description: "Three-dimensional wood-concrete FCC panels with pronounced surface relief, delivering maximum textural depth for statement facade applications.",
     variants: [
       { name: "Light Grey", image: woodConcreteBoard3DLightGrey },
       { name: "Medium Grey", image: woodConcreteBoard3DMediumGrey },
@@ -1271,7 +1271,7 @@ export const crestoneBrandContent = [
     name: "Ancient Wood Board",
     slug: "ancient-wood-board",
     image: ancientWoodBrown,
-    description: "Aged ancient wood-effect FCC panels with deep grain and time-worn patina — evoking centuries of natural wood character.",
+    description: "Aged ancient wood-effect FCC panels with deep grain and time-worn patina, evoking centuries of natural wood character.",
     variants: [
       { name: "Brown", image: ancientWoodBrown },
       { name: "Dark Brown", image: ancientWoodDarkBrown },
@@ -1283,7 +1283,7 @@ export const crestoneBrandContent = [
     name: "Ando Cement",
     slug: "ando-cement",
     image: andoCementGrey1,
-    description: "Tadao Ando-inspired exposed concrete FCC panels — capturing the philosophical simplicity and precision of the world's most celebrated concrete architect.",
+    description: "Tadao Ando-inspired exposed concrete FCC panels, capturing the philosophical simplicity and precision of the world's most celebrated concrete architect.",
     variants: [
       { name: "Cement Grey 1", image: andoCementGrey1 },
       { name: "Cement Grey 2", image: andoCementGrey2 },
@@ -1298,7 +1298,7 @@ export const crestoneBrandContent = [
     name: "Ando Marble Pillar",
     slug: "ando-marble-pillar",
     image: andoMarblePillarCementGrey,
-    description: "Architectural marble pillar FCC panels in the Ando tradition — combining monolithic concrete presence with refined marble surface character.",
+    description: "Architectural marble pillar FCC panels in the Ando tradition, combining monolithic concrete presence with refined marble surface character.",
     variants: [
       { name: "Cement Grey", image: andoMarblePillarCementGrey },
     ],
@@ -1308,7 +1308,7 @@ export const crestoneBrandContent = [
     name: "Bulgari Marble Pillar",
     slug: "bulgari-marble-pillar",
     image: bulgariMarblePillar1,
-    description: "Prestige-grade Bulgari marble pillar FCC elements — ultra-luxury architectural surfaces for flagship retail, hospitality, and premium residential lobbies.",
+    description: "Prestige-grade Bulgari marble pillar FCC elements, ultra-luxury architectural surfaces for flagship retail, hospitality, and premium residential lobbies.",
     variants: [
       { name: "View 1", image: bulgariMarblePillar1 },
       { name: "View 2", image: bulgariMarblePillar2 },
@@ -1320,7 +1320,7 @@ export const crestoneBrandContent = [
     name: "Cloud Dragon",
     slug: "cloud-dragon",
     image: cloudDragon1,
-    description: "Dynamic cloud-dragon pattern FCC panels with organic, flowing surface relief — a striking choice for cultural buildings and feature architectural installations.",
+    description: "Dynamic cloud-dragon pattern FCC panels with organic, flowing surface relief, a striking choice for cultural buildings and feature architectural installations.",
     variants: [
       { name: "View 1", image: cloudDragon1 },
       { name: "View 2", image: cloudDragon2 },
@@ -1332,7 +1332,7 @@ export const crestoneBrandContent = [
     name: "Crude Wood Ripple Board",
     slug: "crude-wood-ripple-board",
     image: crudeRipleLightBrown,
-    description: "Raw, crude-cut wood ripple FCC boards with heavily textured surface — delivering an intensely tactile, artisan-crafted quality to architectural facades.",
+    description: "Raw, crude-cut wood ripple FCC boards with heavily textured surface, delivering an intensely tactile, artisan-crafted quality to architectural facades.",
     variants: [
       { name: "Light Brown", image: crudeRipleLightBrown },
       { name: "Dark Brown", image: crudeRippleDarkBrown },
@@ -1345,7 +1345,7 @@ export const crestoneBrandContent = [
     name: "Dacite Lime Stone",
     slug: "dacite-lime-stone",
     image: daciteLimestoneWhite,
-    description: "Dacite and limestone composite FCC panels with refined natural texture — combining volcanic and sedimentary stone character in a single premium surface.",
+    description: "Dacite and limestone composite FCC panels with refined natural texture, combining volcanic and sedimentary stone character in a single premium surface.",
     variants: [
       { name: "Lime White", image: daciteLimestoneWhite },
       { name: "Lime Yellow", image: daciteLimestoneYellow },
@@ -1356,7 +1356,7 @@ export const crestoneBrandContent = [
     name: "Dolomitic Marble Pillar",
     slug: "dolomitic-marble-pillar",
     image: dolomitMarblePillar1,
-    description: "Premium dolomitic marble pillar FCC elements with rich claybank tonal warmth — architectural columns and pilasters of distinguished character.",
+    description: "Premium dolomitic marble pillar FCC elements with rich claybank tonal warmth, architectural columns and pilasters of distinguished character.",
     variants: [
       { name: "Claybank 1", image: dolomitMarblePillar1 },
       { name: "Claybank 2", image: dolomitMarblePillar2 },
@@ -1368,7 +1368,7 @@ export const crestoneBrandContent = [
     name: "Dolomitic Travertine",
     slug: "dolomitic-travertine",
     image: dolomitTravClaybank1,
-    description: "Premium dolomitic travertine FCC panels with authentic pore structure and rich mineralogical tonal variation — four colour families for complete design freedom.",
+    description: "Premium dolomitic travertine FCC panels with authentic pore structure and rich mineralogical tonal variation, four colour families for complete design freedom.",
     variants: [
       { name: "Andean Red 1", image: dolomitTravAndeanRed1 },
       { name: "Andean Red 2", image: dolomitTravAndeanRed2 },
@@ -1385,7 +1385,7 @@ export const crestoneBrandContent = [
     name: "Dunhuang Stone",
     slug: "dunhuang-stone",
     image: dunhuang1,
-    description: "Inspired by the ancient Dunhuang caves — these FCC stone panels capture the layered geological beauty of Silk Road sandstone formations.",
+    description: "Inspired by the ancient Dunhuang caves, these FCC stone panels capture the layered geological beauty of Silk Road sandstone formations.",
     variants: [
       { name: "View 1", image: dunhuang1 },
       { name: "View 2", image: dunhuang2 },
@@ -1397,7 +1397,7 @@ export const crestoneBrandContent = [
     name: "Gold Sand",
     slug: "gold-sand",
     image: goldSand1,
-    description: "Shimmering gold sand FCC stone panels — a warm, luminous surface choice for prestigious facade and interior architectural applications.",
+    description: "Shimmering gold sand FCC stone panels, a warm, luminous surface choice for prestigious facade and interior architectural applications.",
     variants: [
       { name: "View 1", image: goldSand1 },
       { name: "View 2", image: goldSand2 },
@@ -1409,7 +1409,7 @@ export const crestoneBrandContent = [
     name: "Golden Faith",
     slug: "golden-faith",
     image: goldenFaithSunsetRed,
-    description: "Golden Faith FCC stone panels with sunset-red warmth — a rare and distinctive surface for luxury architectural feature installations.",
+    description: "Golden Faith FCC stone panels with sunset-red warmth, a rare and distinctive surface for luxury architectural feature installations.",
     variants: [
       { name: "Sunset Red", image: goldenFaithSunsetRed },
     ],
@@ -1419,7 +1419,7 @@ export const crestoneBrandContent = [
     name: "Golden Sunset",
     slug: "golden-sunset",
     image: goldenSunsetGolden1,
-    description: "Evocative golden sunset FCC panels — warm tonal gradients inspired by the amber light of dusk, available in four distinct colour families.",
+    description: "Evocative golden sunset FCC panels, warm tonal gradients inspired by the amber light of dusk, available in four distinct colour families.",
     variants: [
       { name: "Golden 1", image: goldenSunsetGolden1 },
       { name: "Golden 2", image: goldenSunsetGolden2 },
@@ -1436,7 +1436,7 @@ export const crestoneBrandContent = [
     name: "Italian Ash Mountain Stone",
     slug: "italian-ash-mountain-stone",
     image: italianAshCaslan1,
-    description: "Italian alpine ash mountain stone FCC panels with authentic mountain rock character — refined and dramatic for high-end residential and commercial facades.",
+    description: "Italian alpine ash mountain stone FCC panels with authentic mountain rock character, refined and dramatic for high-end residential and commercial facades.",
     variants: [
       { name: "Caslan 1", image: italianAshCaslan1 },
       { name: "Caslan 2", image: italianAshCaslan2 },
@@ -1449,7 +1449,7 @@ export const crestoneBrandContent = [
     name: "Italian Travertine",
     slug: "italian-travertine",
     image: italianTravWhite1,
-    description: "Authentic Italian travertine FCC panels across four classic colour families — Brown, Red, Silver Grey, and White — the definitive premium stone surface.",
+    description: "Authentic Italian travertine FCC panels across four classic colour families, Brown, Red, Silver Grey, and White, the definitive premium stone surface.",
     variants: [
       { name: "White 1", image: italianTravWhite1 },
       { name: "White 2", image: italianTravWhite2 },
@@ -1466,7 +1466,7 @@ export const crestoneBrandContent = [
     name: "Italian Wood Travertine",
     slug: "italian-wood-travertine",
     image: italianWoodTravLightBrown,
-    description: "A unique fusion of Italian wood grain and travertine textures — FCC panels that unite organic warmth with classic stone elegance.",
+    description: "A unique fusion of Italian wood grain and travertine textures, FCC panels that unite organic warmth with classic stone elegance.",
     variants: [
       { name: "Light Brown", image: italianWoodTravLightBrown },
       { name: "Light Grey", image: italianWoodTravLightGrey },
@@ -1478,7 +1478,7 @@ export const crestoneBrandContent = [
     name: "Lime Stone",
     slug: "lime-stone",
     image: limeStoneOffWhite,
-    description: "Refined limestone FCC panels with subtle sedimentary texture — a timeless, elegant surface for luxury residential and boutique commercial architecture.",
+    description: "Refined limestone FCC panels with subtle sedimentary texture, a timeless, elegant surface for luxury residential and boutique commercial architecture.",
     variants: [
       { name: "Off White", image: limeStoneOffWhite },
       { name: "Dark Grey", image: limeStoneDarkGrey },
@@ -1489,7 +1489,7 @@ export const crestoneBrandContent = [
     name: "Linear Travertine",
     slug: "linear-travertine",
     image: linearTravRomanWhite1,
-    description: "Linear-format travertine FCC panels with horizontal flow lines — creating bold, directional facades with the prestige of authentic travertine stone.",
+    description: "Linear-format travertine FCC panels with horizontal flow lines, creating bold, directional facades with the prestige of authentic travertine stone.",
     variants: [
       { name: "Roman White 1", image: linearTravRomanWhite1 },
       { name: "Roman White 2", image: linearTravRomanWhite2 },
@@ -1508,7 +1508,7 @@ export const crestoneBrandContent = [
     name: "Marble Collection",
     slug: "marble-collection",
     image: marbleVeilWhite1,
-    description: "Premium marble FCC panel collection spanning Bulgari, Caslan, Interstella Grey, Nero Margiua, Runa, and Veil White — a complete luxury marble portfolio.",
+    description: "Premium marble FCC panel collection spanning Bulgari, Caslan, Interstella Grey, Nero Margiua, Runa, and Veil White, a complete luxury marble portfolio.",
     variants: [
       { name: "Veil White 1", image: marbleVeilWhite1 },
       { name: "Veil White 2", image: marbleVeilWhite2 },
@@ -1533,7 +1533,7 @@ export const crestoneBrandContent = [
     name: "Milan Travertine",
     slug: "milan-travertine",
     image: milanTravWhite1,
-    description: "Milan-inspired premium travertine FCC panels — the refined sophistication of Italian fashion capital applied to architectural stone cladding.",
+    description: "Milan-inspired premium travertine FCC panels, the refined sophistication of Italian fashion capital applied to architectural stone cladding.",
     variants: [
       { name: "White 1", image: milanTravWhite1 },
       { name: "White 2", image: milanTravWhite2 },
@@ -1559,7 +1559,7 @@ export const crestoneBrandContent = [
     name: "Rockcut Dolomitic Stone",
     slug: "rockcut-dolomitic-stone",
     image: rockDolomiticGrey1,
-    description: "Rock-cut dolomitic stone FCC panels with authentic quarried surface character — four colour families for dramatic architectural contrast.",
+    description: "Rock-cut dolomitic stone FCC panels with authentic quarried surface character, four colour families for dramatic architectural contrast.",
     variants: [
       { name: "Grey 1", image: rockDolomiticGrey1 },
       { name: "Grey 2", image: rockDolomiticGrey2 },
@@ -1576,7 +1576,7 @@ export const crestoneBrandContent = [
     name: "Rockcut Lime Stone",
     slug: "rockcut-lime-stone",
     image: rockLimestoneWhite1,
-    description: "Rock-cut limestone FCC panels with authentic quarried surface character — clean white and off-white tones for refined architectural facades.",
+    description: "Rock-cut limestone FCC panels with authentic quarried surface character, clean white and off-white tones for refined architectural facades.",
     variants: [
       { name: "Lime White 1", image: rockLimestoneWhite1 },
       { name: "Lime White 2", image: rockLimestoneWhite2 },
@@ -1589,7 +1589,7 @@ export const crestoneBrandContent = [
     name: "Roman Pillar",
     slug: "roman-pillar",
     image: romanPillarMilanWhite,
-    description: "Classical Roman pillar FCC column elements — precision-engineered architectural columns for prestigious facades, lobbies, and civic architecture.",
+    description: "Classical Roman pillar FCC column elements, precision-engineered architectural columns for prestigious facades, lobbies, and civic architecture.",
     variants: [
       { name: "Milan White", image: romanPillarMilanWhite },
       { name: "Cement Grey", image: romanPillarCementGrey },
@@ -1603,7 +1603,7 @@ export const crestoneBrandContent = [
     name: "Romanite",
     slug: "romanite",
     image: romaniteCloudyWhite1,
-    description: "Roman-era inspired FCC stone panels with cloud-patterned mineral surface — warm and organic for luxury residential and boutique hospitality facades.",
+    description: "Roman-era inspired FCC stone panels with cloud-patterned mineral surface, warm and organic for luxury residential and boutique hospitality facades.",
     variants: [
       { name: "Cloudy White 1", image: romaniteCloudyWhite1 },
       { name: "Cloudy White 2", image: romaniteCloudyWhite2 },
@@ -1618,7 +1618,7 @@ export const crestoneBrandContent = [
     name: "Rowena Travertine",
     slug: "rowena-travertine",
     image: rowenaTravBeige,
-    description: "Rowena collection travertine FCC panels with warm sedimentary tonal range — five distinct colours for complete architectural specification freedom.",
+    description: "Rowena collection travertine FCC panels with warm sedimentary tonal range, five distinct colours for complete architectural specification freedom.",
     variants: [
       { name: "Beige", image: rowenaTravBeige },
       { name: "Creamy Yellow", image: rowenaTravCreamyYellow },
@@ -1632,7 +1632,7 @@ export const crestoneBrandContent = [
     name: "Rusty Red",
     slug: "rusty-red",
     image: rustyRedRed1,
-    description: "Iron-oxide rusty red FCC stone panels with warm oxidised patina — delivering dramatic, aged character to bold contemporary architectural facades.",
+    description: "Iron-oxide rusty red FCC stone panels with warm oxidised patina, delivering dramatic, aged character to bold contemporary architectural facades.",
     variants: [
       { name: "Red 1", image: rustyRedRed1 },
       { name: "Red 2", image: rustyRedRed2 },
@@ -1645,7 +1645,7 @@ export const crestoneBrandContent = [
     name: "Skyline Stone",
     slug: "skyline-stone",
     image: skylineGrittyBeige,
-    description: "Urban skyline-inspired FCC stone panels in two distinct texture families — Gritty and Nile — for dynamic, city-scale architectural facades.",
+    description: "Urban skyline-inspired FCC stone panels in two distinct texture families, Gritty and Nile, for dynamic, city-scale architectural facades.",
     variants: [
       { name: "Gritty Beige", image: skylineGrittyBeige },
       { name: "Gritty Claybank", image: skylineGrittyClaybank },
@@ -1660,7 +1660,7 @@ export const crestoneBrandContent = [
     name: "Slate Collection",
     slug: "slate-collection",
     image: slateVeilWhite1,
-    description: "Premium slate FCC panel collection spanning Glacial, Portoro, Veil Grey, and Veil White — authentic mineral elegance in four distinguished colourways.",
+    description: "Premium slate FCC panel collection spanning Glacial, Portoro, Veil Grey, and Veil White, authentic mineral elegance in four distinguished colourways.",
     variants: [
       { name: "Veil White 1", image: slateVeilWhite1 },
       { name: "Veil White 2", image: slateVeilWhite2 },
@@ -1677,7 +1677,7 @@ export const crestoneBrandContent = [
     name: "Stream Limestone",
     slug: "stream-limestone",
     image: streamLimestoneClaybank1,
-    description: "Water-worn stream limestone FCC panels with flowing surface textures — capturing the organic beauty of riverbed stone in architectural cladding.",
+    description: "Water-worn stream limestone FCC panels with flowing surface textures, capturing the organic beauty of riverbed stone in architectural cladding.",
     variants: [
       { name: "Claybank 1", image: streamLimestoneClaybank1 },
       { name: "Claybank 2", image: streamLimestoneClaybank2 },
@@ -1690,7 +1690,7 @@ export const crestoneBrandContent = [
     name: "Taishan Stone",
     slug: "taishan-stone",
     image: taishanSilverWhite1,
-    description: "Sacred Taishan mountain-inspired FCC stone panels — capturing the revered geological character of China's most sacred peak in architectural cladding.",
+    description: "Sacred Taishan mountain-inspired FCC stone panels, capturing the revered geological character of China's most sacred peak in architectural cladding.",
     variants: [
       { name: "Silver White 1", image: taishanSilverWhite1 },
       { name: "Silver White 2", image: taishanSilverWhite2 },
@@ -1703,7 +1703,7 @@ export const crestoneBrandContent = [
     name: "Terrazzo Rough Stone",
     slug: "terrazzo-rough-stone",
     image: terrazzoGrey1,
-    description: "Terrazzo-inspired rough stone FCC panels with aggregate mineral texture — delivering the premium character of bespoke terrazzo in an engineered cladding system.",
+    description: "Terrazzo-inspired rough stone FCC panels with aggregate mineral texture, delivering the premium character of bespoke terrazzo in an engineered cladding system.",
     variants: [
       { name: "Grey 1", image: terrazzoGrey1 },
       { name: "Grey 2", image: terrazzoGrey2 },
@@ -1719,7 +1719,7 @@ export const crestoneBrandContent = [
     name: "Zen Ando Cement",
     slug: "zen-ando-cement",
     image: zenAndoCement1,
-    description: "Meditative Zen and Ando-inspired exposed cement FCC panels — the perfect union of Japanese philosophical restraint and concrete architectural mastery.",
+    description: "Meditative Zen and Ando-inspired exposed cement FCC panels, the perfect union of Japanese philosophical restraint and concrete architectural mastery.",
     variants: [
       { name: "View 1", image: zenAndoCement1 },
       { name: "View 2", image: zenAndoCement2 },

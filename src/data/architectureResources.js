@@ -11,9 +11,9 @@ export const resources = [
   
     {
       type: "Technical Guide",
-      title: "HandPeeled Stone Installation Best Practices",
+      title: "HandPeeled™ Stone Installation Best Practices",
       read: "8 min read",
-      desc: "Step-by-step installation guidelines for Zerra HandPeeled natural stone facade systems.",
+      desc: "Step-by-step installation guidelines for Zerra HandPeeled™ natural stone facade systems.",
       category: "Installation Guides",
       image:
         "https://images.unsplash.com/photo-1580687104139-9d51ce55e346?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RvbmV8ZW58MHx8MHx8fDA%3D",

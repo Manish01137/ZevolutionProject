@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/Zev Logo-02.png";
 
-import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
-
 const Footer = () => {
   return (
     <footer className="bg-black pt-24 pb-12">
@@ -21,47 +19,6 @@ const Footer = () => {
             Transforming architectural visions into tangible excellence.
             Premium materials for spaces that inspire.
           </p>
-
-          {/* Social Icons */}
-          <div className="flex gap-5 mt-8">
-
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300"
-            >
-              <Instagram size={18} />
-            </a>
-
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300"
-            >
-              <Linkedin size={18} />
-            </a>
-
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300"
-            >
-              <Twitter size={18} />
-            </a>
-
-            <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white/60 hover:text-gold hover:border-gold transition-all duration-300"
-            >
-              <Youtube size={18} />
-            </a>
-
-          </div>
         </div>
 
         {/* Quick Links */}
@@ -123,7 +80,7 @@ const Footer = () => {
             </p>
 
             <p className="hover:text-gold transition-colors duration-300 cursor-pointer">
-              +91 11 4567 8900
+              +91 91522 20055
             </p>
 
             <p className="hover:text-gold transition-colors duration-300 cursor-pointer">

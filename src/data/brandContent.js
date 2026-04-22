@@ -40,7 +40,7 @@ export const brandContent = {
       slug: "sandstone",
       image: sandstoneAgra,
       description:
-        "Warm-toned hand-peeled sandstone veneers with natural surface variation — ideal for heritage and contemporary residential facades.",
+        "Warm-toned HandPeeled™ sandstone veneers with natural surface variation, ideal for heritage and contemporary residential facades.",
       variants: [
         { name: "Agra Red", image: sandstoneAgra },
         { name: "Oxford Yellow", image: sandstoneOxford },
@@ -92,7 +92,7 @@ export const brandContent = {
       slug: "slate-quartzite",
       image: slateSilver,
       description:
-        "Dramatic slate and quartzite veneers with rich mineral tones — engineered for high-impact exterior and interior installations.",
+        "Dramatic slate and quartzite veneers with rich mineral tones, engineered for high-impact exterior and interior installations.",
       variants: [
         { name: "Silver Shine", image: slateSilver },
         { name: "Terra Red", image: slateTerra },
