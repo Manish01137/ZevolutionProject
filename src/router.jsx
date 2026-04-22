@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import BrandDetails from "./pages/BrandDetails";
 import ProjectDetails from "./pages/ProjectDetails";
 import BrandProducts from "./pages/BrandProducts"; // NEW PAGE
+import CategoryProducts from "./pages/CategoryProducts";
 import ProductDetail from "./pages/ProductDetail";
 import ProductURLs from "./pages/ProductURLs";
 
@@ -50,6 +51,12 @@ export const router = createBrowserRouter([
   {
     path: "/brand/:slug/products",
     element: <BrandProducts />,
+  },
+
+  // Category page (e.g. /brand/zerra/category/sandstone)
+  {
+    path: "/brand/:brandSlug/category/:categorySlug",
+    element: <CategoryProducts />,
   },
 
   // Individual product page — this is where QR scans land
