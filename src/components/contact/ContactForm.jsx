@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { Phone, Mail, Clock } from "lucide-react";
 
 const ContactForm = () => {
   return (
@@ -23,20 +23,6 @@ const ContactForm = () => {
             <h2 className="text-3xl md:text-5xl font-extralight leading-tight">
               Contact Information
             </h2>
-          </div>
-
-          {/* Visit */}
-          <div className="flex items-start gap-4 group">
-            <div className="p-3 border border-[#C8A75B]/40 rounded-full group-hover:bg-[#C8A75B]/10 transition">
-              <MapPin size={18} className="text-[#C8A75B]" />
-            </div>
-            <div>
-              <h4 className="font-light mb-1">Visit Us</h4>
-              <p className="text-gray-400 font-extralight text-sm leading-relaxed">
-                Design District, New Delhi <br />
-                India 110001
-              </p>
-            </div>
           </div>
 
           {/* Call */}
