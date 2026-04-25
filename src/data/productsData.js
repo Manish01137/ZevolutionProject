@@ -66,7 +66,7 @@ export const productsData = {
         "Crest Stone FCC Systems span five distinct product families, from hand textured stone claddings and authentic marble finishes to rammed earth boards, architectural FCC panels, and premium stone collections. Every surface is precision engineered to deliver decades of performance without compromise.",
     },
 
-    instagram: "https://instagram.com/creststone",
+    instagram: "https://www.instagram.com/creststone_official?igsh=MXVqc25ib3MzcXl5MA==",
 
     products: crestoneProducts.map((p) => ({
       name: p.name,
@@ -94,7 +94,7 @@ export const productsData = {
         "Zerra HandPeeled™ Stones span five curated stone families: Sandstone, Marble, Limestone, Concrete, and Slate & Quartzite. Each is hand finished to preserve authentic texture, colour, and depth. Designed for luxury homes, feature walls, hospitality, and landscape architecture.",
     },
 
-    instagram: "https://instagram.com/zerra_stoneveneers",
+    instagram: "https://www.instagram.com/zerra_by_zevolution?igsh=aWc3NzBuaW02b2M0",
 
     products: zerraGrouped.map((p) => ({
       name: p.name,

@@ -54,16 +54,21 @@ const Footer = () => {
           </h4>
 
           <div className="flex flex-col gap-5 text-sm">
-            {["Crest Stone", "Zerra", "Formiq", "ZevoCubes", "Aerolith"].map(
-              (brand) => (
-                <p
-                  key={brand}
-                  className="text-white/60 hover:text-gold transition-colors duration-300 cursor-pointer"
-                >
-                  {brand}
-                </p>
-              )
-            )}
+            {[
+              { name: "Crest Stone", path: "/brand/crest-stone" },
+              { name: "Zerra", path: "/brand/zerra" },
+              { name: "Formiq", path: "/brand/formiq" },
+              { name: "ZevoCubes", path: "/brands" },
+              { name: "Aerolith", path: "/brands" },
+            ].map((brand) => (
+              <Link
+                key={brand.name}
+                to={brand.path}
+                className="text-white/60 hover:text-gold transition-colors duration-300 w-fit"
+              >
+                {brand.name}
+              </Link>
+            ))}
           </div>
         </div>
 
@@ -74,18 +79,19 @@ const Footer = () => {
           </h4>
 
           <div className="flex flex-col gap-6 text-sm text-white/60">
-            <p>
-              Design District, New Delhi <br />
-              India 110001
-            </p>
-
-            <p className="hover:text-gold transition-colors duration-300 cursor-pointer">
+            <a
+              href="tel:+919152220055"
+              className="hover:text-gold transition-colors duration-300"
+            >
               +91 91522 20055
-            </p>
+            </a>
 
-            <p className="hover:text-gold transition-colors duration-300 cursor-pointer">
+            <a
+              href="mailto:info@zevolution.in"
+              className="hover:text-gold transition-colors duration-300"
+            >
               info@zevolution.in
-            </p>
+            </a>
           </div>
         </div>
 

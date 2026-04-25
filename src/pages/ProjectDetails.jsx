@@ -274,9 +274,12 @@ const ProjectDetails = () => {
           <h2 className="text-4xl font-extralight mb-6">
             Start Your Project
           </h2>
-          <button className="bg-[#C6A75E] text-black px-8 py-4 tracking-widest hover:scale-105 transition duration-300">
+          <Link
+            to="/contact"
+            className="inline-block bg-[#C6A75E] text-black px-8 py-4 tracking-widest hover:scale-105 transition duration-300"
+          >
             GET IN TOUCH →
-          </button>
+          </Link>
         </motion.section>
       </div>
 

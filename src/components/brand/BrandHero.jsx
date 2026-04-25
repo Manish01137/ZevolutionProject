@@ -1,11 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
 import { Instagram } from "lucide-react";
 
 const BrandHero = ({ data, instagram }) => {
-  const navigate = useNavigate();
   const heroRef = useRef(null);
 
   const { scrollY } = useScroll();
@@ -34,30 +32,6 @@ const BrandHero = ({ data, instagram }) => {
 
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6">
-
-        {/* Back Button */}
-        <button
-          onClick={() => navigate("/brands")}
-          className="absolute top-8 left-6 md:left-12 text-sm text-white/70 hover:text-white transition"
-        >
-          ← Back to Brands
-        </button>
-
-        {/* Instagram (brand-specific) */}
-        {instagram && (
-          <a
-            href={instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`${data.name} on Instagram`}
-            className="absolute top-8 right-6 md:right-12 flex items-center gap-2 text-sm text-white/70 hover:text-[#C6A75E] transition group"
-          >
-            <span className="w-9 h-9 border border-white/30 group-hover:border-[#C6A75E] rounded-full flex items-center justify-center transition">
-              <Instagram size={16} />
-            </span>
-            <span className="hidden md:inline tracking-widest text-xs uppercase">Instagram</span>
-          </a>
-        )}
 
         {/* HERO TEXT BLOCK */}
         <div className="flex flex-col items-center gap-1 md:gap-2 -mt-16">
@@ -110,6 +84,25 @@ const BrandHero = ({ data, instagram }) => {
           >
             {data.tagline}
           </motion.p>
+
+          {/* Instagram (brand-specific) */}
+          {instagram && (
+            <motion.a
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              href={instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${data.name} on Instagram`}
+              className="mt-6 flex items-center gap-3 text-white/70 hover:text-[#C6A75E] transition group"
+            >
+              <span className="w-10 h-10 border border-white/30 group-hover:border-[#C6A75E] rounded-full flex items-center justify-center transition">
+                <Instagram size={16} />
+              </span>
+              <span className="tracking-[0.3em] text-[10px] md:text-xs uppercase">Follow on Instagram</span>
+            </motion.a>
+          )}
 
         </div>
 

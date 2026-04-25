@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const BrandCTA = ({ data }) => {
   return (
@@ -14,13 +15,15 @@ const BrandCTA = ({ data }) => {
           Connect with our team for samples, specifications, and expert consultation.
         </p>
 
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.98 }}
-          className="px-10 py-4 bg-[#C6A75E] text-black tracking-widest text-sm uppercase transition-all duration-500 hover:shadow-[0_0_40px_rgba(198,167,94,0.4)]"
-        >
-          Request Consultation →
-        </motion.button>
+        <Link to="/contact">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.98 }}
+            className="px-10 py-4 bg-[#C6A75E] text-black tracking-widest text-sm uppercase transition-all duration-500 hover:shadow-[0_0_40px_rgba(198,167,94,0.4)]"
+          >
+            Request Consultation →
+          </motion.button>
+        </Link>
       </div>
     </section>
   );
