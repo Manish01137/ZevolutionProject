@@ -73,8 +73,7 @@ const ContactForm = () => {
             <div>
               <h4 className="font-light mb-1">Studio Hours</h4>
               <p className="text-gray-400 font-extralight text-sm">
-                Mon – Fri: 11:00 AM – 8:00 PM <br />
-              
+                Mon – Fri: 11:00 AM – 7:00 PM
               </p>
             </div>
           </div>

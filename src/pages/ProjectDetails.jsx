@@ -260,7 +260,10 @@ const ProjectDetails = () => {
           <p className="text-2xl font-light max-w-3xl mx-auto mb-8">
             {project.testimonial}
           </p>
-          <p className="text-[#C6A75E]">{project.client}</p>
+          {project.client &&
+            !["Not Given", "Not Specified", "Anonymous"].includes(project.client) && (
+              <p className="text-[#C6A75E]">{project.client}</p>
+            )}
         </motion.section>
 
         {/* CTA */}

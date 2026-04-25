@@ -1,208 +1,95 @@
 // src/data/projectsData.js
-// Images are imported via Vite so they resolve correctly in both dev & build.
-// NO per-project videos exist, video field is removed from all entries.
-// Mumbai only has .ARW raw files (browser cannot display), using Unsplash fallback.
-// chhavi-ey-hospital folder has only 5 images (1-5.JPG, no hero).
-// villa-jaipur/3.jpg is lowercase, all others are .JPG.
+// Images come from the new project image folders. Folder names contain
+// spaces and case differences; we use exact paths with quoted imports.
 
-// ── Chhavi Eye Hospital ──────────────────────────────────────────────────────
-import chhavi1 from "../assets/images/projects/chhavi-ey-hospital/1.JPG";
-import chhavi2 from "../assets/images/projects/chhavi-ey-hospital/2.JPG";
-import chhavi3 from "../assets/images/projects/chhavi-ey-hospital/3.JPG";
-import chhavi4 from "../assets/images/projects/chhavi-ey-hospital/4.JPG";
-import chhavi5 from "../assets/images/projects/chhavi-ey-hospital/5.JPG";
+// ── Rajput Brother's Jewellers ───────────────────────────────────────────────
+import rajput1 from "../assets/images/projects/compressedImages Rajput Brother's Jewellers/1.jpg";
+import rajput11 from "../assets/images/projects/compressedImages Rajput Brother's Jewellers/1.1.jpg";
+import rajput2 from "../assets/images/projects/compressedImages Rajput Brother's Jewellers/2.jpg";
+import rajput3 from "../assets/images/projects/compressedImages Rajput Brother's Jewellers/3.jpg";
+import rajput4 from "../assets/images/projects/compressedImages Rajput Brother's Jewellers/4.jpg";
+import rajput5 from "../assets/images/projects/compressedImages Rajput Brother's Jewellers/5.jpg";
+import rajput6 from "../assets/images/projects/compressedImages Rajput Brother's Jewellers/6.jpg";
+import rajput7 from "../assets/images/projects/compressedImages Rajput Brother's Jewellers/7.jpg";
 
-// ── Kuchaiya ─────────────────────────────────────────────────────────────────
-import kuchaiya1 from "../assets/images/projects/kuchaiya/1.JPG";
-import kuchaiya2 from "../assets/images/projects/kuchaiya/2.JPG";
-import kuchaiya3 from "../assets/images/projects/kuchaiya/3.JPG";
-import kuchaiya4 from "../assets/images/projects/kuchaiya/4.JPG";
-import kuchaiya5 from "../assets/images/projects/kuchaiya/5.JPG";
-import kuchaiya6 from "../assets/images/projects/kuchaiya/6.JPG";
+// ── Kucheya Jewellers ────────────────────────────────────────────────────────
+import kucheya1 from "../assets/images/projects/compressedImages Kucheya Jewellers/1.jpg";
+import kucheya2 from "../assets/images/projects/compressedImages Kucheya Jewellers/2.jpg";
+import kucheya3 from "../assets/images/projects/compressedImages Kucheya Jewellers/3.jpg";
+import kucheya4 from "../assets/images/projects/compressedImages Kucheya Jewellers/4.jpg";
+import kucheya5 from "../assets/images/projects/compressedImages Kucheya Jewellers/5.jpg";
+import kucheya6 from "../assets/images/projects/compressedImages Kucheya Jewellers/6.jpg";
 
-// ── Marcos a Muscles ─────────────────────────────────────────────────────────
-import marcos1 from "../assets/images/projects/marcos-a-muscles/1.JPG";
-import marcos2 from "../assets/images/projects/marcos-a-muscles/2.JPG";
-import marcos3 from "../assets/images/projects/marcos-a-muscles/3.JPG";
-import marcos4 from "../assets/images/projects/marcos-a-muscles/4.JPG";
-import marcos6 from "../assets/images/projects/marcos-a-muscles/6.JPG";
-import marcos7 from "../assets/images/projects/marcos-a-muscles/7.JPG";
+// ── Residency Villa Jaipur ───────────────────────────────────────────────────
+import villa2 from "../assets/images/projects/CompressedImages Residency Villa Jaipur/2.jpg";
+import villa3 from "../assets/images/projects/CompressedImages Residency Villa Jaipur/3.jpg";
+import villa4 from "../assets/images/projects/CompressedImages Residency Villa Jaipur/4.jpg";
+import villa5 from "../assets/images/projects/CompressedImages Residency Villa Jaipur/5.jpg";
+import villa6 from "../assets/images/projects/CompressedImages Residency Villa Jaipur/6.jpg";
+import villa7 from "../assets/images/projects/CompressedImages Residency Villa Jaipur/7.jpg";
+import villa8 from "../assets/images/projects/CompressedImages Residency Villa Jaipur/8.jpg";
+import villa9 from "../assets/images/projects/CompressedImages Residency Villa Jaipur/9.jpg";
+import villaCaseStudy from "../assets/images/projects/CompressedImages Residency Villa Jaipur/Jaipur Villa Case study copy.jpg";
 
-// ── Rajput Jewellers ─────────────────────────────────────────────────────────
-import rajput1 from "../assets/images/projects/rajput-jewellers/1.JPG";
-import rajput2 from "../assets/images/projects/rajput-jewellers/2.JPG";
-import rajput3 from "../assets/images/projects/rajput-jewellers/3.JPG";
-import rajput4 from "../assets/images/projects/rajput-jewellers/4.JPG";
-import rajput5 from "../assets/images/projects/rajput-jewellers/5.JPG";
-import rajput6 from "../assets/images/projects/rajput-jewellers/6.JPG";
+// ── Atmanamm Spa ─────────────────────────────────────────────────────────────
+import atmanamm3 from "../assets/images/projects/CompressedImage Atmanamm Spa/3.jpg";
+import atmanamm4 from "../assets/images/projects/CompressedImage Atmanamm Spa/4.jpg";
+import atmanamm5 from "../assets/images/projects/CompressedImage Atmanamm Spa/5.jpg";
+import atmanamm6 from "../assets/images/projects/CompressedImage Atmanamm Spa/6.jpg";
+import atmanamm7 from "../assets/images/projects/CompressedImage Atmanamm Spa/7.jpg";
+import atmanamm8 from "../assets/images/projects/CompressedImage Atmanamm Spa/8.jpg";
+import atmanamm9 from "../assets/images/projects/CompressedImage Atmanamm Spa/9.jpg";
+import atmanammBathtub from "../assets/images/projects/CompressedImage Atmanamm Spa/Atmanamm project jabalpur bath tub Zerra.jpg";
+import atmanammHero from "../assets/images/projects/CompressedImage Atmanamm Spa/Atmanamm project jabalpur.jpg";
 
-// ── Residency ────────────────────────────────────────────────────────────────
-import residency1 from "../assets/images/projects/residency/1.JPG";
-import residency2 from "../assets/images/projects/residency/2.JPG";
-import residency3 from "../assets/images/projects/residency/3.JPG";
-import residency4 from "../assets/images/projects/residency/4.JPG";
-import residency5 from "../assets/images/projects/residency/5.JPG";
-import residency6 from "../assets/images/projects/residency/6.JPG";
+// ── Tamatu Residency ─────────────────────────────────────────────────────────
+import tamatu1 from "../assets/images/projects/compressedImages- Tamatu Residency/1.jpg";
+import tamatu2 from "../assets/images/projects/compressedImages- Tamatu Residency/2.jpg";
+import tamatu3 from "../assets/images/projects/compressedImages- Tamatu Residency/3.jpg";
+import tamatu4 from "../assets/images/projects/compressedImages- Tamatu Residency/4.jpg";
+import tamatuDsc7669 from "../assets/images/projects/compressedImages- Tamatu Residency/DSC07669 copy.jpg";
+import tamatuDsc7670 from "../assets/images/projects/compressedImages- Tamatu Residency/DSC07670 copy.jpg";
+import tamatuTree from "../assets/images/projects/compressedImages- Tamatu Residency/tree remove.png";
 
-// ── Sanjay Plastic (folder: sanjay-plastice, typo in folder name, kept as-is) ──
-import sanjay1 from "../assets/images/projects/sanjay-plastice/1.JPG";
-import sanjay2 from "../assets/images/projects/sanjay-plastice/2.JPG";
-import sanjay3 from "../assets/images/projects/sanjay-plastice/3.JPG";
-import sanjay4 from "../assets/images/projects/sanjay-plastice/4.JPG";
-import sanjay5 from "../assets/images/projects/sanjay-plastice/5.JPG";
-import sanjay6 from "../assets/images/projects/sanjay-plastice/6.JPG";
+// ── Sanjay Plastic Residency ─────────────────────────────────────────────────
+import sanjay1 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/1 (1).jpg";
+import sanjay2 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/2 (1).jpg";
+import sanjay3 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/3 (1).jpg";
+import sanjay4 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/4 (1).jpg";
+import sanjay5 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/5 (1).jpg";
+import sanjay6 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/6.jpg";
+import sanjay7 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/7.jpg";
+import sanjay9 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/9.jpg";
+import sanjay10 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/10.jpg";
 
-// ── Satya Prakash School ─────────────────────────────────────────────────────
-import satya1 from "../assets/images/projects/satya-prakash-school/1.JPG";
-import satya2 from "../assets/images/projects/satya-prakash-school/2.JPG";
-import satya3 from "../assets/images/projects/satya-prakash-school/3.JPG";
-import satya4 from "../assets/images/projects/satya-prakash-school/4.JPG";
-import satya5 from "../assets/images/projects/satya-prakash-school/5.JPG";
-import satya6 from "../assets/images/projects/satya-prakash-school/6.JPG";
+// ── Chhavi Superspeciality Eye Hospital ──────────────────────────────────────
+import chhavi1 from "../assets/images/projects/compressedImages Chhavi Superspeciality Eye Hospital/1.jpg";
+import chhavi2 from "../assets/images/projects/compressedImages Chhavi Superspeciality Eye Hospital/2.jpg";
+import chhavi3 from "../assets/images/projects/compressedImages Chhavi Superspeciality Eye Hospital/3.jpg";
+import chhavi4 from "../assets/images/projects/compressedImages Chhavi Superspeciality Eye Hospital/4.jpg";
+import chhavi5 from "../assets/images/projects/compressedImages Chhavi Superspeciality Eye Hospital/5.jpg";
+import chhavi6 from "../assets/images/projects/compressedImages Chhavi Superspeciality Eye Hospital/6.jpg";
+import chhaviBw from "../assets/images/projects/compressedImages Chhavi Superspeciality Eye Hospital/b&w.jpg";
 
-// ── Villa Jaipur ─────────────────────────────────────────────────────────────
-import villa1 from "../assets/images/projects/villa-jaipur/1.JPG";
-import villa2 from "../assets/images/projects/villa-jaipur/2.JPG";
-import villa3 from "../assets/images/projects/villa-jaipur/3.jpg"; // lowercase extension
-import villa4 from "../assets/images/projects/villa-jaipur/4.JPG";
-import villa5 from "../assets/images/projects/villa-jaipur/5.JPG";
-import villa6 from "../assets/images/projects/villa-jaipur/6.JPG";
+// ── Satya Prakash Public School ──────────────────────────────────────────────
+import satya1 from "../assets/images/projects/compressedImages Satya Prakash Public School/1.jpg";
+import satya2 from "../assets/images/projects/compressedImages Satya Prakash Public School/2.jpg";
+import satya2Alt from "../assets/images/projects/compressedImages Satya Prakash Public School/2 Satya praksh school jabalpur.jpg";
+import satya3 from "../assets/images/projects/compressedImages Satya Prakash Public School/3.jpg";
+import satya4 from "../assets/images/projects/compressedImages Satya Prakash Public School/4.jpg";
+import satya5 from "../assets/images/projects/compressedImages Satya Prakash Public School/5.jpg";
+import satya6 from "../assets/images/projects/compressedImages Satya Prakash Public School/6 (1).jpg";
+import satyaHero from "../assets/images/projects/compressedImages Satya Prakash Public School/Satya praksh school jabalpur.jpg";
 
-// Mumbai only has .ARW raw files, browser cannot display RAW.
-// Using a curated Unsplash image as fallback for all Mumbai images.
-const mumbaiPlaceholder =
-  "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop";
+// ── Asteria Tower B, Courtyard Society (Mumbai) ──────────────────────────────
+import asteria2 from "../assets/images/projects/compressedImages Asteria Tower B, Courtyard Society/2.jpg";
+import asteria3 from "../assets/images/projects/compressedImages Asteria Tower B, Courtyard Society/3.jpg";
+import asteria4 from "../assets/images/projects/compressedImages Asteria Tower B, Courtyard Society/4.jpg";
+import asteria6 from "../assets/images/projects/compressedImages Asteria Tower B, Courtyard Society/6.jpg";
+import asteriaCaseStudy from "../assets/images/projects/compressedImages Asteria Tower B, Courtyard Society/Mumbai Case study.jpg";
 
 export const projectsData = [
-  {
-    slug: "chhavi-eye-hospital",
-    title: "Chhavi Superspeciality Eye Hospital",
-    heroImage: chhavi1,
-    location: "Jabalpur",
-    type: "Healthcare",
-    year: "2026",
-    category: "Healthcare",
-    brand: "Creststone",
-    product: "Dolomitic Marble Pillar",
-    architect: "Ar. Selaish Nema",
-    client: "Dr. Akhilesh Nema",
-
-    challenge:
-      "Developing a hygienic, premium healthcare environment with seamless interior finishes and a façade material resistant to moisture, staining, and structural stress.",
-
-    solution:
-      "Integration of Creststone Dolomitic Marble Pillar stone veneer, a lightweight, non-porous cladding system delivering natural marble aesthetics with enhanced durability and zero crack formation.",
-
-    execution:
-      "High-precision panel alignment with dry-fix methodology, ensuring smooth surface continuity, minimal joints, and optimized installation across both interior feature walls and external elevations.",
-
-    outcome:
-      "A clean, sophisticated healthcare space with a luxurious stone finish is maintenance-efficient, weather-resistant, and aligned with clinical and aesthetic performance standards.",
-
-    testimonial:
-      "Zevolution understood the unique demands of a healthcare environment. The finish quality and professionalism were outstanding.",
-
-    gallery: [chhavi1, chhavi2, chhavi3, chhavi4, chhavi5],
-  },
-
-  {
-    slug: "kuchaiya",
-    title: "Kucheya Jewellers",
-    heroImage: kuchaiya1,
-    location: "Jabalpur",
-    type: "Retail",
-    year: "2025",
-    category: "Commercial",
-    brand: "Creststone",
-    product: "Travertine Yellow",
-    architect: "Ar. Sidarth Gokhle",
-    client: "Salil Kuchaya",
-
-    challenge:
-      "Designing a high-end retail façade with curved architectural elements requiring material flexibility, seamless finish, and a premium stone aesthetic without risk of cracking.",
-
-    solution:
-      "Use of Creststone Travertine Yellow stone veneer, a lightweight, flexible cladding system enabling curvature adaptability with high durability and weather resistance.",
-
-    execution:
-      "Precision contour installation across arches and vertical planes with minimal joint visibility, ensuring uniform texture continuity and structural load optimization.",
-
-    outcome:
-      "A luxurious, monolithic façade with refined curvature detailing, crack-free, weatherproof, and visually aligned with the brand's premium identity.",
-
-    testimonial:
-      "The curved façade turned out exactly as envisioned. Zevolution's craftsmanship and material flexibility delivered a premium storefront identity.",
-
-    gallery: [kuchaiya1, kuchaiya2, kuchaiya3, kuchaiya4, kuchaiya5, kuchaiya6],
-  },
-
-  {
-    slug: "marcos-a-muscles",
-    title: "Atmanamm Spa",
-    heroImage: marcos1,
-    location: "Jabalpur",
-    type: "Wellness & Spa",
-    year: "2026",
-    category: "Commercial",
-    brand: "Zerra",
-    product: "Mint Sunrise / Vintage Shine",
-    architect: "Not Given",
-    client: "Vikram Raj Singh",
-
-    challenge:
-      "Designing fluid, organic interior elements with seamless curvature and spa-grade moisture resistance, while maintaining a high-end, calming aesthetic aligned with the brand identity.",
-
-    solution:
-      "Integration of Zerra stone veneer enabling thermo-flexible application over curved reception desks and bathtubs, delivering crack-resistant, water-resistant, and lightweight natural stone finishes.",
-
-    execution:
-      "Precision layering and contour-forming techniques allowed monolithic surface continuity across complex radii, concealed joints, and integrated lighting details without compromising structural efficiency.",
-
-    outcome:
-      "A sculptural, luxury spa environment with tactile natural textures, enhanced durability in wet zones, and a visually seamless design language driven by flexibility and refined craftsmanship.",
-
-    testimonial:
-      "Zevolution delivered exactly the calming, tactile environment we wanted. Every surface feels crafted, premium, and completely on-brand.",
-
-    gallery: [marcos1, marcos2, marcos3, marcos4, marcos6, marcos7],
-  },
-
-  {
-    slug: "mumbai-project",
-    title: "Asteria Tower B, Courtyard Society",
-    heroImage: mumbaiPlaceholder,
-    location: "Mumbai",
-    type: "Luxury Residential",
-    year: "2026",
-    category: "Residential",
-    brand: "Zerra",
-    product: "Sea White / Light Concrete",
-    architect: "Ar. Rohit Sutaria",
-    client: "Anonymous",
-
-    challenge:
-      "Achieving a refined luxury interior with natural stone aesthetics while integrating seamless curvature and modern minimal design without adding structural load.",
-
-    solution:
-      "Application of Zerra Sea White / Light Concrete stone veneer, a lightweight, flexible cladding system enabling fluid surface adaptation with natural texture and crack-resistant performance.",
-
-    execution:
-      "Precision dry installation with concealed joints and backlit integration, ensuring smooth transitions across curved panels and cabinetry surfaces.",
-
-    outcome:
-      "A sophisticated, nature-inspired modern space, visually striking, lightweight, and highly durable, delivering a seamless blend of luxury and organic texture.",
-
-    testimonial:
-      "Zevolution's material flexibility allowed us to execute the design exactly as envisioned, seamless, sculptural, and deeply premium.",
-
-    gallery: [
-      mumbaiPlaceholder,
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2070&auto=format&fit=crop",
-    ],
-  },
-
+  // 1. Rajput Brother's Jewellers
   {
     slug: "rajput-jewellers",
     title: "Rajput Brother's Jewellers",
@@ -231,13 +118,110 @@ export const projectsData = [
     testimonial:
       "The attention to detail Zevolution brought to our store is extraordinary. Every surface reflects our brand's commitment to quality.",
 
-    gallery: [rajput1, rajput2, rajput3, rajput4, rajput5, rajput6],
+    gallery: [rajput1, rajput11, rajput2, rajput3, rajput4, rajput5, rajput6, rajput7],
   },
 
+  // 2. Kucheya Jewellers
+  {
+    slug: "kuchaiya",
+    title: "Kucheya Jewellers",
+    heroImage: kucheya1,
+    location: "Jabalpur",
+    type: "Retail",
+    year: "2025",
+    category: "Commercial",
+    brand: "Creststone",
+    product: "Travertine Yellow",
+    architect: "Ar. Sidarth Gokhle",
+    client: "Salil Kuchaya",
+
+    challenge:
+      "Designing a high-end retail façade with curved architectural elements requiring material flexibility, seamless finish, and a premium stone aesthetic without risk of cracking.",
+
+    solution:
+      "Use of Creststone Travertine Yellow stone veneer, a lightweight, flexible cladding system enabling curvature adaptability with high durability and weather resistance.",
+
+    execution:
+      "Precision contour installation across arches and vertical planes with minimal joint visibility, ensuring uniform texture continuity and structural load optimization.",
+
+    outcome:
+      "A luxurious, monolithic façade with refined curvature detailing, crack-free, weatherproof, and visually aligned with the brand's premium identity.",
+
+    testimonial:
+      "The curved façade turned out exactly as envisioned. Zevolution's craftsmanship and material flexibility delivered a premium storefront identity.",
+
+    gallery: [kucheya1, kucheya2, kucheya3, kucheya4, kucheya5, kucheya6],
+  },
+
+  // 3. Residency Villa, Jaipur
+  {
+    slug: "villa-jaipur",
+    title: "Residency Villa",
+    heroImage: villaCaseStudy,
+    location: "Jaipur",
+    type: "Luxury Villa",
+    year: "2025",
+    category: "Residential",
+    brand: "Zerra",
+    product: "Slate & Quartzite (Indian Autumn / Autumn Cream)",
+    architect: "Not Given",
+    client: "Not Given",
+
+    challenge:
+      "Achieving a seamless luxury façade across complex geometries, cantilever frames, curved cut-outs, and vertical planes, without adding dead load or risking weather-induced deterioration.",
+
+    solution:
+      "Application of Zerra stone veneer in Indian Autumn & Autumn Cream, offering high flexibility, low thickness, and superior resistance to moisture, UV exposure, and cracking compared to conventional stone cladding.",
+
+    execution:
+      "Advanced surface calibration with modular paneling, enabling precise wrapping over sharp edges, soffits, and circular voids while maintaining vein flow continuity and structural compatibility.",
+
+    outcome:
+      "A refined, contemporary villa envelope delivering a premium natural stone aesthetic with long-term durability, minimal maintenance, and a bold architectural identity driven by flexibility and precision.",
+
+    testimonial:
+      "Zevolution captured exactly the heritage-meets-luxury aesthetic we were dreaming of. The finish quality is outstanding.",
+
+    gallery: [villaCaseStudy, villa2, villa3, villa4, villa5, villa6, villa7, villa8, villa9],
+  },
+
+  // 4. Atmanamm Spa
+  {
+    slug: "marcos-a-muscles",
+    title: "Atmanamm Spa",
+    heroImage: atmanammHero,
+    location: "Jabalpur",
+    type: "Wellness & Spa",
+    year: "2026",
+    category: "Commercial",
+    brand: "Zerra",
+    product: "Mint Sunrise / Vintage Shine",
+    architect: "Amrita Trivedi (Interior Designer)",
+    client: "Vikram Raj Singh",
+
+    challenge:
+      "Designing fluid, organic interior elements with seamless curvature and spa-grade moisture resistance, while maintaining a high-end, calming aesthetic aligned with the brand identity.",
+
+    solution:
+      "Integration of Zerra stone veneer enabling thermo-flexible application over curved reception desks and bathtubs, delivering crack-resistant, water-resistant, and lightweight natural stone finishes.",
+
+    execution:
+      "Precision layering and contour-forming techniques allowed monolithic surface continuity across complex radii, concealed joints, and integrated lighting details without compromising structural efficiency.",
+
+    outcome:
+      "A sculptural, luxury spa environment with tactile natural textures, enhanced durability in wet zones, and a visually seamless design language driven by flexibility and refined craftsmanship.",
+
+    testimonial:
+      "Zevolution delivered exactly the calming, tactile environment we wanted. Every surface feels crafted, premium, and completely on-brand.",
+
+    gallery: [atmanammHero, atmanammBathtub, atmanamm3, atmanamm4, atmanamm5, atmanamm6, atmanamm7, atmanamm8, atmanamm9],
+  },
+
+  // 5. Tamatu Residency
   {
     slug: "residency",
     title: "Tamatu Residency",
-    heroImage: residency1,
+    heroImage: tamatu1,
     location: "Jabalpur",
     type: "Luxury Residential",
     year: "2025",
@@ -262,9 +246,10 @@ export const projectsData = [
     testimonial:
       "Zevolution transformed our vision into reality. The finish quality across every surface is simply impeccable.",
 
-    gallery: [residency1, residency2, residency3, residency4, residency5, residency6],
+    gallery: [tamatu1, tamatu2, tamatu3, tamatu4, tamatuDsc7669, tamatuDsc7670, tamatuTree],
   },
 
+  // 6. Sanjay Plastic Residency
   {
     slug: "sanjay-plastic",
     title: "Sanjay Plastic Residency",
@@ -293,13 +278,46 @@ export const projectsData = [
     testimonial:
       "The façade completely transformed the character of the building. Zevolution delivered a result that elevates the entire property.",
 
-    gallery: [sanjay1, sanjay2, sanjay3, sanjay4, sanjay5, sanjay6],
+    gallery: [sanjay1, sanjay2, sanjay3, sanjay4, sanjay5, sanjay6, sanjay7, sanjay9, sanjay10],
   },
 
+  // 7. Chhavi Superspeciality Eye Hospital
+  {
+    slug: "chhavi-eye-hospital",
+    title: "Chhavi Superspeciality Eye Hospital",
+    heroImage: chhavi1,
+    location: "Jabalpur",
+    type: "Healthcare",
+    year: "2026",
+    category: "Healthcare",
+    brand: "Creststone",
+    product: "Dolomitic Marble Pillar",
+    architect: "Ar. Selaish Nema",
+    client: "Dr. Akhilesh Nema",
+
+    challenge:
+      "Developing a hygienic, premium healthcare environment with seamless interior finishes and a façade material resistant to moisture, staining, and structural stress.",
+
+    solution:
+      "Integration of Creststone Dolomitic Marble Pillar stone veneer, a lightweight, non-porous cladding system delivering natural marble aesthetics with enhanced durability and zero crack formation.",
+
+    execution:
+      "High-precision panel alignment with dry-fix methodology, ensuring smooth surface continuity, minimal joints, and optimized installation across both interior feature walls and external elevations.",
+
+    outcome:
+      "A clean, sophisticated healthcare space with a luxurious stone finish is maintenance-efficient, weather-resistant, and aligned with clinical and aesthetic performance standards.",
+
+    testimonial:
+      "Zevolution understood the unique demands of a healthcare environment. The finish quality and professionalism were outstanding.",
+
+    gallery: [chhavi1, chhavi2, chhavi3, chhavi4, chhavi5, chhavi6, chhaviBw],
+  },
+
+  // 8. Satya Prakash Public School
   {
     slug: "satya-prakash-public-school",
     title: "Satya Prakash Public School",
-    heroImage: satya1,
+    heroImage: satyaHero,
     location: "Jabalpur",
     type: "Education",
     year: "2026",
@@ -324,37 +342,38 @@ export const projectsData = [
     testimonial:
       "The school has been completely revitalized. Students and parents have noticed the transformation, it's created real pride in our institution.",
 
-    gallery: [satya1, satya2, satya3, satya4, satya5, satya6],
+    gallery: [satyaHero, satya1, satya2, satya2Alt, satya3, satya4, satya5, satya6],
   },
 
+  // 9. Asteria Tower B, Courtyard Society
   {
-    slug: "villa-jaipur",
-    title: "Residency Villa",
-    heroImage: villa1,
-    location: "Jaipur",
-    type: "Luxury Villa",
-    year: "2025",
+    slug: "mumbai-project",
+    title: "Asteria Tower B, Courtyard Society",
+    heroImage: asteriaCaseStudy,
+    location: "Mumbai",
+    type: "Luxury Residential",
+    year: "2026",
     category: "Residential",
     brand: "Zerra",
-    product: "Slate & Quartzite (Indian Autumn / Autumn Cream)",
+    product: "Sea White / Light Concrete",
     architect: "Not Given",
     client: "Not Given",
 
     challenge:
-      "Achieving a seamless luxury façade across complex geometries, cantilever frames, curved cut-outs, and vertical planes, without adding dead load or risking weather-induced deterioration.",
+      "Achieving a refined luxury interior with natural stone aesthetics while integrating seamless curvature and modern minimal design without adding structural load.",
 
     solution:
-      "Application of Zerra stone veneer in Indian Autumn & Autumn Cream, offering high flexibility, low thickness, and superior resistance to moisture, UV exposure, and cracking compared to conventional stone cladding.",
+      "Application of Zerra Sea White / Light Concrete stone veneer, a lightweight, flexible cladding system enabling fluid surface adaptation with natural texture and crack-resistant performance.",
 
     execution:
-      "Advanced surface calibration with modular paneling, enabling precise wrapping over sharp edges, soffits, and circular voids while maintaining vein flow continuity and structural compatibility.",
+      "Precision dry installation with concealed joints and backlit integration, ensuring smooth transitions across curved panels and cabinetry surfaces.",
 
     outcome:
-      "A refined, contemporary villa envelope delivering a premium natural stone aesthetic with long-term durability, minimal maintenance, and a bold architectural identity driven by flexibility and precision.",
+      "A sophisticated, nature-inspired modern space, visually striking, lightweight, and highly durable, delivering a seamless blend of luxury and organic texture.",
 
     testimonial:
-      "Zevolution captured exactly the heritage-meets-luxury aesthetic we were dreaming of. The finish quality is outstanding.",
+      "Zevolution's material flexibility allowed us to execute the design exactly as envisioned, seamless, sculptural, and deeply premium.",
 
-    gallery: [villa1, villa2, villa3, villa4, villa5, villa6],
+    gallery: [asteriaCaseStudy, asteria2, asteria3, asteria4, asteria6],
   },
 ];
