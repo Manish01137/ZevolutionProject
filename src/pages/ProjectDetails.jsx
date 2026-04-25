@@ -48,7 +48,7 @@ const ProjectDetails = () => {
           transition={{ duration: 1.2 }}
           className="relative h-[90vh] flex items-center justify-center text-center"
           style={{
-            backgroundImage: `url(${project.heroImage})`,
+            backgroundImage: `url("${project.heroImage}")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

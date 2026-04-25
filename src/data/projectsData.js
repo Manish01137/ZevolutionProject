@@ -52,11 +52,11 @@ import tamatuDsc7670 from "../assets/images/projects/compressedImages- Tamatu Re
 import tamatuTree from "../assets/images/projects/compressedImages- Tamatu Residency/tree remove.png";
 
 // ── Sanjay Plastic Residency ─────────────────────────────────────────────────
-import sanjay1 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/1 (1).jpg";
-import sanjay2 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/2 (1).jpg";
-import sanjay3 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/3 (1).jpg";
-import sanjay4 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/4 (1).jpg";
-import sanjay5 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/5 (1).jpg";
+import sanjay1 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/1.jpg";
+import sanjay2 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/2.jpg";
+import sanjay3 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/3.jpg";
+import sanjay4 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/4.jpg";
+import sanjay5 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/5.jpg";
 import sanjay6 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/6.jpg";
 import sanjay7 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/7.jpg";
 import sanjay9 from "../assets/images/projects/compressedImages Sanjay Plastic Residency/9.jpg";
